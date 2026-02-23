@@ -1,0 +1,86 @@
+= Human Engineering Airworthiness Knowledge System
+:doctype: article
+:toc: left
+:sectnums:
+
+== Topics (Tool & Topic Mastery)
+
+=== Workload
+* xref:topics/workload/review.adoc[]
+* xref:topics/workload/measurement-playbook.adoc[]
+
+=== Situational Awareness
+* xref:topics/situational-awareness/review.adoc[]
+
+=== Lighting
+* xref:topics/lighting/review.adoc[]
+
+=== Communications / MRT
+* xref:topics/mrt-communications/review.adoc[]
+
+=== Unclassified Interfaces
+* xref:topics/unclassified-interfaces/review.adoc[]
+
+== Airworthiness Artifacts
+
+=== Criteria Deconstruction
+* xref:airworthiness/criteria-deconstruction/[]
+
+=== Methods of Compliance Playbooks
+* xref:airworthiness/moc-playbooks/[]
+
+=== Verification Blueprints
+* xref:airworthiness/verification-blueprints/[]
+
+=== Compliance Simulations
+* xref:airworthiness/compliance-simulations/[]
+
+=== Risk Register
+* xref:airworthiness/risk-register/[]
+
+== Process Framework
+
+* xref:process/he-airworthiness-framework.adoc[]
+* xref:process/traceability-model.adoc[]
+* xref:process/moc-decision-tree.adoc[]
+* xref:process/verification-architecture.adoc[]
+
+== Crosswalks
+
+* xref:crosswalks/mil-hdbk-516-crosswalk.adoc[]
+* xref:crosswalks/mil-std-1472-crosswalk.adoc[]
+* xref:crosswalks/topic-to-criterion-mapping.adoc[]
+
+== Evidence Base
+
+* xref:evidence/journal-summaries/[]
+* xref:evidence/systematic-reviews/[]
+
+== Quarterly Integration Briefs
+
+* xref:quarterly-briefs/2026-Q1-brief.adoc[]
+* xref:quarterly-briefs/2026-Q2-brief.adoc[]
+* xref:quarterly-briefs/2026-Q3-brief.adoc[]
+
+These two files are complete and aligned with the frozen architecture.
+Now I will pause.
+Would you like me to proceed with drafting the full skeleton for:
+process/he-airworthiness-framework.adoc
+This will be the July 1 capstone process document — the promotion anchor.
+Proceed?
+
+You said:
+yes
+
+ChatGPT said:
+Good. This document is the centerpiece. Everything else feeds into it.
+This is not another artifact.
+This is the process you developed.
+When your manager evaluates you against Level 3 criteria such as independent approach development, cross-functional resolution, and process ownership 
+Boeing Level Guides-TECEN
+ 
+HE IC3 Competencies
+, this is the document that supports that claim.
+Below is the finalized skeleton for:
+process/he-airworthiness-framework.adoc
+No structural adjustments after this.
