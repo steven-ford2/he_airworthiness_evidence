@@ -68,4 +68,3 @@ This repository enforces:
 
 This is not a literature collection.
 It is a structured, reusable Human Engineering Airworthiness system.
-<img width="624" height="1601" alt="image" src="https://github.com/user-attachments/assets/d9940acc-2b1d-446d-bd0b-c99d4a770313" />

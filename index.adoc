@@ -68,17 +68,13 @@ Would you like me to proceed with drafting the full skeleton for:
 process/he-airworthiness-framework.adoc
 This will be the July 1 capstone process document — the promotion anchor.
 Proceed?
-
-You said:
 yes
-
-ChatGPT said:
 Good. This document is the centerpiece. Everything else feeds into it.
 This is not another artifact.
 This is the process you developed.
 When your manager evaluates you against Level 3 criteria such as independent approach development, cross-functional resolution, and process ownership 
 Boeing Level Guides-TECEN
- 
+
 HE IC3 Competencies
 , this is the document that supports that claim.
 Below is the finalized skeleton for:
