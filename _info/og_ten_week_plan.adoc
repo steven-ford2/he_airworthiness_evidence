@@ -1,0 +1,197 @@
+Now we build the 10-week artifact production plan that feeds directly into that architecture.
+This plan will:
+• Hit Goal 2 (tool/topic mastery) early
+• Hit Goal 1 (airworthiness process) progressively
+• Feed the July 1 framework document
+• Produce visible artifacts each week
+• Maintain the blend rule
+After this, we will build:
+	1. Step-by-step instruction manuals for each artifact type
+	2. A fixed weekly cadence you can execute mechanically
+
+10-Week Artifact Production Plan
+(Aligned to Frozen Architecture)
+Each week produces:
+	1. Topic Review (Track A anchor)
+	2. Supporting Evidence Artifact (Journal summary or Systematic Review)
+	3. Airworthiness Artifact (Track B anchor)
+	4. Cross-link + traceability updates
+
+Week 1 – Workload Foundations
+Topic Layer
+/topics/workload/review.adoc
+Focus:
+	• Objective vs subjective workload metrics
+	• NASA-TLX vs physiological
+	• Environmental stressors (+Gz, multitasking)
+Evidence Layer
+/evidence/systematic-reviews/workload-secondary-task.adoc
+Meta-analysis of secondary task performance
+Airworthiness Layer
+/airworthiness/criteria-deconstruction/15-1-8-workload.adoc
+	• Criterion deconstruction
+	• MoC table
+	• Verification blueprint draft
+Process Feed
+	• Add workload to topic-to-criterion crosswalk
+	• Populate MoC decision tree with workload branch
+
+Week 2 – Situational Awareness & Automation
+Topic
+/topics/situational-awareness/review.adoc
+Evidence
+Journal summaries of SAGAT validation studies
+Airworthiness
+/airworthiness/moc-playbooks/sa-moc-playbook.adoc
+Reusable MoC logic for SA criteria
+Process Feed
+	• Add SA hazard pathway examples
+	• Update risk-register
+
+Week 3 – Large Area Displays & Visual Legibility
+Topic
+/topics/unclassified-interfaces/review.adoc
+Evidence
+Touchscreen + head-down time empirical studies
+Airworthiness
+/airworthiness/criteria-deconstruction/visual-display-readability.adoc
+Process Feed
+	• Add verification blueprint for display legibility
+	• Populate environmental constraints section
+
+Week 4 – HEDAD-O & Documentation Architecture
+Topic
+/topics/workload/design-implications.adoc
+Focus on documentation quality & failure modes
+Evidence
+Case study on human error probability documentation
+Airworthiness
+/airworthiness/compliance-simulations/hedad-o-execution-case.adoc
+This is your first full compliance simulation.
+Process Feed
+	• Populate Governance & Review Gates section
+
+Week 5 – Physical Controls & HOTAS
+Topic
+/topics/controls/review.adoc
+Evidence
+Fitts' law under vibration/+Gz
+Airworthiness
+/airworthiness/moc-playbooks/controls-moc-playbook.adoc
+Process Feed
+	• Add motor precision verification architecture
+
+Week 6 – Communications & MRT
+Topic
+/topics/mrt-communications/review.adoc
+Evidence
+MRT validation under noise
+Airworthiness
+/airworthiness/criteria-deconstruction/auditory-intelligibility.adoc
+Process Feed
+	• Add speech MoC branch to decision tree
+
+Week 7 – Lighting & NVG Compatibility
+Topic
+/topics/lighting/review.adoc
+Evidence
+Glare + luminance fatigue studies
+Airworthiness
+/airworthiness/verification-blueprints/lighting-verification.adoc
+Process Feed
+	• Add lighting environmental stress table
+
+Week 8 – Physical Ergonomics & Anthropometry
+Topic
+/topics/ergonomics/review.adoc
+Evidence
+Helmet + reach envelope empirical data
+Airworthiness
+/airworthiness/moc-playbooks/anthropometric-moc-playbook.adoc
+Process Feed
+	• Populate TRL assessment examples
+
+Week 9 – Integrated HE Airworthiness Execution
+Topic
+Short synthesis:
+/topics/integration/he-integration-synthesis.adoc
+Evidence
+Cross-domain workload + SA interaction literature
+Airworthiness
+/airworthiness/compliance-simulations/integrated-cockpit-case.adoc
+This simulates multi-criterion execution.
+Process Feed
+	• Populate traceability model fully
+	• Build complete example risk entry
+
+Week 10 – Capstone Process Consolidation
+Topic
+Gap analysis document
+Evidence
+None new — synthesis week
+Airworthiness
+Finalize:
+/process/he-airworthiness-framework.adoc
+	• Complete all placeholders
+	• Insert cross-links to real artifacts
+	• Add one fully populated example criterion
+Executive Deliverable
+Create:
+/quarterly-briefs/2026-QX-capstone-summary.adoc
+This is what you show your manager.
+
+What This Produces by Week 10
+You will have:
+• 8+ major review articles
+• 4–5 MoC playbooks
+• 4–5 criteria deconstructions
+• 2 compliance simulations
+• A populated risk register
+• A crosswalk matrix
+• A finalized process framework
+This is promotion-caliber density.
+
+Why This Plan Is Strong
+It progressively:
+	1. Builds technical depth.
+	2. Converts depth into compliance logic.
+	3. Converts compliance logic into reusable process.
+	4. Converts process into executive artifact.
+No wasted motion.
+
+Next Step (as agreed):
+We now create extremely detailed, step-by-step instruction manuals for:
+	1. Journal Article Summary
+	2. Review Article
+	3. Systematic Review
+	4. Airworthiness Artifact
+	5. Compliance Simulation
+	6. Crosswalk Update
+	7. Process Framework Update
+Each will be written so you can execute mechanically.
+Before I proceed:
+Do you want those manuals written:
+A) As numbered procedural checklists
+B) As day-by-day micro-schedules
+C) As both layered together (checklist + micro-schedule)
+Choose one.
+c
+Good. From this point forward, you are operating a production system.
+You will not “figure things out.”
+You will execute a protocol.
+Below is the first complete operational manual.
+We will build them one at a time in this order:
+	1. Journal Article Summary
+	2. Review Article
+	3. Systematic Review
+	4. Airworthiness Artifact
+	5. Compliance Simulation
+	6. Crosswalk Update
+	7. Process Framework Update
+Each will include:
+• Master checklist
+• Day-by-day micro-schedule
+• Definition of Done
+• Failure conditions
+• Output format constraints
+Today we start with:

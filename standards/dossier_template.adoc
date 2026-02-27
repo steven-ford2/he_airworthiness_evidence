@@ -1,0 +1,60 @@
+= MIL-STD-1472H Dossier: <Clause Cluster Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:standard: MIL-STD-1472<rev>
+:tags: mil-std-1472, dossier, <topic>, verification, moc
+
+== 1. Verbatim Requirement
+<exact text + paragraph ID>
+
+== 2. What This Requirement Is Trying to Prevent
+- Failure mode:
+- Operational consequence:
+- Human limitation protected:
+
+== 3. Requirement Type Classification
+- Domain:
+- Construct:
+- Environmental sensitivity:
+
+== 4. Evidence Trace
+=== 4.1 Direct Evidence (Threshold Tested)
+- Study:
+- Finding:
+- Boundary condition:
+
+=== 4.2 Indirect Evidence (Mechanism / Proxy)
+- Study:
+- Finding:
+- Boundary condition:
+
+=== 4.3 Consensus / Legacy Basis (If Applicable)
+- Source trail:
+- Rationale hypothesis:
+
+== 5. Evidence Strength Rating
+- Source class: <A–E>
+- Strength: <Strong/Moderate/Weak/Unknown>
+- Justification:
+
+== 6. Verification and MoC Implications
+[options="header"]
+|===
+| MoC | What You Would Do | Evidence Artifact | Fidelity Requirements
+| Inspection | | | |
+| Analysis | | | |
+| Demonstration | | | |
+| Test | | | |
+|===
+
+== 7. Known Pitfalls and Misapplications
+- Pitfall:
+- Why it matters:
+
+== Related Artifacts
+xref:../../topics/<topic>/review.adoc[]
+xref:../../airworthiness/criteria-deconstruction/<file>.adoc[]
+xref:../../crosswalks/topic-to-criterion-mapping.adoc[]

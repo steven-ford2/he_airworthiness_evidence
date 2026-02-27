@@ -1,0 +1,45 @@
+Tag Taxonomy (Important for Wiki Feel)
+Standardize tags at top of every document:
+Examples:
+
+:tags: workload, moc, certification, +Gz, simulator, mil-516
+Core Tag Categories:
+Domain:
+	• workload
+	• situational-awareness
+	• lighting
+	• controls
+	• communications
+Certification:
+	• mil-516
+	• mil-1472
+	• moc-analysis
+	• moc-test
+	• verification
+Environment:
+	• +Gz
+	• NVG
+	• vibration
+	• high-noise
+Technology:
+	• touchscreen
+	• HOTAS
+	• DVI
+	• head-tracking
+Maturity:
+	• TRL3
+	• TRL5
+	• TRL7
+This creates relational capability.
+
+Cross-Linking Rules (Mandatory)
+Every Review Article must link to:
+	• At least one Airworthiness artifact.
+Every Airworthiness artifact must link to:
+	• At least one Topic review.
+	• The Process Framework.
+Every Systematic Review must link to:
+	• The topic review.
+	• Any affected MoC playbook.
+This creates network density.
+Network density = intellectual maturity.

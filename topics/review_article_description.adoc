@@ -1,0 +1,201 @@
+Artifact Type 2: Review Article
+(Location: /topics/<topic>/review.adoc)
+This is your intellectual backbone artifact.
+
+REVIEW ARTICLE
+Purpose
+This artifact must:
+	1. Synthesize empirical evidence.
+	2. Compare measurement approaches.
+	3. Identify methodological weaknesses.
+	4. Define engineering implications.
+	5. Explicitly connect to airworthiness.
+It must read like:
+A structured technical white paper.
+Not a blog post.
+Not a literature dump.
+
+MASTER CHECKLIST
+Scope & Structure
+	• Topic clearly defined
+	• At least 8 primary empirical sources referenced
+	• Objective and subjective metrics compared
+	• Environmental conditions addressed
+	• Methodological limitations analyzed
+	• Engineering implications section completed
+	• Airworthiness implications section completed
+	• Linked to at least one airworthiness artifact
+	• Tags populated
+Intellectual Rigor
+	• Statistics cited where relevant
+	• No unsupported design claims
+	• Explicitly discusses uncertainty
+	• Identifies evidence gaps
+
+STEP-BY-STEP PROCEDURE
+STEP 1 – Define the Boundary (30 min)
+Before writing anything, answer:
+• What exact HE construct is being reviewed?
+• What operational environments are in scope?
+• What is excluded?
+Write a 3–5 sentence scope statement at the top.
+Reject vague scope.
+
+STEP 2 – Evidence Map (45–60 min)
+Using your journal summaries:
+Create a simple working table (not published in artifact):
+| Study | N | Environment | Key Metric | Effect Size | Limitation |
+This forces structured thinking.
+Do not write until this table exists.
+
+STEP 3 – Write the Review Using Fixed Structure (2–4 hours)
+Open:
+/topics/<topic>/review.adoc
+Populate exactly:
+
+== 1. Executive Summary
+
+Brief, technical, high-density summary.
+No storytelling.
+
+== 2. Theoretical Foundations
+
+Models:
+Competing constructs:
+Boundary debates:
+
+== 3. Measurement Methods
+
+=== 3.1 Objective Metrics
+Describe:
+Strengths:
+Weaknesses:
+Sensitivity:
+
+=== 3.2 Subjective Metrics
+Strengths:
+Weaknesses:
+Calibration issues:
+
+=== 3.3 Comparative Validity
+Where do they converge?
+Where do they diverge?
+
+== 4. Experimental Contexts
+
+Simulator level:
+Live flight:
+Environmental stressors:
+Population:
+
+== 5. Methodological Limitations
+
+Ecological validity:
+Sample bias:
+Statistical power:
+Sensor constraints:
+
+== 6. Engineering Design Implications
+
+What designers must control:
+What thresholds appear meaningful:
+Failure modes:
+
+== 7. Airworthiness and Methods of Compliance Implications
+
+=== 7.1 Relevant Criteria
+List specific standard sections.
+
+=== 7.2 Likely Methods of Compliance
+Populate MoC table.
+
+=== 7.3 Certification Risk Areas
+Ambiguities:
+Weak evidence areas:
+High-interpretation risk areas:
+
+== 8. Evidence Gaps and Research Priorities
+
+What data is missing?
+What would strengthen certification defensibility?
+
+Writing Rules
+• No paragraph longer than 7 lines.
+• Every claim traceable to at least one study.
+• Use bullet structure for clarity.
+• No general motivational language.
+• Avoid adjectives like “important,” “significant” unless statistically defined.
+
+DAY-BY-DAY MICRO-SCHEDULE (1-Week Build)
+Day 1 – Scope + Evidence Map
+Define boundary.
+Populate evidence table.
+Day 2 – Sections 2 and 3
+Theory + Measurement methods.
+Day 3 – Sections 4 and 5
+Experimental contexts + limitations.
+Day 4 – Engineering implications.
+Day 5 – Airworthiness implications section.
+Populate MoC table.
+Day 6 – Edit for density and precision.
+Verify all statistical claims.
+Day 7 – Cross-linking + tagging.
+
+DEFINITION OF DONE
+Review Article is complete when:
+• All 8 sections are filled.
+• At least 8 empirical sources cited.
+• Airworthiness section contains specific standard references.
+• MoC table populated.
+• Cross-links to airworthiness artifacts included.
+• No unsupported engineering claims exist.
+
+FAILURE CONDITIONS
+Reject the artifact if:
+• It reads like a narrative essay.
+• It lacks environmental constraints discussion.
+• It fails to identify methodological weaknesses.
+• It contains no MoC discussion.
+• It makes design recommendations without citing evidence.
+
+Time Expectation
+First 2 reviews: 6–8 hours.
+After that: 4–6 hours.
+This becomes efficient once your evidence base grows.
+
+Why This Artifact Is Promotion-Leverage
+It demonstrates:
+• Human Eng Knowledge 
+HE IC2 Competencies
+• Human Eng Tools & Methods 
+HE IC2 Competencies
+• Analytical rigor
+• Ability to synthesize across sources
+• Beginning of certification integration
+But it is not yet IC3-level on its own.
+It becomes IC3-level when:
+It directly feeds airworthiness artifacts and the process framework.
+
+=== Updated Step 2 – Evidence Map
+Instead of manually building the evidence map:
+	1. Run Elicit:
+		○ Query: “Objective and subjective workload measurement in aviation context”
+		○ Extract columns:
+			§ N
+			§ Population
+			§ Environment
+			§ Metrics
+			§ Effect size
+			§ Limitations
+	2. Export table.
+	3. Paste table into ChatGPT:
+Prompt:
+“Identify methodological convergence, divergence, and environmental gaps.”
+	4. Use output to structure Sections 3–5.
+You still verify all stats manually.
+
+
+Review Article:
+	• 1 Elicit batch extraction
+	• 1 ChatGPT convergence/divergence analysis
+3–5 hours structured writing

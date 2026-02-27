@@ -1,0 +1,27 @@
+/airworthiness/ (Process & Certification Layer – Goal 1)
+criteria-deconstruction/
+One file per MIL-HDBK-516 or MIL-STD-1472 section.
+Example:
+
+15-1-8-workload.adoc
+15-2-visual-display.adoc
+moc-playbooks/
+Reusable MoC logic for recurring HE domains.
+Example:
+
+workload-moc-playbook.adoc
+lighting-moc-playbook.adoc
+verification-blueprints/
+Full verification strategy documents.
+compliance-simulations/
+Mock execution cases.
+risk-register/
+Human engineering certification risk entries.
+This section signals:
+	• Aircraft Certification & Performance 
+HE IC3 Competencies
+	• Compliance Regulations 
+HE IC3 Competencies
+	• Systems Thinking 
+HE IC3 Competencies
+This is your IC3 engine.

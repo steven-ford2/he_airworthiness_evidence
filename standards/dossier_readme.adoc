@@ -1,0 +1,264 @@
+= MIL-STD-1472 Evidence Dossier System
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:tags: mil-std-1472, standards, evidence-dossier, airworthiness
+
+== 1. Purpose of This Folder
+
+This folder contains structured evidence dossiers for MIL-STD-1472 requirements.
+
+Each dossier answers:
+
+* What does the clause require (verbatim)?
+* What failure is it preventing?
+* What research supports it?
+* How strong is that evidence?
+* How would it be verified in an airworthiness context?
+* Where are the gaps?
+
+These dossiers are not commentary.
+They are traceable, research-grounded evidence mappings.
+
+== 2. Folder Structure
+
+----
+/standards/mil-std-1472/
+    README.adoc
+    compiler.adoc
+    dossiers/
+        <clause-cluster-1>.adoc
+        <clause-cluster-2>.adoc
+----
+
+One dossier per clause cluster.
+
+Do not combine unrelated sections into a single file.
+
+== 3. What Constitutes a “Clause Cluster”
+
+A clause cluster is:
+
+* One logically coherent requirement family
+* Focused on a single construct (e.g., character legibility, auditory warning audibility)
+* Small enough to research in 1–2 weeks
+
+Do NOT attempt to cover an entire chapter in one dossier.
+
+== 4. Dossier Creation Procedure (Step-by-Step)
+
+=== Step 1 – Create File
+
+1. Navigate to:
+   /standards/mil-std-1472/dossiers/
+
+2. Create file:
+   <topic>-<subtopic>.adoc
+
+Example:
+visual-displays-legibility-character-size-contrast.adoc
+
+3. Paste dossier template structure.
+
+Do not begin writing until template structure is inserted.
+
+=== Step 2 – Insert Verbatim Clause Text
+
+1. Open official MIL-STD-1472.
+2. Copy clause text exactly.
+3. Paste into:
+
+   == 1. Verbatim Requirement
+
+4. Include exact paragraph identifiers.
+5. Do not paraphrase.
+6. Do not interpret.
+
+If the clause is modified in a later revision, note revision version.
+
+=== Step 3 – Identify What It Is Trying to Prevent
+
+Answer in bullet form:
+
+* What human limitation is being bounded?
+* What operational failure does violation produce?
+* What hazard pathway exists?
+
+No storytelling.
+No vague language.
+
+=== Step 4 – Translate Clause into Research Questions
+
+Convert requirement into testable questions.
+
+Example:
+
+* What angular character size yields acceptable reading accuracy?
+* What contrast ratio sustains performance across luminance transitions?
+
+Each question must include:
+* IV candidate
+* DV candidate
+* Boundary condition
+
+=== Step 5 – Run Elicit Searches
+
+Open Elicit.
+
+Run 3–5 search variants:
+
+1. Direct clause terms
+2. Mechanism terms (vision, audition, etc.)
+3. Aviation/NVG-specific context
+4. Performance + threshold phrasing
+
+Do not accept search results blindly.
+
+Screen using:
+
+* Empirical
+* Reports N
+* Reports quantitative results
+* Describes environment
+
+=== Step 6 – Extract Data
+
+Use Extract Data tool.
+
+Create tailored extraction columns.
+
+Verify:
+
+* N matches PDF
+* Threshold units correct
+* Contrast definition identified
+* Performance metrics specified
+
+If units unclear, mark “Not reported.”
+
+=== Step 7 – Classify Evidence Type
+
+For each clause requirement:
+
+Classify as:
+
+A – Direct empirical threshold evidence  
+B – Indirect empirical mechanism evidence  
+C – Consensus / committee synthesis  
+D – Legacy/interoperability constraint  
+E – Safety margin / conservatism  
+
+This classification must be justified in writing.
+
+=== Step 8 – Assign Strength Rating
+
+Label:
+
+Strong  
+Moderate  
+Weak  
+Unknown  
+
+Include justification:
+
+* Replication?
+* Operational realism?
+* Environmental match?
+* Aviation population included?
+
+No label without explanation.
+
+=== Step 9 – Populate MoC Implications
+
+For each MoC type:
+
+Inspection  
+Analysis  
+Demonstration  
+Test  
+
+Specify:
+
+* What would be measured
+* Required artifact
+* Fidelity requirements
+
+Do not leave cells blank.
+
+If not applicable, state why.
+
+=== Step 10 – Identify Pitfalls
+
+List:
+
+* Common misapplications
+* Context where clause may not generalize
+* Environmental mismatch risks
+
+This section demonstrates maturity.
+
+=== Step 11 – Cross-Link
+
+At bottom:
+
+xref to:
+* Topic review article
+* Related airworthiness artifact
+* Crosswalk file
+
+=== Step 12 – Update Compiler
+
+After saving dossier:
+
+Open:
+compiler.adoc
+
+Add new entry with link and one-line summary.
+
+Do not skip this step.
+
+== 5. Execution Rules
+
+* Never paraphrase clause text.
+* Never invent numeric thresholds.
+* Never claim “well-established” without citation.
+* Always separate direct vs indirect evidence.
+* Always identify boundary conditions.
+* Always acknowledge environmental constraints.
+* Never leave MoC blank.
+
+== 6. Time Expectations
+
+First dossier: 6–10 hours  
+After 3 dossiers: 4–6 hours  
+
+Do not rush.
+
+== 7. Definition of Done
+
+A dossier is complete when:
+
+* Verbatim clause included
+* Research questions defined
+* ≥5 empirical studies extracted (unless literature sparse)
+* Evidence type classified
+* Strength rated
+* MoC table populated
+* Pitfalls listed
+* Compiler updated
+* Crosswalk updated
+
+If any missing → dossier incomplete.
+
+== 8. Why This Matters
+
+This folder demonstrates:
+
+* Standards literacy
+* Research traceability
+* Regulatory awareness
+* Verification logic
+* Systems thinking

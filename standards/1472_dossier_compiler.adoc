@@ -1,0 +1,144 @@
+= MIL-STD-1472 Evidence Dossier Compiler
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:tags: mil-std-1472, compiler, standards, evidence-dashboard
+
+== 1. Purpose
+
+This document indexes all MIL-STD-1472 evidence dossiers and summarizes:
+
+* Clause coverage status
+* Evidence strength classification
+* MoC implications
+* Known research gaps
+* Certification risk concentration areas
+
+This file must be updated every time a dossier is completed.
+
+== 2. Coverage Dashboard
+
+[options="header"]
+|===
+| Clause Cluster | Status | Evidence Class | Strength | Primary MoC | Key Risk Area | Link
+
+| Visual Displays – Character Size & Contrast
+| Complete
+| A + B
+| Moderate
+| Test
+| NVIS luminance transition realism
+| xref:dossiers/visual-displays-legibility-character-size-contrast.adoc[]
+
+| <Next Clause Cluster>
+| Planned
+| —
+| —
+| —
+| —
+| —
+|===
+
+Status values:
+* Planned
+* In Progress
+* Complete
+* Needs Revision
+
+Evidence Class:
+A – Direct empirical  
+B – Indirect empirical  
+C – Consensus  
+D – Legacy  
+E – Safety margin  
+
+Strength:
+Strong / Moderate / Weak / Unknown
+
+== 3. Clause Map by Chapter
+
+=== 3.1 Visual Displays
+
+* xref:dossiers/visual-displays-legibility-character-size-contrast.adoc[]
+* <future dossier link>
+
+=== 3.2 Auditory Displays & Warnings
+
+* <future dossier link>
+
+=== 3.3 Controls & Control-Display Integration
+
+* <future dossier link>
+
+=== 3.4 Anthropometry & Reach
+
+* <future dossier link>
+
+=== 3.5 Environmental Considerations (NVIS, Lighting, etc.)
+
+* <future dossier link>
+
+== 4. Cross-Construct Mapping
+
+[options="header"]
+|===
+| HE Construct | Related Clause Clusters | Evidence Strength Overall | Certification Risk Level
+
+| Workload | <list clause clusters> | Moderate | Medium
+| Situation Awareness | <list clause clusters> | Weak | High
+| Visual Legibility | Visual Displays – Character Size & Contrast | Moderate | Medium
+| Alerting | <list clause clusters> | Planned | —
+|===
+
+Update this table when ≥2 dossiers impact the same construct.
+
+== 5. Recurring Evidence Gaps
+
+List recurring patterns observed across dossiers.
+
+Example:
+
+* Limited live-flight data
+* Small N in NVG studies
+* Legacy thresholds without modern replication
+* Display technology mismatch (CRT-era data applied to OLED)
+
+This section becomes promotion leverage.
+
+== 6. Certification Risk Concentration Areas
+
+Summarize where evidence weakness intersects with high-severity outcomes.
+
+Example:
+
+* NVIS legibility transitions during high-G maneuver
+* Clutter-induced search failures in time-critical phases
+* Color confusion under degraded lighting
+
+This section should evolve over time.
+
+== 7. Revision History
+
+[options="header"]
+|===
+| Version | Date | Summary
+
+| 0.1 | 2026-XX-XX | Initial compiler structure created.
+|===
+
+
+
+
+
+How You Use This File
+#Every time you complete a dossier:
+	1. Update Coverage Dashboard row.
+	2. Add link under appropriate chapter.
+	3. Update Cross-Construct Mapping (if relevant).
+	4. Add new recurring gap if discovered.
+	5. Update revision history.
+Never delay this.
+This file makes the standards folder feel like a controlled system rather than scattered documents.

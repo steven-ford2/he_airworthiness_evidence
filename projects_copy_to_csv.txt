@@ -1,0 +1,42 @@
+Title,Body,Labels,Milestone,Due Date
+Initialize GitHub Project + Repo Structure,Create project fields/views, confirm templates, commit initial structure,"artifact:repo-admin,phase:prep",M1,2026-02-24
+Workload Elicit Search + Backbone Selection,Shortlist 12 workload papers and select 8 core; start extraction table,"artifact:review-article,topic:workload,phase:extract",M1,2026-02-25
+Journal Summary #1 (Workload Subjective),Complete first structured journal summary,"artifact:journal-summary,topic:workload",M1,2026-02-27
+Draft Workload Theoretical Foundations Section,Write 3–5 pages theory section,"artifact:review-article,topic:workload,phase:draft",M1,2026-03-03
+Journal Summary #2 (Workload Physiological),Complete second structured journal summary,"artifact:journal-summary,topic:workload",M1,2026-03-06
+STD1472 Dossier – Visual Legibility (Start),Insert verbatim clause + research question translation,"artifact:standards-dossier,std:mil-std-1472,topic:legibility",M2,2026-03-08
+Draft Workload Measurement Methods Section,Write measurement section draft,"artifact:review-article,topic:workload,phase:draft",M2,2026-03-12
+Journal Summary #3,Workload study summary,"artifact:journal-summary,topic:workload",M2,2026-03-15
+STD1472 Dossier – Visual Legibility (Complete),Finish evidence classification + MoC table + compiler update,"artifact:standards-dossier,std:mil-std-1472,topic:legibility,phase:audit",M2,2026-03-20
+Complete Workload Review v1,Finish draft + audit checklist,"artifact:review-article,topic:workload,phase:audit",M2,2026-03-22
+Journal Summary #4,Workload study summary,"artifact:journal-summary,topic:workload",M2,2026-03-27
+Begin Workload Systematic Review (Screening),Title/abstract screening + extraction template setup,"artifact:systematic-review,topic:workload",M3,2026-03-31
+STD1472 Dossier – Clutter & Grouping,Start clutter/grouping clause analysis,"artifact:standards-dossier,std:mil-std-1472,topic:situational-awareness",M3,2026-04-05
+Journal Summary #5,SA or workload supporting study,"artifact:journal-summary",M3,2026-04-07
+Continue Workload Systematic Review,Full-text screening + extraction,"artifact:systematic-review,topic:workload",M3,2026-04-14
+Journal Summary #6,Workload or SA study,"artifact:journal-summary",M3,2026-04-17
+Complete Workload Systematic Review,Finish synthesis + audit,"artifact:systematic-review,topic:workload,phase:audit",M3,2026-04-30
+Create SA Review Skeleton,Insert template and boundary statements,"artifact:review-article,topic:situational-awareness,phase:prep",M4,2026-05-03
+STD1472 Dossier – NVIS & Luminance (Start),Insert clause + extract studies,"artifact:standards-dossier,std:mil-std-1472,topic:legibility",M4,2026-05-08
+Journal Summary #7,SA study summary,"artifact:journal-summary,topic:situational-awareness",M4,2026-05-10
+Draft SA Review – Theory Section,Write theoretical foundations of SA,"artifact:review-article,topic:situational-awareness",M4,2026-05-17
+Journal Summary #8,SA measurement study,"artifact:journal-summary,topic:situational-awareness",M4,2026-05-20
+Complete SA Review v1,Finish draft + audit,"artifact:review-article,topic:situational-awareness,phase:audit",M4,2026-05-31
+Airworthiness Artifact – Workload Criterion,Create criteria deconstruction + MoC table,"artifact:airworthiness,topic:workload",M5,2026-06-07
+STD1472 Dossier – Control Reach & Anthropometry,Clause analysis + evidence classification,"artifact:standards-dossier,std:mil-std-1472,topic:anthropometry",M5,2026-06-14
+Journal Summary #9,Anthropometry or control study,"artifact:journal-summary",M5,2026-06-17
+Draft HE Airworthiness Framework v0.5,Outline governance + MoC logic,"artifact:framework",M5,2026-06-24
+Complete HE Airworthiness Framework v1.0,Finalize + audit,"artifact:framework,phase:audit",M5,2026-07-01
+STD1472 Dossier – Alerting & Intelligibility #1,Clause + evidence extraction,"artifact:standards-dossier,std:mil-std-1472,topic:alerting",M6,2026-07-08
+Journal Summary #10,Alerting study,"artifact:journal-summary",M6,2026-07-12
+STD1472 Dossier – Alerting & Intelligibility #2,Complete dossier + update compiler,"artifact:standards-dossier,std:mil-std-1472,topic:alerting,phase:audit",M6,2026-07-19
+Review Article – Verification Strategies (Start),Insert template + boundary statements,"artifact:review-article,topic:verification",M7,2026-08-01
+Journal Summary #11,Verification or test fidelity study,"artifact:journal-summary",M7,2026-08-07
+STD1472 Dossier – Environmental Stress Limits,Clause analysis + evidence grading,"artifact:standards-dossier,std:mil-std-1472,topic:stress-performance",M7,2026-08-15
+Journal Summary #12,Stress/performance study,"artifact:journal-summary",M7,2026-08-18
+Mastery Evidence Package (Sept Milestone),Compile artifacts demonstrating workload, SA, lighting mastery,"artifact:repo-admin,phase:audit",M8,2026-09-01
+Continue Standards Dossier Production (Batch 1),Complete 2 additional clause clusters,"artifact:standards-dossier,std:mil-std-1472",M8,2026-09-15
+Review Article – Verification Strategies (Complete),Finalize + audit,"artifact:review-article,topic:verification,phase:audit",M9,2026-10-01
+Strategic Integration – 1472 vs 516 Analysis,Comparative analysis document,"artifact:review-article,topic:verification",M9,2026-10-15
+Promotion Synthesis Brief (Draft),Link outputs to competencies + goals,"artifact:repo-admin",M10,2026-11-10
+Finalize Promotion Synthesis Brief + Compiler Audit,Audit entire repo + finalize dashboard,"artifact:repo-admin,phase:audit",M10,2026-11-30

@@ -1,0 +1,71 @@
+DAILY EXECUTION RULES
+These rules are mandatory.
+	1. Never write before evidence extraction.
+	2. Never update framework mid-week.
+	3. Never skip crosswalk update.
+	4. Never leave audit until next week.
+	5. Never carry unfinished verification into next topic week.
+	6. Do not multitask topics.
+One topic per week.
+
+WEEKLY SUCCESS CONDITIONS
+By Friday 5 PM:
+	• Review article complete and audited.
+	• Airworthiness artifact complete and audited.
+	• 2+ journal summaries complete.
+	• Crosswalk updated.
+	• Framework revision incremented (if applicable).
+	• Next topic preloaded.
+If any item missing → week incomplete.
+
+MONTHLY (Every 4 Weeks)
+Instead of regular Friday journal summaries:
+	• Write Quarterly Brief draft.
+	• Summarize:
+		○ Artifacts built
+		○ Process improvements
+		○ Gaps discovered
+		○ Risk insights
+This feeds promotion narrative.
+
+Why This Works
+This cadence:
+• Front-loads evidence
+• Mid-week deepens rigor
+• Late-week integrates compliance
+• Ends with systems thinking
+• Prevents cognitive overload
+It creates rhythm.
+No decision fatigue.
+
+second version?
+DAILY RULES
+	• Never write before extraction.
+	• Never skip audit.
+	• Never leave MoC blank.
+	• Never invent thresholds.
+	• Never let crosswalk lag.
+	• One topic per week.
+
+WEEK SUCCESS CRITERIA
+By Friday close:
+	• Review Article complete
+	• Airworthiness Artifact complete
+	• ≥ 2 Journal Summaries
+	• Crosswalk updated
+	• Framework revision incremented (if needed)
+	• Next week preloaded
+If any unchecked → week incomplete.
+
+MONTHLY ADD-ON (Every 4 Weeks)
+Replace Friday journal summaries with:
+	• Quarterly brief draft
+	• Artifact count summary
+	• Process improvements summary
+	• Risk insights summary
+
+This card keeps you inside execution mode.
+No redesign.
+No philosophical tweaking.
+No scope drift.
+Just disciplined production.

@@ -1,0 +1,124 @@
+Output location: /evidence/journal-summaries/
+Output file name: <topic>-<firstauthor>-<year>.adoc
+A. Setup (5 minutes)
+	1. Open your repo and navigate to: /evidence/journal-summaries/.
+	2. Create a new file named: <topic>-<firstauthor>-<year>.adoc.
+Example: workload-smith-2019.adoc
+	3. Paste this header at the top (do not edit anything except the placeholders):
+
+= <Paper Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:topic: <topic>
+:tags: <comma-separated tags>
+	4. In a scratchpad (separate note), write the topic boundary in one line:
+		○ Topic boundary: <what this summary is about>
+Example: Topic boundary: physiological vs subjective workload metrics during simulated flight tasks
+B. Elicit: Find the paper (10–25 minutes)
+	5. Open Elicit.
+	6. Go to Find Papers.
+	7. Paste this query template and fill only the bracketed fields:
+Query:
+Empirical quantitative study measuring [PRIMARY METRIC] in [AVIATION OR HIGH-WORKLOAD CONTEXT]. Must report sample size and statistical results. Prefer studies that compare to [COMPARISON METRIC] if applicable.
+Example:
+Empirical quantitative study measuring HRV in simulated flight tasks. Must report sample size and statistical results. Prefer studies that compare to NASA-TLX.
+	8. Apply filters:
+		○ Full text available: ON (if possible)
+		○ Publication type: peer-reviewed (if available)
+		○ Year: set a range that keeps results modern unless you need a foundational paper
+	9. Scan titles and abstracts. Shortlist 3 candidates.
+	10. Open candidate #1 details.
+	11. Confirm all four must-have requirements:
+	• Empirical study (data collected)
+	• Reports N
+	• Reports inferential statistics (p, CI, effect size, test statistics)
+	• Environment described (sim/live/lab)
+	12. If candidate #1 fails any requirement, repeat steps 10–11 for candidate #2, then #3.
+	13. Select the first candidate that passes all requirements.
+	14. Save it to your Elicit library.
+C. Elicit: Extract structured facts (15–25 minutes)
+	15. Open the paper inside Elicit.
+	16. Use Extract Data (table extraction) and add the following columns exactly (copy/paste these column names):
+	• Exact sample size (N) and grouping (if any)
+	• Population type (military pilots, civilians, etc.)
+	• Task and environment (simulator type/fidelity, live flight, lab, etc.)
+	• Independent variables (IVs) operationalized
+	• Dependent variables (DVs) operationalized
+	• Primary statistical tests reported (e.g., ANOVA, mixed model)
+	• Key numeric results (include exact test stats and p-values)
+	• Effect sizes and confidence intervals (if reported)
+	• Main limitation stated by authors
+	17. Run extraction.
+	18. For each column, open the supporting quote and confirm it matches what Elicit extracted.
+	19. Export the extraction table (CSV or copy/paste) into your scratchpad.
+D. PDF Verification (mandatory) (20–45 minutes)
+	20. Open the PDF full text (outside Elicit if needed).
+	21. Locate and verify N:
+	• Go to Methods.
+	• Confirm N and any exclusions.
+	• Write the verified N in your scratchpad.
+	22. Locate and verify environment:
+	• Identify simulator type/fidelity or operational setting.
+	• Write the exact description in your scratchpad.
+	23. Locate and verify IVs and DVs:
+	• Find where each variable is operationalized.
+	• Write them as bullet points in your scratchpad.
+	24. Locate and verify the main statistical results:
+	• Go to Results.
+	• Copy exact test statistics (including df if provided).
+	• Copy exact p-values (do not round differently than the paper).
+	• Copy effect sizes and CI if provided.
+	25. If you cannot find a number that Elicit claimed exists:
+	• Mark it as “Not reported” in your scratchpad.
+	• Do not infer or invent.
+	26. Identify at least 2 limitations:
+	• One limitation stated by authors.
+	• One limitation you infer but can defend (e.g., ecological validity, sample).
+	• Write both.
+E. Draft the summary (ChatGPT-assisted structure) (15–25 minutes)
+	27. Open ChatGPT.
+	28. Paste the following prompt, then paste the extracted table + your verified notes below it.
+Prompt:
+“Create a structured journal-article summary using the exact section headers below. Use ONLY the facts provided in my notes. If anything is missing, write ‘Not reported.’ Keep each section concise and technical. Do not add citations or claims beyond my notes.
+Use these headers:
+	1. Core Question
+	2. Methodology
+	3. Variables
+	4. Statistical Results
+	5. Operational Interpretation (Evidence-bound)
+	6. Environmental Constraints
+	7. Limitations
+	8. Airworthiness Relevance”
+	9. Copy ChatGPT output into your .adoc file under the header.
+F. Manual paragraph-by-paragraph correction (20–40 minutes)
+	30. Re-open the PDF.
+	31. Starting at section 1, verify each sentence:
+	• If a sentence cannot be traced to your verified notes or the PDF, delete it.
+	• If a numeric value differs, correct it to match the PDF.
+	32. Replace vague verbs:
+	• Replace “improved” with “reduced errors by X%” if you have that number.
+	• If you do not have a number, rephrase: “was associated with lower error rates” only if supported.
+	33. In “Airworthiness Relevance,” add:
+	• One likely impacted criterion area (even if not a paragraph number yet)
+	• One likely MoC category (Inspection/Analysis/Demonstration/Test)
+	• One sentence on evidence strength (High/Moderate/Low) with a reason
+G. Link and tag (5–10 minutes)
+	34. Add a “Related Artifacts” section at the end:
+
+== Related Artifacts
+xref:../../topics/<topic>/review.adoc[]
+xref:../../airworthiness/criteria-deconstruction/<relevant-file>.adoc[]
+	35. Populate :tags: with 5–10 tags:
+	• topic tag
+	• metric tag
+	• environment tag
+	• method tag
+	• certification tag
+	36. Save the file.
+H. Run your audit checklist (end)
+	37. Run the Journal Summary audit checklist you already requested.
+	38. If any audit item fails, fix it immediately.

@@ -1,0 +1,59 @@
+AUDIT CHECKLIST 1
+Journal Article Summary
+(Location: /evidence/journal-summaries/)
+
+SECTION A — Metadata Integrity
+	• File name follows convention <topic>-<author>-<year>.adoc
+	• Title exactly matches paper title
+	• Year correct
+	• Journal correct
+	• Topic tag accurate
+	• At least 5 tags present
+	• Cross-links included at bottom
+
+SECTION B — Empirical Integrity
+Open the PDF while auditing.
+	• Sample size (N) exactly matches PDF
+	• Any exclusions or subgroup Ns clarified
+	• Population correctly described (no generalization)
+	• Environment description matches PDF wording
+	• IVs and DVs operationalized correctly
+	• Statistical tests correctly named
+	• p-values match exactly (no rounding differences unless paper rounds)
+	• Effect sizes match exactly
+	• Confidence intervals match exactly
+	• Direction of effect correctly interpreted
+If any mismatch → FAIL.
+
+SECTION C — Interpretation Discipline
+	• No claim beyond tested environment
+	• No claim beyond tested population
+	• No unsupported causal language
+	• No “improves” or “enhances” without numeric support
+	• “Not reported” used where appropriate
+	• Uncertainty explicitly acknowledged
+
+SECTION D — Environmental Awareness
+	• Simulator fidelity identified (if relevant)
+	• +Gz explicitly addressed or explicitly noted absent
+	• NVG addressed or explicitly noted absent
+	• Noise/vibration discussed if relevant
+	• Ecological validity addressed
+
+SECTION E — Airworthiness Relevance
+	• At least one affected criterion area named
+	• Likely MoC category specified
+	• Evidence strength labeled (High/Moderate/Low)
+	• Certification limitation stated clearly
+	• No compliance claims made without justification
+
+SECTION F — Density & Precision
+	• No paragraph > 7 lines
+	• No vague adjectives
+	• No narrative storytelling
+	• No redundant sentences
+	• Structured headers intact
+
+PASS STANDARD
+Minimum 95% boxes checked.
+If <95%, revise immediately.

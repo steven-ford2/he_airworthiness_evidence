@@ -1,0 +1,8 @@
+/crosswalks/ (Promotion Multiplier)
+This is powerful.
+Example:
+topic-to-criterion-mapping.adoc
+Table format:
+Topic	Relevant Criteria	Typical MoC	Primary Evidence
+This proves integration.
+Managers love integration.

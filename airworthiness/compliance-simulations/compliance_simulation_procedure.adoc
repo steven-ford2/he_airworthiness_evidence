@@ -1,0 +1,169 @@
+PROCEDURE 5
+Compliance Simulation
+(Location: /airworthiness/compliance-simulations/)
+File name convention:
+<system-or-feature>-<criterion>-simulation.adoc
+Example:
+touchscreen-display-15-1-8-workload-simulation.adoc
+
+A. Setup (10–15 minutes)
+	1. Navigate to /airworthiness/compliance-simulations/
+	2. Create file using naming convention.
+	3. Paste header:
+
+= <System/Feature> Compliance Simulation – <Criterion>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:criterion: <Exact reference>
+:tags: compliance-simulation, <topic>, moc, certification>
+	4. Paste this section structure:
+
+== 1. Scenario Description
+== 2. Applicable Criteria
+== 3. Proposed Compliance Strategy
+== 4. Evidence Package Definition
+== 5. Verification Execution Plan
+== 6. Residual Risk Assessment
+== 7. Authority Chain and Approval Logic
+== 8. Anticipated Audit Challenges
+== 9. Lessons for Process Framework
+== 10. Related Artifacts
+Do not fill content yet.
+
+B. Scenario Definition (20–30 minutes)
+	5. Define a realistic scenario:
+Write 1 paragraph describing:
+	• System/feature (e.g., large touchscreen)
+	• Operational environment (e.g., +6G turn with NVG)
+	• User (e.g., single-seat fighter pilot)
+	• Mission phase (e.g., target acquisition)
+Constraints:
+	• Must include at least one stressor (G, noise, time pressure)
+	• Must affect one HE construct
+No fiction beyond plausible program reality.
+
+C. Applicable Criteria (15–30 minutes)
+	6. List all relevant criteria:
+		○ Primary criterion (e.g., workload)
+		○ Secondary criteria (e.g., visual display, control reach)
+	7. For each criterion:
+		○ Cite exact paragraph reference
+		○ State why it applies in 1–2 sentences
+No generic references.
+
+D. Proposed Compliance Strategy (45–60 minutes)
+This section connects to your Airworthiness Artifact.
+	8. Identify primary MoC (Inspection / Analysis / Demonstration / Test).
+	9. Identify supporting MoC categories.
+	10. For each MoC selected, write:
+	• Why it is appropriate
+	• What specific artifact would demonstrate compliance
+	• Why other MoCs are insufficient alone
+You may use ChatGPT to brainstorm but filter aggressively.
+
+E. Evidence Package Definition (45–90 minutes)
+This is where realism appears.
+	11. Create a bullet list of required artifacts:
+Examples:
+	• Simulator test report
+	• Statistical analysis summary
+	• Configuration control document
+	• Subject qualification list
+	• Environmental condition log
+	• Data processing pipeline documentation
+	• Margin analysis summary
+	12. For each artifact, define:
+	• Who generates it (HE, avionics, flight test, supplier)
+	• Format (report, dataset, briefing, etc.)
+	• Where archived (hypothetical ok)
+	13. Identify:
+	• Which artifact is primary compliance evidence
+	• Which artifacts are supporting
+No vague “data will be collected” language.
+
+F. Verification Execution Plan (45–90 minutes)
+	14. Define:
+	• Number of subjects
+	• Scenario design logic
+	• Environmental replication logic
+	• Success criteria
+	15. Explicitly state:
+	• What would cause test failure
+	• What corrective action would follow failure
+	16. Define data review process:
+	• Who reviews
+	• At what milestone
+	• What decision authority exists
+
+G. Residual Risk Assessment (30–60 minutes)
+	17. After proposed compliance:
+Ask:
+	• What uncertainty remains?
+	• What environmental conditions were not replicated?
+	• What human variability was not captured?
+	18. Write:
+	• Residual risk description
+	• Probability estimate (Low/Medium/High)
+	• Severity class
+	• Risk acceptance logic
+No zero-risk claims.
+
+H. Authority Chain & Approval Logic (30–45 minutes)
+	19. Define:
+	• Responsible HE engineer
+	• Technical approver
+	• Airworthiness authority
+	• Program manager (if relevant)
+	20. Describe:
+	• What documentation they review
+	• What decision authority they exercise
+	• What triggers rework
+This section signals systems maturity.
+
+I. Anticipated Audit Challenges (20–40 minutes)
+	21. Brainstorm with ChatGPT:
+“What would a skeptical airworthiness reviewer challenge in this compliance package?”
+	22. Take output and filter.
+	23. Write at least 5 anticipated challenges.
+Examples:
+	• “Simulator fidelity insufficient to represent high-G conditions.”
+	• “Sample size too small for high-confidence margin.”
+	24. For each challenge, write:
+	• Your response logic
+	• What additional data might be required
+
+J. Lessons for Process Framework (20–30 minutes)
+	25. Identify:
+	• What part of your framework was strong?
+	• What part was ambiguous?
+	• What template section needs refinement?
+	26. Write 3–6 bullets.
+This feeds /process/he-airworthiness-framework.adoc.
+
+K. Cross-Linking (10 minutes)
+	27. Add:
+
+== 10. Related Artifacts
+xref:../../airworthiness/criteria-deconstruction/<criterion-file>.adoc[]
+xref:../../topics/<topic>/review.adoc[]
+xref:../../process/he-airworthiness-framework.adoc[]
+	28. Add tags:
+	• compliance-simulation
+	• topic
+	• criterion
+	• verification
+	• risk
+
+L. Final Self-Check Before Audit
+	29. Confirm:
+	• Scenario realistic
+	• MoC justified
+	• Evidence package concrete
+	• Residual risk acknowledged
+	• Authority logic defined
+	• Audit challenges anticipated
+Stop.

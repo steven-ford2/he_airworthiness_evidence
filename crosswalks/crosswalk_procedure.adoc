@@ -1,0 +1,115 @@
+PROCEDURE 6
+Crosswalk Update
+(Location: /crosswalks/)
+Primary file:
+topic-to-criterion-mapping.adoc
+This is the master integration table.
+
+A. Setup (5 minutes)
+	1. Navigate to /crosswalks/
+	2. Open topic-to-criterion-mapping.adoc
+	3. Confirm table exists in this format:
+
+[options="header"]
+|===
+| Topic | Relevant Criteria | HE Constructs | Typical MoC | Evidence Strength | Related Artifacts
+|===
+If missing, recreate exactly.
+
+B. Trigger Condition
+You run this procedure whenever you:
+	• Complete a new Review Article
+	• Complete a new Airworthiness Artifact
+	• Complete a new Systematic Review
+	• Identify a new criterion connection
+If you built something and did not update the crosswalk, you failed execution.
+
+C. Step-by-Step Update Procedure
+Step 1 — Identify the Topic Row (5–10 minutes)
+	4. Locate existing topic row in table.
+	5. If topic does not exist, add a new row.
+	6. Topic name must match /topics/<topic>/ folder exactly.
+
+Step 2 — Add or Update Criteria (10–15 minutes)
+	7. List all relevant criteria connected to this topic.
+		○ Use exact references (e.g., MIL-HDBK-516C §15.1.8).
+	8. If new criterion discovered:
+		○ Add it to the cell.
+		○ Separate multiple criteria with semicolons.
+	9. Confirm:
+		○ Each criterion listed has a corresponding file in /airworthiness/criteria-deconstruction/
+		○ If not, create placeholder file name for future build.
+
+Step 3 — Update HE Constructs Column (5 minutes)
+	10. List:
+	• Workload
+	• SA
+	• Visual legibility
+	• Motor precision
+	• Communication intelligibility
+	• etc.
+	11. Only list constructs actually covered in the review article.
+No speculative constructs.
+
+Step 4 — Update Typical MoC Column (10 minutes)
+	12. Based on Airworthiness Artifact or Simulation:
+List:
+	• Inspection
+	• Analysis
+	• Demonstration
+	• Test
+	13. If multiple, list primary first.
+	14. If evidence insufficient, state:
+	• “Test (evidence limited)”
+No blank cells.
+
+Step 5 — Evidence Strength (5–10 minutes)
+	15. Based on your systematic review or review article:
+Label:
+	• Strong
+	• Moderate
+	• Weak
+	16. Add parenthetical explanation if helpful:
+Example:
+Moderate (sim-heavy, limited live-flight)
+No vague entries.
+
+Step 6 — Related Artifacts (10 minutes)
+	17. Add links:
+
+xref:../topics/<topic>/review.adoc[]
+xref:../airworthiness/criteria-deconstruction/<file>.adoc[]
+xref:../airworthiness/moc-playbooks/<file>.adoc[]
+xref:../evidence/systematic-reviews/<file>.adoc[]
+	18. Ensure links are not broken.
+
+D. Secondary Crosswalks (When Applicable)
+If applicable, also update:
+	• mil-hdbk-516-crosswalk.adoc
+	• mil-std-1472-crosswalk.adoc
+These should map:
+Criterion → Topics → MoC → Verification Type
+Only update when new connection discovered.
+
+E. Integrity Check (5 minutes)
+	19. Scan entire table:
+	• No empty cells
+	• No inconsistent topic naming
+	• No criterion listed without artifact
+	• No artifact without crosswalk entry
+If any mismatch → fix immediately.
+
+F. Time Expectation
+Routine update:
+10–20 minutes.
+If new topic introduced:
+30–45 minutes.
+
+Why This Matters
+This file demonstrates:
+• Integration across artifacts
+• Standards literacy
+• Systems thinking
+• Traceability discipline
+This is subtle but powerful in promotion discussions.
+When your manager opens this and sees structured mapping, it signals maturity.

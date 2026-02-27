@@ -1,0 +1,116 @@
+MASTER DOCUMENT FRAMING PIPELINE
+(For Review Articles and Systematic Reviews)
+
+PHASE 1 — ELicit Structured Draft Generation
+Purpose:
+Produce a dense, evidence-driven skeleton.
+Step 1: Run Elicit Workflow
+For Review Articles:
+	• Use Research Report workflow
+	• Narrow question
+	• Extract structured table fields
+For Systematic Reviews:
+	• Use Systematic Review workflow
+	• Explicit inclusion/exclusion criteria
+	• Extract structured variables
+
+Step 2: Configure Elicit Settings Correctly
+For Review Articles:
+	• Require full text where possible
+	• Require effect sizes
+	• Require population and environment data
+For Systematic Reviews:
+	• Specify:
+		○ Publication years
+		○ Population (aviation, pilot, etc.)
+		○ Exclude purely theoretical papers
+		○ Include only quantitative or mixed methods
+
+Step 3: Generate Initial Draft
+Let Elicit produce:
+	• Executive summary
+	• Findings summary
+	• Thematic breakdown
+	• Evidence tables
+DO NOT accept it as final.
+Export draft.
+
+PHASE 2 — ChatGPT Structural Refinement
+Now bring the Elicit draft into ChatGPT.
+Use structured prompts like:
+“Reorganize this draft into the exact structure required by my review article template. Identify missing sections. Flag unsupported claims.”
+ChatGPT’s job here:
+• Restructure
+• Increase density
+• Identify logical gaps
+• Highlight where environmental constraints are missing
+• Suggest MoC implications
+Not:
+• Create new evidence
+• Add citations
+• Fabricate claims
+
+PHASE 3 — Paragraph-Level Manual Correction (This Is Critical)
+Now you:
+	1. Open PDFs.
+	2. Verify every statistical claim.
+	3. Replace any vague wording.
+	4. Insert missing nuance.
+	5. Add operational framing.
+	6. Add airworthiness logic.
+This is where expertise builds.
+Every paragraph must pass this test:
+Can I defend this sentence in a design review?
+If not, rewrite.
+
+PHASE 4 — Airworthiness Integration
+For Review Articles:
+Add the required section:
+“Airworthiness and Methods of Compliance Implications”
+You may use ChatGPT to generate:
+	• Candidate MoC categories
+	• Cross-functional impacts
+	• Risk areas
+But you must manually validate alignment to standards.
+
+PHASE 5 — Final Density Pass
+You ask ChatGPT:
+“Remove fluff. Increase precision. Reduce paragraph length. Ensure every claim is evidence-backed.”
+Then you manually verify nothing was distorted.
+
+How This Fits Into the Weekly Cadence
+For a Review Article Week:
+Day 1:
+	• Elicit structured extraction + initial draft
+Day 2:
+	• ChatGPT restructure + gap detection
+Day 3:
+	• Manual paragraph correction (first half)
+Day 4:
+	• Manual paragraph correction (second half)
+Day 5:
+	• Airworthiness integration
+Day 6:
+	• Density + precision pass
+Day 7:
+	• Cross-linking + tag update
+For a Systematic Review Week:
+Day 1–2:
+	• Elicit screening + structured extraction
+Day 3:
+	• Validate inclusion/exclusion manually
+Day 4:
+	• Elicit draft
+Day 5:
+	• ChatGPT restructure
+Day 6:
+	• Manual correction + statistical verification
+Day 7:
+	• Certification implications + finalize
+
+Why This Is the Correct Blend
+Elicit gives you breadth.
+ChatGPT gives you structure.
+Manual correction gives you credibility.
+If you skip Phase 3, you become a prompt operator.
+If you complete Phase 3, you become a technical authority.

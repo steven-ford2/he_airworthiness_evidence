@@ -1,0 +1,7 @@
+/quarterly-briefs/
+Each brief answers:
+• What did I build?
+• What process gaps did I identify?
+• What enterprise implications exist?
+• What do I recommend?
+This converts private study into visible leadership.

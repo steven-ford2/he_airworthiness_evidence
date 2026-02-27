@@ -1,0 +1,12 @@
+/process/ (Your July 1 Capstone)
+This is the deliverable your manager will care about.
+It includes:
+• End-to-end HE airworthiness framework
+• Traceability model
+• MoC decision tree
+• Verification architecture
+• Templates
+This demonstrates:
+“Develops planning, organization, implementation and monitoring of requirements management processes” 
+HE IC3 Competencies
+That line is your promotion anchor.

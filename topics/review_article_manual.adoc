@@ -1,0 +1,130 @@
+ARTIFACT TYPE 2
+REVIEW ARTICLE MANUAL
+(Location: /topics/<topic>/review.adoc)
+This is more complex.
+
+SECTION 0 — PRE-WORK BOUNDARY DEFINITION (30 min)
+Fill this out first:
+Topic = __________
+Operational boundary = __________
+Environments included = __________
+Environments excluded = __________
+Primary design decisions influenced = __________
+Example:
+Topic = Workload measurement
+Included = aviation, high-stress operational tasks
+Excluded = classroom cognitive tasks
+Do not write until this is complete.
+
+SECTION 1 — ELicit BATCH SEARCH (45–60 min)
+Prompt template:
+“Empirical quantitative studies comparing objective and subjective measures of [topic] in operational or aviation-relevant environments. Must report inferential statistics.”
+Extract at least 10 studies.
+Create extraction table:
+Columns:
+	• Citation
+	• N
+	• Population
+	• Environment
+	• Objective measures
+	• Subjective measures
+	• Key results
+	• Effect size
+	• Major limitation
+Export.
+
+SECTION 2 — EVIDENCE CONVERGENCE ANALYSIS (ChatGPT-assisted)
+Paste table into ChatGPT.
+Prompt:
+“Identify patterns of convergence, divergence, and environmental sensitivity across these studies. Do not infer beyond the table.”
+Use output to structure sections 3–5.
+You will rewrite everything manually.
+
+SECTION 3 — STRUCTURED WRITING PROTOCOL
+Open:
+/topics/<topic>/review.adoc
+Populate this structure:
+
+1. Executive Summary (Max 1 page)
+Checklist:
+	• States scope
+	• States key measurement comparison
+	• States primary engineering implication
+	• States airworthiness relevance
+
+2. Theoretical Foundations
+Checklist:
+	• Defines construct precisely
+	• Identifies competing models
+	• Identifies known debates
+	• No historical storytelling
+
+3. Measurement Methods
+Objective Measures
+For each measure:
+	• Sensitivity
+	• Specificity
+	• Environmental robustness
+	• Known confounds
+Subjective Measures
+	• Calibration issues
+	• Bias sensitivity
+	• Reliability
+Comparative Validity
+	• Where do measures align?
+	• Where do they diverge?
+	• Under what environmental conditions?
+
+4. Experimental Contexts
+Checklist:
+	• Simulator fidelity levels
+	• Live-flight evidence
+	• +Gz inclusion
+	• NVG inclusion
+	• Noise / vibration discussion
+If absent in literature, explicitly state absence.
+
+5. Methodological Weaknesses
+Checklist:
+	• Small N patterns
+	• Civilian proxy issues
+	• Sensor reliability
+	• Statistical underpowering
+
+6. Engineering Design Implications
+For each implication:
+	• Directly traceable to ≥1 study
+	• Condition-specific
+	• Includes uncertainty bounds
+	• Identifies potential failure modes
+
+7. Airworthiness and MoC Implications
+Mandatory checklist:
+	• Specific criteria referenced
+	• MoC table populated
+	• Evidence strength stated
+	• Certification risk areas identified
+	• Cross-linked to airworthiness artifact
+
+MICRO-LEVEL EDIT PASS
+After draft complete:
+For each paragraph:
+	• Remove any sentence without citation
+	• Replace vague words (“improves”, “affects”) with measurable terms
+	• Break long paragraphs into bullet logic
+	• Ensure environmental constraints mentioned
+	• Ensure statistical uncertainty acknowledged
+
+TIME TARGET
+First review: 6–8 hours.
+After 3 reps: 4–5 hours.
+
+ADAPTATION METHOD FOR ANY TOPIC
+Each week, only these fields change:
+Topic
+Operational boundary
+Primary variable
+Environment focus
+Relevant criteria
+Everything else remains identical.
+That’s how you scale without cognitive load.

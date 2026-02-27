@@ -1,0 +1,38 @@
+===Topic: Pilot Cognitive Workload Measurement in Tactical Aviation
+
+==1. Primary Construct
+Cognitive workload as it relates to pilot task demand, information processing capacity, and performance margin in high-tempo tactical aviation environments.
+Not general stress.
+Not fatigue.
+Not SA except where explicitly tied to workload.
+
+==2. Included Environments
+• High-fidelity fixed-base simulators
+• Motion simulators (if reported)
+• Live-flight tactical aviation
+• Mission-representative scenarios
+• Time-pressured multi-task environments
+
+==3. Excluded Environments
+• Pure laboratory cognitive tasks with no aviation analogue (unless very influential)
+• Commercial transport CRM-only contexts (unless measurement method relevant)
+• Clinical workload (surgical, medical) unless measurement validation relevant
+• Consumer UX workload research (unless applicable to fighter jet pilot vehicle interaction, or measurement relevant)
+
+==4. Included Populations
+• Military pilots
+• Military trainees in aviation contexts
+• Civilian pilots in high-workload simulations (if operationally relevant)
+• Experienced simulator subjects performing aviation tasks
+Excluded:
+• Non-aviation student samples doing generic tasks
+• Purely undergraduate psych samples without aviation task analog
+
+==5. Design Decisions Influenced
+This topic informs decisions about:
+• Display density limits
+• Task concurrency allowances
+• Automation handoff logic
+• Alert timing and prioritization
+• Mission phase workload margin
+Acceptable performance degradation thresholds

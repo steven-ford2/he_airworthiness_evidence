@@ -1,0 +1,15 @@
+/topics/ (Tool Mastery Layer – Goal 2)
+Each topic folder contains:
+
+review.adoc
+measurement-playbook.adoc
+design-implications.adoc
+related-airworthiness-links.adoc
+This proves:
+	• Human Eng Knowledge 
+HE IC2 Competencies
+	• Human Eng Tools & Methods 
+HE IC2 Competencies
+	• Statistical Concepts 
+HE IC2 Competencies
+But because every topic links to airworthiness artifacts, it also supports Goal 1.

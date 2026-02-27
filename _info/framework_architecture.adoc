@@ -1,0 +1,33 @@
+                        ┌─────────────────────────────┐
+                        │     HE Airworthiness        │
+                        │         Framework           │
+                        └─────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+┌─────────────────┐        ┌─────────────────────┐        ┌────────────────────┐
+│   Evidence      │        │   Regulatory        │        │   Compliance       │
+│     Layer       │        │      Layer          │        │      Layer         │
+└─────────────────┘        └─────────────────────┘        └────────────────────┘
+        │                             │                             │
+        │                             │                             │
+  • Journal Summaries          • Criterion Text              • MoC Selection
+  • Review Articles            • Intent Analysis             • Verification Blueprint
+  • Systematic Reviews         • Certification Philosophy    • Evidence Package
+                                                             • Residual Risk
+                                      │
+                                      │
+                        ┌─────────────────────────────┐
+                        │       Integration Layer     │
+                        └─────────────────────────────┘
+                                      │
+                          • Topic ↔ Criterion Crosswalk
+                          • Traceability Mapping
+                          • Compliance Simulation
+                          • Governance & Revision Control
+
+
+
+
+
+

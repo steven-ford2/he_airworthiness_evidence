@@ -1,0 +1,115 @@
+AUDIT CHECKLIST 3
+Systematic Review
+(Location: /evidence/systematic-reviews/)
+
+SECTION A — Structural Integrity (Hard Gate)
+If any item fails here, the document is incomplete.
+	• File name follows convention <topic>-systematic-review-<YYYY>.adoc
+	• Protocol section present and filled (no placeholders)
+	• Eligibility criteria clearly separated (Inclusion vs Exclusion)
+	• Information sources listed with date run
+	• Screening process described
+	• Study selection counts reported
+	• Study characteristics section present
+	• Results by theme section present
+	• Strength of evidence section present
+	• Airworthiness & MoC section present
+	• References list present
+	• Related artifacts linked
+If any are missing → FAIL.
+
+SECTION B — Protocol Discipline
+Open Section 1 (Protocol).
+	• Review question is single-sentence and specific
+	• Population defined
+	• Environment defined
+	• Outcomes defined
+	• Study design inclusion defined
+	• Year range defined
+	• Exclusion criteria clearly stated
+	• No post-hoc changes without being stated
+If scope drift occurred mid-document → FAIL.
+
+SECTION C — Screening Accounting Integrity
+Verify the counts.
+	• Total records retrieved stated
+	• Duplicates removed stated
+	• Title/abstract exclusions counted
+	• Full-text assessed counted
+	• Full-text excluded counted
+	• Final included number stated
+	• Sum logic is internally consistent
+Example check:
+Initial – duplicates – abstract exclusions = full-text assessed
+Full-text assessed – full-text exclusions = final included
+If math doesn’t work → FAIL.
+
+SECTION D — Extraction Validity
+For at least 6 included studies:
+Open the PDFs and confirm:
+	• Sample size (N) matches review
+	• Environment description matches review
+	• Key metric description accurate
+	• Statistical results match exactly
+	• No fabricated effect sizes
+	• No threshold invented unless reported
+If any mismatch → FAIL.
+
+SECTION E — Thematic Synthesis Integrity
+For each theme:
+	• At least 2 studies cited (unless only 1 exists)
+	• Studies named (author-year)
+	• Differences across environments acknowledged
+	• Contradictory findings acknowledged
+	• No claim made without naming supporting studies
+If themes read like general claims → FAIL.
+
+SECTION F — Limitation Rigor
+Confirm limitations are separated into:
+	• Measurement validity limits
+	• Ecological validity limits
+	• Statistical power/sample size limits
+	• Population generalizability limits
+	• Environmental realism limits
+If limitations are vague or generic → FAIL.
+
+SECTION G — Airworthiness & MoC Integrity
+Open Section 6.
+	• Specific standard areas named (even if placeholders)
+	• MoC table fully populated
+	• Each MoC row grounded in actual evidence
+	• “Evidence insufficient” used where appropriate
+	• Certification risk areas identified
+	• Environmental mismatches explicitly discussed
+	• No compliance claim made without support
+If the MoC table looks generic → FAIL.
+
+SECTION H — Evidence Strength Classification
+Check whether the review explicitly categorizes strength:
+	• Strong (multiple consistent studies, operational context)
+	• Moderate (some replication, limited environment realism)
+	• Weak (lab-only, small N, limited replication)
+If no explicit strength reasoning → FAIL.
+
+SECTION I — Language Discipline
+	• No paragraph > 12 lines
+	• No motivational language
+	• No unsupported adjectives
+	• No phrases like “it is clear that”
+	• Uncertainty acknowledged
+	• No passive hand-waving conclusions
+
+SECTION J — Cross-Functional & IC3 Signal
+This is your promotion filter.
+	• Cross-domain implications discussed (avionics/software/test)
+	• Evidence sufficiency for certification discussed
+	• Risk implications discussed
+	• Gaps translated into actionable research needs
+	• Process framework linked
+	• Demonstrates systems thinking beyond measurement
+If it reads like an academic paper only → FAIL.
+
+PASS STANDARD
+Minimum overall compliance: 90%
+Sections A, C, D, G must be 100%.
+No exceptions.

@@ -1,0 +1,125 @@
+AUDIT CHECKLIST 4
+Airworthiness Artifact
+(Location: /airworthiness/...)
+
+SECTION A — Structural Integrity (Hard Gate)
+If any item fails here → artifact incomplete.
+	• Verbatim criterion text included
+	• Criterion reference number correct
+	• Intent section present
+	• Certification philosophy section present
+	• Human Engineering Technical Basis section present
+	• Hazard pathway section present
+	• MoC table fully populated
+	• Verification strategy section present
+	• Cross-functional impact section present
+	• Traceability section present
+	• Risk section present
+	• Related artifacts linked
+No partial credit.
+
+SECTION B — Criterion Discipline
+Open the standard and compare.
+	• Verbatim text matches exactly
+	• No paraphrasing introduced
+	• Intent interpretation does not contradict text
+	• No requirements added beyond what is implied
+	• Hazard logic is defensible from criterion wording
+If you added hidden requirements → FAIL.
+
+SECTION C — Human Engineering Technical Basis Rigor
+	• Constructs clearly identified
+	• Metrics operationalized (not generic)
+	• Measurement limitations acknowledged
+	• Environmental sensitivity discussed
+	• Evidence strength classified and justified
+	• No threshold invented without citation
+	• Linked review article exists and supports claims
+If this section reads like opinion → FAIL.
+
+SECTION D — Hazard & Risk Logic
+	• Failure mode clearly stated
+	• Contributing factors system-level (not generic)
+	• Severity classification justified
+	• Human error mechanism grounded in theory
+	• Hazard chain logically coherent
+	• No speculative catastrophic claims without logic
+If hazard pathway feels dramatic or vague → FAIL.
+
+SECTION E — Method of Compliance Integrity
+For each MoC row:
+	• Specific evidence artifact named
+	• MoC selection justified
+	• Primary vs Supporting clearly marked
+	• No MoC category left blank
+	• “Not appropriate” justified if used
+	• Evidence sufficiency discussed
+	• No claim that compliance is automatic
+If table looks generic → FAIL.
+
+SECTION F — Verification Blueprint Rigor
+	• Test platform clearly defined
+	• Subject population defined
+	• Variables clearly separated (IV vs DV)
+	• Metrics align with HE section
+	• Statistical approach described logically
+	• No fabricated numeric criteria
+	• Environmental stress inclusion discussed
+	• Success criteria logically tied to criterion intent
+If this section reads like a generic experiment → FAIL.
+
+SECTION G — Cross-Functional Integration (IC3 Signal)
+For each domain:
+Avionics:
+	• Display architecture impact described
+	• Timing/refresh considerations noted (if relevant)
+Software:
+	• Logging/algorithmic implications discussed
+	• Human-in-the-loop validation considered
+Flight Test:
+	• Additional sortie or scenario burden identified
+	• Environmental window constraints considered
+Supplier:
+	• Data package requirements mentioned
+	• SOW implications mentioned (if relevant)
+If section lacks specificity → FAIL.
+
+SECTION H — Traceability Integrity
+	• Requirement flowdown shown
+	• MoC linked to requirement
+	• Verification event linked to evidence artifact
+	• Traceability path internally consistent
+	• No orphaned requirement logic
+If traceability looks symbolic only → FAIL.
+
+SECTION I — Certification Risk Discipline
+	• Risk described concretely
+	• Probability labeled
+	• Severity labeled
+	• Mitigation strategy actionable
+	• Regulatory ambiguity identified
+	• Environmental mismatch risk discussed
+If risk section feels superficial → FAIL.
+
+SECTION J — Language & Density
+	• No paragraph > 10 lines
+	• No motivational language
+	• No adjectives without operational meaning
+	• No “clearly” or “obviously”
+	• No filler
+	• Bullet structuring used where appropriate
+
+SECTION K — Promotion Signal Check
+This is the IC3 test.
+	• Demonstrates independent structuring of compliance approach
+	• Integrates across engineering domains
+	• Anticipates audit challenges
+	• Shows process thinking, not just technical knowledge
+	• Demonstrates regulatory literacy
+	• Could be presented in design review without embarrassment
+If this fails, strengthen MoC, cross-functional, and traceability sections.
+
+PASS STANDARD
+Overall ≥ 90%
+Sections A, E, F, H must be 100%.
+No compromise.

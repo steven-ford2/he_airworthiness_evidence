@@ -1,0 +1,351 @@
+WEEK 1 TOPIC
+Pilot Cognitive Workload Measurement in Tactical Aviation Environments
+
+Why This Is the Correct Week 1 Topic
+1. Central to Human Engineering
+Workload sits at the intersection of:
+	• Attention
+	• Task management
+	• Automation design
+	• Display density
+	• Mission performance
+	• Error risk
+You cannot meaningfully discuss fighter cockpit design without workload.
+
+2. Strong Airworthiness Linkage
+This topic naturally connects to:
+	• MIL-HDBK-516C §15 (Crew Systems / Human Factors)
+	• Workload-related criteria
+	• Display usability requirements
+	• Control accessibility
+	• Mission task performance margins
+It gives you immediate MoC discussion leverage.
+
+3. Strong Evidence Base
+You will be able to cover:
+	• Subjective metrics (NASA-TLX, Bedford)
+	• Physiological metrics (HRV, EEG, pupillometry)
+	• Performance metrics (secondary task, error rate)
+	• Simulator vs live-flight differences
+	• Environmental sensitivity (+Gz, NVG, vibration)
+This gives your first Review Article depth.
+
+4. Strong Airworthiness Artifact Candidate
+Your Week 1 Airworthiness Artifact can be:
+Criterion Deconstruction: Workload Limits in High-Demand Tactical Phases
+That lets you:
+	• Build MoC table
+	• Draft verification blueprint
+	• Define sample logic
+	• Define environmental fidelity logic
+
+5. Sets Up Weeks 2–4
+Workload connects forward to:
+Week 2 → Situation Awareness
+Week 3 → Display Legibility under NVG
+Week 4 → Automation Transparency & Mode Confusion
+It is foundational.
+
+WEEK 1 DELIVERABLES (Locked)
+Review Article:
+/topics/workload/review.adoc
+Title:
+Cognitive Workload Measurement in Tactical Aviation: Methods, Validity, and Certification Implications
+
+Airworthiness Artifact:
+/airworthiness/criteria-deconstruction/workload-criterion.adoc
+
+Journal Summaries (2–3):
+	• One subjective workload study
+	• One physiological workload study
+	• One simulator vs live-flight comparison study
+
+Monday Morning Execution (Next Step)
+Before you start Elicit:
+Write 5 boundary statements:
+	1. Primary construct:
+	2. Included environments:
+	3. Excluded environments:
+	4. Included populations:
+	5. Design decisions influenced:
+Answer those now.
+Then we execute Monday exactly per protocol.
+Real quick, remind me of the topics for each artifact each week for the 10 weeks
+Good. This is the locked 10-week sequence.
+It is deliberately structured so that:
+	• Weeks 1–4 build core pilot cognitive/perceptual foundations
+	• Weeks 5–7 move into interface and control integration
+	• Weeks 8–10 move into certification-level integration and edge conditions
+	• Each week feeds forward into the next
+	• Each topic maps cleanly to airworthiness criteria
+No changes after this.
+
+10-WEEK ARTIFACT TOPIC PLAN
+
+WEEK 1
+Topic: Pilot Cognitive Workload Measurement in Tactical Aviation
+Review Article
+Cognitive workload measurement methods, validity, environmental sensitivity
+Airworthiness Artifact
+Workload-related criterion deconstruction and MoC blueprint
+Journal Summaries
+	• Subjective workload metric study
+	• Physiological workload study
+	• Simulator vs live-flight comparison
+
+WEEK 2
+Topic: Situation Awareness Measurement and Degradation in Dynamic Air Combat
+Review Article
+SA theory (Endsley etc.), SAGAT, SPAM, eye tracking, performance proxies
+Airworthiness Artifact
+SA-related criterion and hazard pathway (e.g., display integration)
+Journal Summaries
+	• SAGAT study
+	• Eye tracking + SA
+	• SA under high workload
+
+WEEK 3
+Topic: Visual Display Legibility and Information Density Under NVG and High Luminance Variability
+Review Article
+Contrast, luminance, symbology density, clutter, NVG effects
+Airworthiness Artifact
+Display legibility criterion + verification blueprint
+Journal Summaries
+	• NVG legibility study
+	• Information density vs performance
+	• Clutter metrics
+
+WEEK 4
+Topic: Automation Transparency, Mode Awareness, and Mode Confusion
+Review Article
+Automation opacity, mode confusion, alerting systems
+Airworthiness Artifact
+Automation-related criterion + MoC strategy
+Journal Summaries
+	• Mode confusion case study
+	• Automation transparency experiment
+	• Alert salience research
+
+WEEK 5
+Topic: Control Accessibility, Reach, and Motor Performance Under High-G Conditions
+Review Article
+Anthropometry, reach envelopes, motor precision, +Gz effects
+Airworthiness Artifact
+Control placement and reach criterion
+Journal Summaries
+	• Reach envelope study
+	• Motor precision under stress
+	• +Gz motor performance study
+
+WEEK 6
+Topic: Multi-Task Management and Task Shedding in Single-Seat Tactical Aircraft
+Review Article
+Task switching, attentional bottlenecks, prioritization failure
+Airworthiness Artifact
+Task saturation hazard pathway + MoC logic
+Journal Summaries
+	• Dual-task interference study
+	• Task shedding experiment
+	• High-tempo mission workload study
+
+WEEK 7
+Topic: Alerting Systems, Salience, and Attention Capture
+Review Article
+Auditory vs visual alerts, urgency mapping, alarm fatigue
+Airworthiness Artifact
+Alert prioritization criterion + compliance simulation candidate
+Journal Summaries
+	• Alarm fatigue study
+	• Multimodal alert study
+	• Urgency mapping research
+
+WEEK 8
+Topic: Human–Machine Teaming and Adaptive Automation
+Review Article
+Adaptive automation, workload-based adaptation, trust calibration
+Airworthiness Artifact
+Human-machine teaming certification logic
+Journal Summaries
+	• Adaptive automation experiment
+	• Trust calibration study
+	• Automation reliability perception study
+
+WEEK 9
+Topic: Pilot Performance Margins Under Stress: Cognitive and Physiological Limits
+Review Article
+Stress effects on cognition, fatigue, hypoxia, vibration
+Airworthiness Artifact
+Performance margin justification logic
+Journal Summaries
+	• Stress + decision accuracy
+	• Fatigue degradation study
+	• Vibration impact study
+
+WEEK 10
+Topic: Verification Strategies for Human Performance Criteria in Advanced Tactical Aircraft
+Review Article
+Meta-level review of verification methods for HE criteria
+Airworthiness Artifact
+Integrated MoC decision framework refinement
+Journal Summaries
+	• Human performance verification study
+	• Certification case analysis
+	• Method comparison study
+
+Structural Logic Across 10 Weeks
+Weeks 1–4 → Cognitive & Perceptual Foundations
+Weeks 5–7 → Interface & Control Integration
+Weeks 8–9 → Advanced & Stress Conditions
+Week 10 → Certification & Verification Integration
+This sequence escalates in sophistication.
+By Week 10, your repo will look like a coherent certification knowledge base.
+
+We are now officially at:
+Week 1 → Pilot Cognitive Workload Measurement in Tactical Aviation
+If you’re ready, give me the 5 boundary statements for Week 1 and we execute Monday exactly per protocol.
+I can’t remember the 5 boundary statements for week 1
+Good. These are not optional. These prevent scope drift.
+For every weekly topic, you must define these five before opening Elicit.
+For Week 1, here they are filled correctly.
+
+WEEK 1 BOUNDARY STATEMENTS
+Topic: Pilot Cognitive Workload Measurement in Tactical Aviation
+
+1. Primary Construct
+Cognitive workload as it relates to pilot task demand, information processing capacity, and performance margin in high-tempo tactical aviation environments.
+Not general stress.
+Not fatigue.
+Not SA except where explicitly tied to workload.
+
+2. Included Environments
+	• High-fidelity fixed-base simulators
+	• Motion simulators (if reported)
+	• Live-flight tactical aviation
+	• Mission-representative scenarios
+	• Time-pressured multi-task environments
+
+3. Excluded Environments
+	• Pure laboratory cognitive tasks with no aviation analogue
+	• Commercial transport CRM-only contexts (unless measurement method relevant)
+	• Clinical workload (surgical, medical) unless measurement validation relevant
+	• Consumer UX workload research
+
+4. Included Populations
+	• Military pilots
+	• Military trainees in aviation contexts
+	• Civilian pilots in high-workload simulations (if operationally relevant)
+	• Experienced simulator subjects performing aviation tasks
+Excluded:
+	• Non-aviation student samples doing generic tasks
+	• Purely undergraduate psych samples without aviation task analog
+
+5. Design Decisions Influenced
+This topic informs decisions about:
+	• Display density limits
+	• Task concurrency allowances
+	• Automation handoff logic
+	• Alert timing and prioritization
+	• Mission phase workload margin
+	• Acceptable performance degradation thresholds
+
+If you keep these five fixed, your review will stay focused and defensible.
+
+Now we execute Monday Morning.
+Step 1:
+Open Elicit and run this exact query:
+	“Empirical quantitative studies measuring cognitive workload in tactical or high-tempo aviation environments. Must report sample size and statistical results. Prefer studies comparing subjective and objective workload metrics.”
+When you have 8–12 strong candidates shortlisted, tell me what you’re seeing.
+Branched from Cohesion Assessment and Audit
+I want to do one more thing. I want to go through mil-std-1472 and explain why each standard is what it is (how do we know this is best?) from a research perspective and what the strength of the claims are, and any other relevant background info about it (maybe interesting applications or interesting facts).
+Thought for 12s
+Yes. This is a strong repo direction, and you can do it without turning it into a never-ending “standards exegesis” project.
+The trick is to treat MIL-STD-1472 as a claim set and build a repeatable evidence-and-strength dossier for each clause (or clause cluster), not a prose commentary.
+What you are building
+A new artifact class in your repo:
+MIL-STD-1472 Evidence Dossier
+Goal: For each requirement, capture:
+	1. what the standard claims (verbatim),
+	2. what type of claim it is (anthropometry, vision, audition, controls, etc.),
+	3. the likely research basis (empirical vs consensus vs legacy constraint),
+	4. strength of evidence, boundary conditions, and failure modes,
+	5. how you would verify it (MoC + verification blueprint),
+	6. “why it exists” in operational terms.
+This directly supports your airworthiness goal and shows IC3 behavior: translating standards into verification logic and evidence packages.
+
+Scope control (so it stays executable)
+MIL-STD-1472 is too large to “explain why each standard is what it is” in one pass.
+So you lock the unit of work as:
+	• 1 dossier per clause cluster (one “tight topic”), or
+	• 1 dossier per subsection (e.g., visual displays, control labeling, workspace reach).
+Each dossier is a standalone artifact, cross-linked into your crosswalk and airworthiness threads.
+
+Evidence strength rubric (use this everywhere)
+You need a consistent rating system so you are not hand-waving.
+Evidence Source Class
+	• A. Direct empirical evidence: controlled studies directly testing the parameter (human performance outcomes).
+	• B. Indirect empirical evidence: studies on underlying mechanism (e.g., contrast sensitivity, reaction time), not exact clause threshold.
+	• C. Consensus / expert committee synthesis: committee-derived requirements, often integrating operational constraints.
+	• D. Legacy / interoperability constraint: carried forward for compatibility, tooling, training, procurement standardization.
+	• E. Safety margin / design conservatism: chosen to bound risk rather than maximize performance.
+Strength Grade
+	• Strong: replicated evidence, parameter sensitivity established, boundary conditions stated, and aviation-relevant contexts exist.
+	• Moderate: evidence supports direction/magnitude but not exact threshold; context mismatch or limited replication.
+	• Weak: little direct evidence; mostly consensus/legacy; threshold appears heuristic.
+	• Unknown: you cannot find traceable basis yet.
+Every clause gets: Source Class + Strength Grade + key boundary condition.
+
+The micro-level workflow (Elicit + ChatGPT + manual verification)
+Step 0: Pick the clause cluster
+Choose a cluster where you can realistically trace evidence. Good starting clusters:
+	• visual display legibility (contrast, size, luminance),
+	• labeling/typography,
+	• auditory warning audibility/intelligibility,
+	• anthropometry/reach/clearance,
+	• control coding and control-display compatibility.
+Step 1: Insert verbatim text (non-negotiable)
+Create a dossier file (example path):
+/standards/mil-std-1472/dossiers/<section>-<topic>.adoc
+Include:
+	• verbatim clause(s),
+	• exact paragraph IDs.
+Step 2: Classify the claim type
+For each clause, classify:
+	• perceptual (vision/audition),
+	• motor/biomech,
+	• cognition/workload,
+	• anthropometry,
+	• safety/escape,
+	• environmental (NVG, vibration, G).
+This determines your evidence search strategy.
+Step 3: Build the research question the clause implies
+Convert the clause into a falsifiable question:
+	• “Does X parameter level reduce error/latency under Y conditions compared to Z?”
+	• “What is the dose-response curve?”
+This prevents you from writing folklore.
+Step 4: Elicit search and extraction
+Use Elicit Find Papers with clause-derived queries:
+	• include synonyms of the requirement (e.g., “legibility”, “character height”, “contrast ratio”, “speech intelligibility”, “alarm audibility”, “reach envelope”).
+Then Extract Data columns:
+	• N, task, environment, IV/DV, threshold tested, performance outcomes, effect size, limitation.
+Step 5: ChatGPT synthesis (strict)
+Prompt pattern:
+“Summarize the evidence relevant to this specific requirement. Separate direct evidence (threshold tested) vs indirect evidence (mechanism). Identify boundary conditions. Do not infer a numeric threshold if none exists.”
+Step 6: Decide evidence class and strength
+Based only on what you found:
+	• If direct evidence exists: likely Strong/Moderate.
+	• If only indirect: Moderate/Weak depending on strength and context match.
+	• If consensus/legacy: mark that explicitly and treat as Weak unless traceability exists.
+Step 7: Add verification logic (airworthiness tie-in)
+For each clause cluster:
+	• Candidate MoC: Inspection / Analysis / Demonstration / Test.
+	• What evidence package would satisfy it.
+	• What environmental fidelity is needed (NVG, +Gz, vibration, workload state).
+Step 8: Crosswalk update
+Add:
+Topic ↔ clause cluster ↔ MoC ↔ evidence strength ↔ related artifacts.
+Step 9: Interesting applications (allowed, but constrained)
+You can add “interesting facts/applications” only if:
+	• they illustrate boundary conditions or failure modes,
+	• they map to a real system or scenario,
+	• they do not become trivia.
+Think: “how this fails in high-G with gloves” is useful. “fun fact” is not.

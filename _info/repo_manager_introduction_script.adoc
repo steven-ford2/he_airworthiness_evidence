@@ -1,0 +1,36 @@
+(Non-self-promotional, professional tone)
+Use this in a 1:1:
+
+“I wanted to show you something I’ve been building that supports both of my goals for the year.
+I realized that as I was studying standards and deepening topic expertise, I needed a structured way to connect human performance evidence directly to airworthiness criteria and Methods of Compliance decisions.
+So I built a Human Engineering airworthiness framework that integrates evidence synthesis, criterion deconstruction, MoC logic, verification strategy design, and traceability into a repeatable process.
+It’s not a documentation exercise — it’s a systems-level way to make our HE contributions more defensible and audit-ready.
+My intention is for this to become a standardized foundation for how we structure HE airworthiness documentation and assessments.
+I’d value your perspective on whether this aligns with how you see HE evolving on the program.”
+
+Notice:
+	• No bragging.
+	• No “I built something amazing.”
+	• Framed as support for goals.
+	• Invites feedback.
+
+You now have:
+	• Goal-aligned self-assessment text
+	• Promotion narrative
+	• Executive slide structure
+	• Leadership conversation script
+If you want to sharpen this even more strategically, the next move would be:
+→ Design a 6-month “IC3 evidence plan” so every artifact you ship maps directly to competency language.
+That would turn this from good positioning into intentional promotion architecture.
+Want to go there?
+Yes I want to do that. But first, turn this project directly into a third formal workday goal (same format as the other two). But don’t over promise in this goal in case I fall short, because I will be rated based on how well I do. 
+Good instinct.
+This needs to:
+	• Be meaningful
+	• Reinforce your other two goals
+	• Signal IC3 progression
+	• But not over-promise volume or outcomes
+	• And give you flexibility if workload shifts
+We’ll mirror the format of your other goals:
+Goal → Description (SMART) → Alignment with Values
+This will position the repo as a process standardization and knowledge integration effort, not a massive production commitment.

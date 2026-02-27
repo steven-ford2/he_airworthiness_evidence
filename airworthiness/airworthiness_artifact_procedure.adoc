@@ -1,0 +1,216 @@
+PROCEDURE 4
+Airworthiness Artifact
+(Location: /airworthiness/criteria-deconstruction/ OR /airworthiness/moc-playbooks/ OR /airworthiness/verification-blueprints/ depending on week)
+We are writing this for a criterion deconstruction + MoC + verification blueprint artifact, which is the standard case.
+You will follow every step in order.
+No skipping.
+
+A. Setup (10–15 minutes)
+	1. Navigate to /airworthiness/criteria-deconstruction/
+	2. Create file: <criterion-short-name>.adoc
+Example: 15-1-8-workload.adoc
+	3. Paste header:
+
+= <Criterion Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:criterion: <Exact standard reference>
+:tags: <criterion, topic, moc, verification>
+	4. Copy the full airworthiness artifact structure template into the file.
+Do not write content yet.
+
+B. Criterion Deconstruction (30–60 minutes)
+Step 1 — Insert Verbatim Criterion
+	5. Open the official standard (MIL-HDBK-516 / MIL-STD-1472).
+	6. Copy the exact paragraph text.
+	7. Paste under:
+
+== 1. Regulatory Source Deconstruction
+=== 1.1 Verbatim Criterion Text
+	8. Confirm:
+	• No paraphrasing.
+	• Exact wording.
+	• Exact paragraph numbering.
+
+Step 2 — Intent Analysis
+	9. In scratchpad, answer:
+	• What failure does this prevent?
+	• What human limitation does it protect?
+	• What hazard pathway exists if violated?
+	10. Open ChatGPT and paste:
+“Given this criterion text, identify the implied human limitation and potential hazard pathway. Do not invent requirements beyond the text.”
+	11. Paste the verbatim criterion text.
+	12. Use output only as brainstorming.
+	13. Write your own 5–10 bullet points under:
+
+=== 1.2 Intent of Criterion
+No prose longer than 5 lines.
+
+Step 3 — Certification Philosophy
+	14. Ask yourself:
+Is this criterion primarily:
+	• Deterministic? (clear threshold)
+	• Probabilistic? (risk reduction)
+	• Performance margin based?
+	• Human error mitigation?
+	15. Write 3–6 bullets under:
+
+=== 1.3 Certification Philosophy
+
+C. Human Engineering Technical Basis (60–120 minutes)
+This section must link to your topic review.
+Step 1 — Identify HE Construct
+	16. Open the relevant review article.
+	17. Identify which construct applies (workload, SA, etc.).
+	18. Under:
+
+== 2. Human Engineering Technical Basis
+=== 2.1 Relevant HE Constructs
+List 1–3 constructs max.
+
+Step 2 — Defensible Metrics
+	19. From your review/systematic review, list:
+	• Objective metrics
+	• Subjective metrics
+	• Performance metrics
+	20. For each metric, write:
+	• What it measures
+	• Known limitations
+	• Environmental sensitivity
+Keep each metric to 4–6 bullets.
+
+Step 3 — Evidence Strength
+	21. Based on your systematic review (if available):
+Classify evidence:
+	• Strong
+	• Moderate
+	• Weak
+	22. Justify classification in 3–6 bullets.
+No vague wording.
+
+D. Hazard & Operational Risk Pathway (45–90 minutes)
+Step 1 — Define Failure Mode
+	23. Write a single-sentence failure statement.
+Example:
+“Excessive cognitive workload during target acquisition may result in delayed threat detection and aircraft survivability reduction.”
+
+Step 2 — Contributing System Factors
+	24. List factors:
+	• Display density
+	• Automation opacity
+	• Control complexity
+	• Environmental stress
+No more than 10 bullets.
+
+Step 3 — Severity Classification
+	25. Map to severity:
+	• Catastrophic
+	• Hazardous
+	• Major
+	• Minor
+	26. Justify in 2–3 bullets.
+
+Step 4 — Human Error Mechanism
+	27. Identify:
+	• Attentional tunneling
+	• Task shedding
+	• Motor degradation
+	• Communication breakdown
+Write as bullet list.
+
+E. Method of Compliance (MoC) Table (30–60 minutes)
+Step 1 — Brainstorm with ChatGPT
+	28. Prompt:
+“Given this criterion and these HE constructs, list possible Methods of Compliance (Inspection, Analysis, Demonstration, Test) and what evidence would support each.”
+	29. Use output as brainstorming only.
+
+Step 2 — Populate Table
+Insert:
+
+[options="header"]
+|===
+| MoC Type | Description | Required Evidence | Primary/Supporting
+
+| Inspection | | |
+| Analysis | | |
+| Demonstration | | |
+| Test | | |
+|===
+	30. Fill each row with:
+	• Specific evidence type
+	• Concrete artifact
+	• Mark Primary or Supporting
+If a row is not applicable, write “Not appropriate for this criterion” with reason.
+
+F. Verification Strategy Blueprint (60–120 minutes)
+Step 1 — Define Test Architecture
+	31. Write:
+	• Platform (sim level)
+	• Subject population
+	• Sample size rationale (qualitative ok if no data yet)
+	• Environmental stress inclusion
+
+Step 2 — Define Variables
+	32. List IVs and DVs clearly.
+	33. Ensure DVs align with HE metrics identified earlier.
+
+Step 3 — Statistical Validation Plan
+	34. Define:
+	• Target effect size (if literature-based)
+	• Minimum N logic
+	• CI or equivalence testing approach
+	• Success criteria logic
+Do not invent numeric thresholds unless supported by literature.
+
+G. Cross-Functional Integration Impact (30–60 minutes)
+For each:
+	• Avionics
+	• Software
+	• Flight test
+	• Supplier oversight
+	35. Write 3–6 bullets per category.
+You may use ChatGPT to brainstorm but you must filter.
+
+H. Traceability & Risk (30–60 minutes)
+Step 1 — Requirement Flowdown
+	36. Write:
+Standard → System Req → Subsystem Req → Interface Spec
+Even if placeholders.
+
+Step 2 — Verification Mapping
+	37. Write:
+Req ID → MoC → Test Event → Evidence Artifact
+
+Step 3 — Certification Risk
+	38. Write:
+	• Risk description
+	• Probability (Low/Medium/High)
+	• Severity
+	• Mitigation strategy
+
+I. Cross-Linking (10 minutes)
+	39. Add:
+
+== Related Artifacts
+xref:../../topics/<topic>/review.adoc[]
+xref:../../process/he-airworthiness-framework.adoc[]
+	40. Ensure tags include:
+	• topic
+	• moc
+	• verification
+	• standard reference
+	• risk
+
+J. Final Self-Check Before Audit
+	41. Confirm:
+	• Verbatim criterion text present.
+	• No invented thresholds.
+	• All MoC rows justified.
+	• Environmental constraints discussed.
+	• Risk included.
+	• Cross-links working.
+Stop.

@@ -1,0 +1,130 @@
+PROCEDURE 7
+Process Framework Update
+(Location: /process/he-airworthiness-framework.adoc)
+This procedure is run:
+	• At the end of every week
+	• After any Compliance Simulation
+	• After discovering a structural weakness in templates
+	• Before producing a quarterly brief
+You are not rewriting the framework each week.
+You are making targeted, version-controlled refinements.
+
+A. Setup (5 minutes)
+	1. Navigate to /process/
+	2. Open he-airworthiness-framework.adoc
+	3. Increment :revnumber: (example: 0.1 → 0.2)
+	4. Update :revdate: to today
+Never update content without version increment.
+
+B. Identify Trigger for Update (10 minutes)
+Before touching content, write in scratchpad:
+“What did I learn this week that affects the process?”
+Examples:
+	• MoC decision ambiguity
+	• Risk register unclear
+	• Verification blueprint missing guidance
+	• Traceability mapping too vague
+	• Authority chain not well defined
+If no learning occurred, do not force an update.
+
+C. Categorize the Update (5 minutes)
+Label the update as one of:
+	1. Clarification (improving wording)
+	2. Structural refinement (adding sub-step)
+	3. Decision logic refinement (MoC or verification)
+	4. Risk integration refinement
+	5. Governance refinement
+	6. Template standardization
+Write this label in scratchpad.
+
+D. Targeted Modification Procedure (20–60 minutes)
+Only modify the section impacted.
+If Clarification:
+	5. Rewrite ambiguous bullets into operational language.
+	6. Replace vague terms like “appropriate” with decision criteria.
+	7. Break long paragraphs into bullets.
+
+If Structural Refinement:
+	8. Add a sub-step to the appropriate phase.
+Example:
+Under Phase 5 – Verification Strategy:
+Add:
+“5.4 Environmental Fidelity Validation”
+	9. Ensure numbering stays consistent.
+
+If Decision Logic Refinement:
+	10. Update:
+moc-decision-tree.adoc
+	11. Ensure:
+	• New branch logic clear
+	• Conditions measurable
+	• No circular logic
+	12. Reference updated decision logic in framework.
+
+If Risk Integration Refinement:
+	13. Strengthen:
+Section 11 (Certification Risk Integration)
+Add:
+	• Trigger thresholds
+	• Risk escalation path
+	• Environmental mismatch warning
+
+If Governance Refinement:
+	14. Update:
+Section 12 (Governance and Review Gates)
+Add:
+	• Review checkpoint timing
+	• Artifact readiness criteria
+	• Approval signature logic
+
+If Template Standardization:
+	15. Navigate to /process/templates/
+	16. Modify the specific template
+	17. Ensure backward compatibility
+	18. Update references inside framework
+
+E. Integration Consistency Check (10–15 minutes)
+After modification:
+	19. Ask:
+	• Does this change contradict any earlier section?
+	• Does this introduce new ambiguity?
+	• Does it require a crosswalk update?
+	• Does it require template revision?
+If yes, update those immediately.
+
+F. Add Update Log Entry (5 minutes)
+At bottom of framework, create or update:
+
+== Revision History
+
+|===
+| Version | Date | Change Summary
+
+| 0.2 | 2026-XX-XX | Clarified MoC decision logic for workload-heavy criteria.
+|===
+Every update must be logged.
+This is promotion evidence.
+
+G. Weekly Closure Check (5 minutes)
+Before finishing, confirm:
+	• Revision number incremented
+	• Revision log updated
+	• Crosswalk reflects changes
+	• Templates consistent
+	• No orphaned logic
+
+Time Expectation
+Most weeks: 15–30 minutes
+Major structural week: 45–60 minutes
+If you are spending 2+ hours weekly, you are over-editing.
+
+Why This Procedure Matters
+This demonstrates:
+• Process ownership
+• Continuous improvement
+• Structured decision refinement
+• Governance literacy
+• Traceability discipline
+This is explicit IC3 behavior.
+
+

@@ -1,0 +1,130 @@
+{
+  "project_name": "Human Engineering Evidence Repo 2026",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "single_select",
+      "options": [
+        "Backlog",
+        "Ready",
+        "In Progress",
+        "In Review",
+        "Blocked",
+        "Done"
+      ]
+    },
+    {
+      "name": "Artifact Type",
+      "type": "single_select",
+      "options": [
+        "Journal Summary",
+        "Review Article",
+        "Systematic Review",
+        "Airworthiness Artifact",
+        "Compliance Simulation",
+        "Standards Dossier",
+        "Crosswalk Update",
+        "Framework Update",
+        "Repo Admin"
+      ]
+    },
+    {
+      "name": "Month",
+      "type": "single_select",
+      "options": [
+        "M1-Feb",
+        "M2-Mar",
+        "M3-Apr",
+        "M4-May",
+        "M5-Jun",
+        "M6-Jul",
+        "M7-Aug",
+        "M8-Sep",
+        "M9-Oct",
+        "M10-Nov"
+      ]
+    },
+    {
+      "name": "Effort",
+      "type": "single_select",
+      "options": [
+        "XS (\u22641h)",
+        "S (1\u20132h)",
+        "M (3\u20135h)",
+        "L (6\u201310h)",
+        "XL (10h+)"
+      ]
+    },
+    {
+      "name": "Evidence Strength Target",
+      "type": "single_select",
+      "options": [
+        "Strong",
+        "Moderate",
+        "Weak",
+        "Unknown"
+      ]
+    },
+    {
+      "name": "Hours Planned",
+      "type": "number"
+    },
+    {
+      "name": "Hours Actual",
+      "type": "number"
+    },
+    {
+      "name": "Due Date",
+      "type": "date"
+    },
+    {
+      "name": "Topic",
+      "type": "text"
+    },
+    {
+      "name": "Standard Ref",
+      "type": "text"
+    },
+    {
+      "name": "Linked Artifact Path",
+      "type": "text"
+    }
+  ],
+  "views": [
+    {
+      "name": "Board \u2013 Status",
+      "type": "board",
+      "group_by": "Status"
+    },
+    {
+      "name": "Board \u2013 Month",
+      "type": "board",
+      "group_by": "Month"
+    },
+    {
+      "name": "Table \u2013 All Work",
+      "type": "table",
+      "columns": [
+        "Status",
+        "Due Date",
+        "Month",
+        "Artifact Type",
+        "Topic",
+        "Effort",
+        "Hours Planned",
+        "Linked Artifact Path"
+      ]
+    },
+    {
+      "name": "Table \u2013 This Week",
+      "type": "table",
+      "filter": "Week = current AND Status != Done",
+      "sort": "Due Date asc"
+    },
+    {
+      "name": "Board \u2013 Artifact Type",
+      "type": "board",
+      "group_by": "Artifact Type"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+PROCEDURE 3
+Systematic Review
+Output location: /evidence/systematic-reviews/
+Output file name: <topic>-systematic-review-<YYYY>.adoc
+Example: workload-metrics-systematic-review-2026.adoc
+This is an execution script. Follow one instruction at a time.
+
+A. Setup (10 minutes)
+	1. Navigate to /evidence/systematic-reviews/.
+	2. Create a new file: <topic>-systematic-review-<YYYY>.adoc.
+	3. Paste this header (edit only placeholders):
+
+= <Systematic Review Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:topic: <topic>
+:tags: <comma-separated tags>
+	4. In a scratchpad, fill these fields:
+	• Review question (1 sentence):
+	• Population:
+	• Context/environment:
+	• Intervention/exposure:
+	• Comparator (if any):
+	• Outcomes:
+	• Study designs included:
+	• Year range:
+	• Databases/tool used (Elicit + any others):
+Do not proceed until all fields are filled.
+
+B. Define the protocol (15–25 minutes)
+	5. In the .adoc file, create a section called == 1. Protocol and paste this structure:
+
+== 1. Protocol
+
+=== 1.1 Review Question
+<One sentence>
+
+=== 1.2 Eligibility Criteria
+Inclusion:
+- Population:
+- Context:
+- Outcomes:
+- Study designs:
+- Year range:
+- Language:
+
+Exclusion:
+- Non-empirical
+- No quantitative results
+- No N reported
+- Purely theoretical/opinion
+
+=== 1.3 Information Sources
+- Elicit (date run: <YYYY-MM-DD>)
+- Additional sources (if any):
+
+=== 1.4 Screening Process
+- Title/abstract screening (rules below)
+- Full-text screening (rules below)
+
+=== 1.5 Data Extraction Plan
+- Extraction fields (listed below)
+
+=== 1.6 Synthesis Plan
+- Narrative synthesis approach
+- If meta-analysis is not feasible, state why
+	6. Fill in 1.1–1.3 immediately using your scratchpad.
+
+C. Elicit: Create the search (20–40 minutes)
+	7. Open Elicit.
+	8. Go to Systematic Review workflow.
+	9. Enter your review question exactly as written in section 1.1.
+	10. Add 2–4 query variants (Elicit lets you broaden). Use this pattern:
+	• Variant 1: broad topic + aviation
+	• Variant 2: broad topic + “simulator” OR “high workload”
+	• Variant 3: key metric terms
+	• Variant 4: key outcome terms
+Example for workload measurement:
+	• “workload measurement aviation objective subjective”
+	• “workload metric simulator fighter pilot”
+	• “NASA-TLX heart rate variability EEG workload”
+	• “workload performance error rate response time”
+	11. Set date range and any filters you decided in protocol.
+	12. Run the search and let Elicit build the candidate set.
+
+D. Elicit: Title/Abstract screening (45–90 minutes)
+	13. Create a screening decision rule and stick to it:
+Title/Abstract INCLUDE if:
+	• Clearly empirical, and
+	• Mentions your outcome(s) or measurement type, and
+	• Environment is aviation or clearly aviation-analog, and
+	• Likely quantitative
+Title/Abstract EXCLUDE if:
+	• Theoretical/opinion only, or
+	• Not your construct, or
+	• No measurement of your outcomes, or
+	• Purely medical/clinical with no transfer relevance (unless your protocol includes it)
+	14. In Elicit screening UI, screen every record once.
+	15. If uncertain, mark as “Maybe/Include for full text.” Do not exclude on uncertainty.
+	16. When done, export the screening list (or copy the included list into your scratchpad).
+
+E. Full-text retrieval and full-text screening (60–180 minutes)
+	17. For each included/maybe paper, attempt full-text access.
+	18. Create a local folder for PDFs (outside repo is fine) and download what you can.
+	19. For any paper without full text:
+	• Mark as “Full text unavailable” in your scratchpad.
+	• Keep it in the PRISMA accounting but exclude from synthesis unless abstract has sufficient quantitative detail (rare).
+	20. Perform full-text eligibility using stricter rules:
+Full-text INCLUDE only if all are true:
+	• Empirical with real N
+	• Reports at least one quantitative outcome relevant to your review
+	• Describes environment sufficiently (sim/lab/live)
+	• Provides enough method detail to interpret results
+	21. For each paper you full-text screen, record:
+	• Include/Exclude
+	• Exclusion reason (pick one standardized reason)
+Standard exclusion reasons (use these exact labels):
+	• Not empirical
+	• Wrong construct/outcome
+	• Wrong population/context
+	• Insufficient quantitative reporting
+	• Full text unavailable
+	• Duplicate
+	22. When full-text screening complete, count:
+	• Total records found
+	• Duplicates removed
+	• Excluded title/abstract
+	• Full-text assessed
+	• Full-text excluded (with counts by reason)
+	• Included final
+Put these numbers into == 2. Study Selection later.
+
+F. Data extraction (Elicit + manual verification) (90–240 minutes)
+Step F1 — Build the extraction table in Elicit
+	23. In Elicit, run Extract Data on the final included studies.
+	24. Create these columns exactly (copy/paste):
+	• Citation
+	• Year
+	• Sample size (N) and groups
+	• Population description
+	• Task / scenario
+	• Environment (sim/live/lab; fidelity if stated)
+	• Independent variables / conditions
+	• Dependent variables (metrics)
+	• Key quantitative results (verbatim stats)
+	• Effect sizes / CI (if reported)
+	• Primary limitation (authors)
+	• Notes on ecological validity
+	• Notes relevant to airworthiness (MoC/evidence type)
+	25. Run extraction.
+	26. Export the extraction table.
+Step F2 — Manual verification pass (mandatory)
+	27. For each included paper, open the PDF.
+	28. Verify and correct (in your extraction table or scratchpad):
+	• N
+	• Environment
+	• What the metric actually measures (operationalization)
+	• The primary result values
+	29. If Elicit extracted a statistic incorrectly or without context, fix it or mark:
+	• “Not extractable reliably”
+	30. Identify at least one of these per paper:
+	• Major confound
+	• Ecological validity concern
+	• Measurement limitation
+
+G. Elicit: Generate the initial draft (30–60 minutes)
+	31. In Elicit, generate the draft report narrative from your included studies.
+	32. Export/copy the narrative and any Elicit-generated summary tables.
+Do not treat this as final text. It’s framing material only.
+
+H. ChatGPT: Restructure into a systematic review document (20–40 minutes)
+	33. Open ChatGPT.
+	34. Paste this prompt, then paste (a) your protocol section, (b) the extraction table, (c) Elicit narrative draft.
+Prompt:
+“Create a systematic review draft using ONLY the supplied protocol and extraction table. Use the structure below exactly. Do not invent citations or results. If evidence is missing, write ‘Not reported.’ Where Elicit narrative makes claims not supported by the extraction table, flag with [VERIFY] and do not include as fact.
+Required structure:
+	1. Protocol (as provided)
+	2. Study Selection (with PRISMA-style counts)
+	3. Study Characteristics (table summary + narrative)
+	4. Results by Theme (group studies; cite by author-year)
+	5. Strength of Evidence and Limitations
+	6. Airworthiness and Methods of Compliance Implications
+	7. Gaps and Recommendations
+	8. References (author-year list only, no formatting needed)”
+	9. Copy ChatGPT output into your .adoc file.
+
+I. Manual paragraph-by-paragraph correction (90–240 minutes)
+	36. Starting from the top of the document, do this for every paragraph:
+	• Confirm every claim is supported by your extraction table or the PDF.
+	• If not supported, delete it or change to uncertainty language.
+	• Replace any [VERIFY] flagged claims by either:
+		○ Verifying in PDF and adding the correct detail, or
+		○ Removing the claim entirely
+	37. For “Results by Theme,” enforce this rule:
+	• Every theme must list which studies support it.
+	• Every theme must mention at least one boundary condition (environment/population/metric limitation).
+	38. In “Strength of Evidence,” explicitly separate:
+	• Measurement validity limitations
+	• Ecological validity limitations
+	• Statistical limitations (power, multiple comparisons, model choice)
+	• Generalizability limitations
+
+J. Airworthiness integration section (30–60 minutes)
+	39. Create this section if not already present:
+
+== 6. Airworthiness and Methods of Compliance Implications
+
+=== 6.1 Relevant Standards
+- <MIL-HDBK-516 section placeholders ok>
+- <MIL-STD-1472 section placeholders ok>
+
+=== 6.2 Candidate Methods of Compliance
+[options="header"]
+|===
+| MoC Type | Where Evidence Supports It | Evidence Artifact Types
+
+| Inspection | | |
+| Analysis | | |
+| Demonstration | | |
+| Test | | |
+|===
+
+=== 6.3 Certification Risk Considerations
+- Evidence gaps that prevent strong compliance claims
+- Environmental mismatches (+Gz/NVG/noise)
+- Measurement ambiguity or lack of thresholds
+	40. Populate the MoC table using only what your included studies actually support.
+	41. If no included studies support a MoC row, write “Evidence insufficient” rather than guessing.
+
+K. Cross-linking (10–15 minutes)
+	42. At the end, add:
+
+== Related Artifacts
+xref:../../topics/<topic>/review.adoc[]
+xref:../../airworthiness/moc-playbooks/<relevant-file>.adoc[]
+xref:../../process/he-airworthiness-framework.adoc[]
+	43. Add tags (8–15):
+	• topic
+	• measurement types
+	• environment
+	• MoC tags
+	• standards tags
+
+L. Final formatting pass (15–25 minutes)
+	44. Convert long paragraphs into bullets where possible.
+	45. Ensure no paragraph exceeds 10 lines.
+	46. Ensure all counts in Study Selection are internally consistent.
+	47. Ensure every included paper appears in:
+	• Study Characteristics
+	• At least one Results theme
+	• References list
+	48. Save the file.
+
+M. End state requirements (must be true)
+	49. Your systematic review must contain:
+	• A written protocol
+	• Screening counts
+	• Extraction-driven results
+	• Explicit limitations
+	• Airworthiness implications with MoC table
+	• Cross-links to topic + process
+	50. Stop. Now run the systematic review audit (we will create it next, separate), and revise until it passes.

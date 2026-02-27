@@ -1,0 +1,82 @@
+AUDIT CHECKLIST 2
+Review Article
+(Location: /topics/<topic>/review.adoc)
+
+SECTION A — Structural Integrity
+	• All 10 sections present
+	• Section order matches template exactly
+	• MoC table populated
+	• Related artifacts linked
+	• Standards referenced in metadata
+If structure deviates → FAIL.
+
+SECTION B — Evidence Backbone
+	• At least 8 empirical primary studies referenced
+	• At least 6 verified via PDF
+	• No claims traceable only to Elicit summary
+	• All numeric claims verified against source
+	• No fabricated thresholds
+	• Contradictory findings acknowledged
+
+SECTION C — Theoretical Precision
+	• Construct defined precisely
+	• Competing models acknowledged (if applicable)
+	• No generic historical filler
+	• No unsupported “consensus” statements
+
+SECTION D — Measurement Rigor
+For each metric discussed:
+	• Measurement mechanism explained
+	• Sensitivity limits discussed
+	• Confounds identified
+	• Environmental robustness evaluated
+	• Limitations explicitly stated
+
+SECTION E — Context Awareness
+	• Simulator vs live-flight distinction explicit
+	• High-stress environment discussion included
+	• NVG, +Gz, noise addressed or marked absent
+	• Population type clearly described
+If context missing → FAIL.
+
+SECTION F — Engineering Discipline
+For each design implication:
+	• Directly traceable to evidence
+	• Environment-specific
+	• Includes uncertainty statement
+	• Avoids absolute claims
+	• Does not imply compliance automatically
+
+SECTION G — Airworthiness & MoC Section
+	• Specific standards named (not generic)
+	• MoC table filled in all cells
+	• At least one example evidence artifact listed per MoC
+	• Certification risk areas identified
+	• Ambiguity in standard interpretation acknowledged
+	• Linked to at least one airworthiness artifact
+
+SECTION H — Cross-Functional Awareness
+	• Avionics implications mentioned
+	• Software/logging implications considered
+	• Flight test implications considered
+	• Supplier implications considered (if relevant)
+
+SECTION I — Language Discipline
+	• No paragraph > 10 lines
+	• No motivational language
+	• No filler
+	• No unsupported adjectives
+	• Clear bullet structuring
+
+SECTION J — Promotion Signal Check
+This is the IC3 audit layer.
+	• Demonstrates independent structuring of approach
+	• Demonstrates systems-level thinking
+	• Identifies cross-domain integration
+	• Shows risk-awareness
+	• Demonstrates regulatory literacy
+If this section feels weak → strengthen Airworthiness and Cross-Functional sections.
+
+PASS STANDARD
+Minimum 90% compliance overall.
+100% required in Sections A, B, and G.

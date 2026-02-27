@@ -1,0 +1,92 @@
+How to start (Week 0 / First dossier)
+If you want maximum early payoff, start with a cluster that supports cockpit interface decisions and ties into Week 1–3 topics:
+Pick one:
+	1. Visual display legibility requirements (feeds Week 3)
+	2. Auditory warning intelligibility/audibility requirements (feeds Week 6–7)
+	3. Control labeling/coding requirements (feeds Week 5–7)
+If you tell me which cluster you want first, I’ll generate:
+	• the exact Elicit search strings (3–5 variants),
+	• the extraction table column set tailored to that cluster,
+	• and the clause-to-research-question rewrites you can paste into your dossier.
+1 - do that first. But I also want two other things (you can execute back to back with permissions). Second I want extremely detailed step by step instructions for completing this, in the form of a “readme” style doc for this folder. Second I want a compiler adoc where I will link all the individual adoc files as they are completed. 
+Thought for a few seconds
+1) Visual display legibility dossier starter (MIL-STD-1472 “Visual Displays” cluster)
+This gives you (a) the clause-to-research-question rewrites, (b) Elicit search strings, and (c) the extraction columns tailored to legibility requirements. You will paste these into your first dossier and into Elicit.
+A. Clause cluster definition (what you are covering first)
+Start with the “visual display legibility” cluster typically spanning requirements about:
+	• character height / stroke width / font
+	• luminance, contrast, polarity (positive/negative)
+	• ambient lighting adaptation, glare/reflections
+	• symbol density/clutter and spacing
+	• viewing distance/angle, accommodation
+	• color coding and color discrimination
+	• NVIS/NVG compatibility (where applicable)
+Your dossier unit-of-work is: one coherent subcluster per file (not an entire chapter).
+Recommended first dossier: character legibility + contrast (because it’s the most traceable to vision science and has the cleanest evidence pathways).
+
+B. Clause-to-research-question rewrites (copy/paste into dossier Section 3)
+Use these as the “implied empirical questions.” They prevent folklore.
+RQ1: Character size and recognition performance
+	• Implied question: What minimum character angular size (arcmin/deg) yields acceptable reading accuracy and response time for the intended viewing distance and display type under operational lighting?
+	• Primary DVs: reading accuracy (% correct), time-to-read, error types, detection latency.
+	• Primary boundary conditions: viewing distance, font type, stroke width, display resolution, vibration, workload.
+RQ2: Contrast/polarity and legibility
+	• Implied question: What contrast levels (or contrast ratios) sustain legibility across ambient luminance ranges, and how do polarity (light-on-dark vs dark-on-light) and glare change performance?
+	• Primary DVs: contrast threshold, recognition accuracy, search time, fatigue proxies.
+	• Boundary conditions: ambient luminance transitions, veiling glare, age/vision correction, display technology.
+RQ3: Clutter and information density
+	• Implied question: At what symbol density or spacing do search time and error rates increase materially for representative tasks?
+	• Primary DVs: visual search time, miss/false alarm, head-down time, dwell time.
+	• Boundary conditions: task type, salience, grouping rules, training, workload.
+RQ4: Viewing angle and off-axis degradation
+	• Implied question: How does off-axis viewing affect contrast/legibility and task performance for the intended display technology?
+	• Primary DVs: contrast degradation, accuracy/time, detection.
+	• Boundary conditions: display type (LCD/OLED), polarizer, cockpit geometry.
+RQ5: Color coding and discrimination (if your clause uses color)
+	• Implied question: Which color pairs remain discriminable under cockpit illumination and NVIS constraints, and what failure modes occur (confusions, salience inversion)?
+	• Primary DVs: discrimination accuracy, confusion matrix, response time.
+	• Boundary conditions: NVG filters, ambient spectrum, display primaries, CVD prevalence assumptions.
+
+C. Elicit “Find Papers” search strings (use 4 tabs)
+Run these as separate searches. Save results into one Elicit collection for the dossier.
+Search Tab 1 (direct: legibility thresholds + displays):
+cockpit display legibility character height stroke width contrast ratio luminance
+Search Tab 2 (mechanism: vision science + applied display text):
+visual acuity legibility angular character size stroke width contrast sensitivity display reading
+Search Tab 3 (context: aviation + NVG/NVIS + lighting transitions):
+NVIS NVG compatible displays luminance contrast glare readability cockpit
+Search Tab 4 (clutter / density / symbology):
+cockpit symbology clutter information density visual search error rate head down time
+Optional fifth tab (if you need human factors standards traceability):
+MIL-STD-1472 visual display legibility character size contrast basis study
+
+D. Elicit extraction columns (tailored to legibility clauses)
+Use Extract Data on your included set and create these columns exactly:
+	1. Display technology (CRT/LCD/OLED/HUD/HMD/etc.)
+	2. Viewing distance and viewing angle
+	3. Character or symbol size (reported units) + if angular size derivable
+	4. Stroke width / font / typography characteristics
+	5. Contrast definition used (Michelson/Weber/ratio) and values
+	6. Ambient luminance conditions (range, transitions)
+	7. Glare/veiling luminance present? (Y/N) + how induced
+	8. Task type (reading, search, detection, tracking)
+	9. Performance outcomes (accuracy, RT, error rate, head-down time)
+	10. Operational population (pilots, trainees, non-pilots) + N
+	11. Key quantitative result (copy test stat/p/CI if present)
+	12. Threshold tested? (Y/N) If yes, what threshold and outcome criterion
+	13. Primary limitation (ecological validity / display realism / sample)
+	14. Notes on NVG/NVIS constraints (if any)
+	15. Evidence mapping note: direct threshold vs indirect mechanism
+
+E. What your first dossier file should be named (convention)
+Create a standards dossier folder path like:
+/standards/mil-std-1472/dossiers/
+First file recommendation:
+visual-displays-legibility-character-size-contrast.adoc
+That file becomes your “anchor” dossier for the whole visual display legibility family.
+
+F. The exact ChatGPT prompt for structuring the dossier (paste after extraction)
+Use this prompt with your extraction table + verbatim clauses:
+“Draft a MIL-STD-1472 evidence dossier using the exact section headers in my template. Use ONLY the verbatim clause text and the extraction table facts. Separate direct evidence (threshold explicitly tested) vs indirect evidence (mechanism/proxy). If no direct evidence exists for a numeric requirement, state that and classify as indirect/consensus. Flag any statement not supported by the extraction table with [VERIFY].”
+
+If you execute the above once, you now have a reusable “standard dossier engine” for every 1472 cluster.

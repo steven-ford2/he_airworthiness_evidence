@@ -1,0 +1,178 @@
+Artifact Type 1: Journal Article Summary
+(Location: /evidence/journal-summaries/)
+
+Journal Summary Time:
+	• 30 min Elicit search
+	• 20 min extraction
+	• 30–60 min verification + structured writeup
+10 min ChatGPT logic check
+
+JOURNAL ARTICLE SUMMARY
+Purpose
+This artifact:
+• Builds your technical depth
+• Feeds review articles
+• Supplies defensible evidence to airworthiness artifacts
+• Strengthens statistical fluency
+• Is repeatable at high frequency
+This is your “reps” artifact.
+
+MASTER CHECKLIST (Non-Negotiable)
+You must complete all items before marking finished.
+Selection Phase
+	• Empirical primary-source article
+	• Aviation-relevant OR transferable to aviation
+	• Includes objective measurement
+	• Reports statistical results (p-values or effect sizes)
+Extraction Phase
+	• Sample size (N)
+	• Population type (pilot/civilian/etc.)
+	• Experimental environment (sim, live, static lab)
+	• Independent variables
+	• Dependent variables
+	• Statistical results extracted verbatim
+	• Effect sizes noted
+	• Limitations noted
+Interpretation Phase
+	• Operational implications written
+	• Environmental stressors discussed
+	• Certification relevance paragraph written
+	• Linked to at least one topic folder
+	• Linked to at least one airworthiness artifact
+
+STEP-BY-STEP PROCEDURE
+STEP 1 – Select the Paper (30–45 min)
+Search using:
+• Aviation context
+• Specific measurable variable
+• Clear statistical analysis
+Reject if:
+• Pure theory
+• No real N
+• No statistical rigor
+• Marketing-style conclusions
+
+STEP 2 – Extract Core Metadata (20 min)
+Create new file:
+/evidence/journal-summaries/<topic>-<author>-<year>.adoc
+Populate:
+
+= <Paper Title>
+:authors:
+:year:
+:journal:
+:topic:
+:environment:
+:tags:
+
+STEP 3 – Structured Summary (60–90 min)
+Use this exact structure:
+
+== 1. Core Question
+
+What specific operational question is being tested?
+
+== 2. Methodology
+
+N =
+Population =
+Environment =
+Hardware used =
+Design type =
+
+== 3. Variables
+
+Independent Variables:
+Dependent Variables:
+
+== 4. Statistical Results
+
+Exact reported statistics:
+p-values:
+Effect sizes:
+Confidence intervals:
+
+== 5. Operational Implications
+
+What changes in cockpit behavior does this imply?
+
+== 6. Environmental Constraints
+
+Was +Gz tested?
+Noise?
+Vibration?
+NVG?
+Simulator level?
+
+== 7. Limitations
+
+Ecological validity:
+Sample bias:
+Statistical concerns:
+
+== 8. Airworthiness Relevance
+
+Potential affected criteria:
+Likely MoC category:
+Evidence strength for certification:
+No prose paragraphs longer than 5 lines.
+No fluff.
+
+STEP 4 – Cross-Linking (10 min)
+Add:
+
+== Related Artifacts
+xref:../../topics/workload/review.adoc[]
+xref:../../airworthiness/criteria-deconstruction/15-1-8-workload.adoc[]
+
+DAY-BY-DAY MICRO-SCHEDULE (If Done Within a Week)
+If you're batching 3 summaries in one week:
+Day 1
+Select and read Paper 1
+Extract metadata
+Day 2
+Write structured summary for Paper 1
+Day 3
+Select and read Paper 2
+Day 4
+Write structured summary for Paper 2
+Day 5
+Select and read Paper 3
+Day 6
+Write structured summary for Paper 3
+Day 7
+Review all 3
+Check statistical accuracy
+Add cross-links
+
+DEFINITION OF DONE
+A Journal Summary is complete when:
+• All checklist boxes are checked
+• Statistics are exact (no paraphrasing)
+• Certification relevance section is filled
+• Cross-links exist
+• Tags are populated
+• No editorial fluff exists
+
+FAILURE CONDITIONS
+If any of these occur, the artifact is rejected:
+• You summarize without listing actual N
+• You paraphrase stats without reporting values
+• You omit environment description
+• You fail to link to airworthiness
+• You make design claims not supported by results
+
+Time Expectation
+First few: 2–3 hours each
+After 10 reps: 60–90 minutes each
+This becomes automatic.
+
+Why This Matters
+Over 10 weeks, if you produce:
+3 summaries per week × 8 weeks = 24 high-quality evidence artifacts
+That creates:
+• Deep topic mastery
+• Ready-to-use citations
+• Statistical confidence
+• Certification defensibility
+This feeds everything else.

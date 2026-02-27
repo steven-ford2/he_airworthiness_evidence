@@ -1,0 +1,7 @@
+/evidence/ (Research Backbone)
+This is where:
+• Journal summaries
+• Systematic reviews
+• Extracted tables
+live.
+This keeps the system defensible.

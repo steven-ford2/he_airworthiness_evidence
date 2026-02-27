@@ -1,0 +1,58 @@
+= <Review Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:topic: <topic>
+:standards: <MIL-HDBK-516C §__, MIL-STD-1472H §__>
+:tags: <comma-separated tags>
+	4. Paste the full review structure (leave content blank for now):
+
+== 1. Executive Summary
+
+== 2. Theoretical Foundations
+
+== 3. Measurement Methods
+
+=== 3.1 Objective Metrics
+
+=== 3.2 Subjective Metrics
+
+=== 3.3 Comparative Validity
+
+== 4. Experimental Contexts Reviewed
+
+== 5. Methodological Strengths and Weaknesses
+
+== 6. Engineering Design Implications
+
+== 7. Airworthiness and Methods of Compliance Implications
+
+=== 7.1 Relevant Standards
+
+=== 7.2 Potential Methods of Compliance
+[options="header"]
+|===
+| MoC Type | Application in This Topic | Evidence Required
+
+| Inspection | |
+| Analysis | |
+| Demonstration | |
+| Test | |
+|===
+
+=== 7.3 Certification Risk Considerations
+
+== 8. Open Research and Certification Gaps
+
+== 9. Definition of Done Checklist
+
+== 10. Related Artifacts
+Example:
+
+xref:../../airworthiness/criteria-deconstruction/<file>.adoc[]
+xref:../../airworthiness/moc-playbooks/<file>.adoc[]
+xref:../../process/he-airworthiness-framework.adoc[]
+Populate :tags: with 8–15 tags.
