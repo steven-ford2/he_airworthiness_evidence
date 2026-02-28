@@ -1,0 +1,64 @@
+= Airworthiness Artifacts Index
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: 0000-00-00
+:author: <Your Name>
+:tags: airworthiness, certification, moc, verification, risk
+
+== Purpose
+This index is the navigational backbone for the airworthiness layer of HE_AIRWORTHINESS_EVIDENCE.
+
+It links:
+* Criteria deconstructions (standard text and intent)
+* Methods of Compliance (MoC) playbooks
+* Verification blueprints (test architectures and validation plans)
+* Risk register entries
+* Compliance simulations (mock executions)
+
+== Folder Map
+* /airworthiness/criteria-deconstruction/
+* /airworthiness/moc-playbooks/
+* /airworthiness/verification-blueprints/
+* /airworthiness/compliance-simulations/
+* /airworthiness/risk-register/
+
+== Criteria Deconstruction
+////
+Add new xrefs here as you create criterion artifacts.
+Naming convention examples:
+- 15-1-8-workload.adoc
+- 15-2-visual-display.adoc
+////
+* xref:criteria-deconstruction/15-1-8-workload.adoc[15.1.8 Pilot Workload]
+* xref:criteria-deconstruction/<file>.adoc[<Criterion Title>]
+
+== MoC Playbooks
+////
+Reusable compliance logic by domain. Add as created.
+////
+* xref:moc-playbooks/workload-moc-playbook.adoc[Workload MoC Playbook]
+* xref:moc-playbooks/lighting-moc-playbook.adoc[Lighting MoC Playbook]
+* xref:moc-playbooks/<topic>-moc-playbook.adoc[<Topic> MoC Playbook]
+
+== Verification Blueprints
+////
+Full verification strategy documents.
+////
+* xref:verification-blueprints/<file>.adoc[<Verification Blueprint Title>]
+
+== Risk Register
+////
+One entry per human engineering certification risk.
+////
+* xref:risk-register/<risk-id>.adoc[<Risk Title>]
+
+== Compliance Simulations
+////
+Mock execution cases that exercise the MoC and verification plan.
+////
+* xref:compliance-simulations/<case-id>.adoc[<Case Title>]
+
+== Related High-Level Process
+* xref:../process/he-airworthiness-framework.adoc[HE Airworthiness Framework Process]

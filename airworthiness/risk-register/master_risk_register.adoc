@@ -1,0 +1,119 @@
+= Human Engineering Certification Risk Register
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: 0000-00-00
+:author: <Your Name>
+:tags: risk, certification, airworthiness, human-engineering
+
+////
+PURPOSE
+Centralized register of human engineering certification risks.
+
+Each entry must:
+- Be tied to a specific criterion or domain.
+- Include hazard pathway logic.
+- Include mitigation strategy.
+- Include regulatory ambiguity assessment.
+- Include environmental mismatch risk.
+
+No vague risks.
+No generic language.
+////
+
+== 1. Risk Classification Definitions
+
+Severity Categories:
+* Catastrophic
+* Hazardous
+* Major
+* Minor
+
+Probability Categories:
+* High
+* Medium
+* Low
+
+Regulatory Ambiguity:
+* Clear
+* Moderate Interpretation Required
+* High Interpretation Risk
+
+== 2. Active Risk Table
+
+[options="header"]
+|===
+| Risk ID
+| Domain
+| Related Criterion
+| Failure Mode
+| Severity
+| Probability
+| Regulatory Ambiguity
+| Environmental Mismatch Risk
+| Mitigation Strategy
+| Evidence Gap
+| Owner
+| Status
+
+| R-001
+| <Domain>
+| <Standard Ref>
+| <Failure statement>
+| <Severity>
+| <Probability>
+| <Ambiguity Level>
+| <Yes/No + description>
+| <Mitigation action>
+| <What data is missing>
+| <Owner>
+| <Open/Closed/In Progress>
+
+| R-002
+| <Domain>
+| <Standard Ref>
+| <Failure statement>
+| <Severity>
+| <Probability>
+| <Ambiguity Level>
+| <Yes/No + description>
+| <Mitigation action>
+| <What data is missing>
+| <Owner>
+| <Open/Closed/In Progress>
+
+|===
+
+== 3. Linked Risk Narratives
+
+Risk narrative file:
+* xref:risk_narratives.adoc[Risk Narrative Summaries]
+
+== 4. Risk Escalation Criteria
+
+A risk must be escalated when:
+
+* Evidence strength classified as Weak
+* Environmental stress not yet tested
+* Regulatory language ambiguous
+* MoC justification challenged
+* Human variability insufficiently addressed
+
+== 5. Periodic Review Requirements
+
+* Review frequency: Quarterly or before major design review
+* Update when:
+** New empirical data acquired
+** New standard revision released
+** New hazard discovered
+** Verification failure occurs
+
+== 6. Cross-Linking
+
+////
+Link to related criteria or MoC playbooks.
+////
+* xref:../criteria-deconstruction/<file>.adoc[]
+* xref:../moc-playbooks/<file>.adoc[]
+* xref:../verification-blueprints/<file>.adoc[]

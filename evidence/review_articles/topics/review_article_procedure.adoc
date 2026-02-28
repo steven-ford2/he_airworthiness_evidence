@@ -1,0 +1,157 @@
+PROCEDURE 2
+Review Article
+Output location: /topics/<topic>/review.adoc
+This procedure assumes you will let Elicit draft the initial narrative, then ChatGPT reshapes it into your fixed template, then you update paragraph-by-paragraph using PDFs.
+A. Setup (10 minutes)
+	1. Navigate to: /topics/<topic>/
+	2. Create or open: review.adoc
+	3. Paste this header if not present:
+
+= <Review Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:topic: <topic>
+:standards: <MIL-HDBK-516C §__, MIL-STD-1472H §__>
+:tags: <comma-separated tags>
+	4. Paste the full review structure (leave content blank for now):
+
+== 1. Executive Summary
+
+== 2. Theoretical Foundations
+
+== 3. Measurement Methods
+
+=== 3.1 Objective Metrics
+
+=== 3.2 Subjective Metrics
+
+=== 3.3 Comparative Validity
+
+== 4. Experimental Contexts Reviewed
+
+== 5. Methodological Strengths and Weaknesses
+
+== 6. Engineering Design Implications
+
+== 7. Airworthiness and Methods of Compliance Implications
+
+=== 7.1 Relevant Standards
+
+=== 7.2 Potential Methods of Compliance
+
+=== 7.3 Certification Risk Considerations
+
+== 8. Open Research and Certification Gaps
+
+== 9. Definition of Done Checklist
+
+== 10. Related Artifacts
+	5. In a scratchpad, write 5 boundary statements (one line each):
+		○ Primary construct:
+		○ Included environments:
+		○ Excluded environments:
+		○ Included populations:
+		○ Intended design decisions influenced:
+B. Elicit: Generate initial draft (45–90 minutes)
+	6. Open Elicit.
+	7. Start Research Report workflow.
+	8. Paste this prompt template and fill brackets:
+Prompt:
+“Synthesize empirical literature on [TOPIC] in aviation or aviation-analog operational environments. Include foundational theories, measurement methods, and methodological limitations. Ground all claims in data (N, effect sizes, p-values) where available. Exclude non-empirical opinion pieces. Output should be structured with headings suitable for a technical review.”
+	9. In the workflow, ensure it retrieves a broad set (aim 30–80 papers).
+	10. When Elicit produces the report:
+	• Export/copy the report text.
+	11. Also export/copy any tables or extracted evidence lists produced by Elicit.
+C. ChatGPT: Restructure into your exact template (20–30 minutes)
+	12. Open ChatGPT.
+	13. Paste this prompt first:
+“Reorganize the draft below into my fixed review template exactly. Preserve technical content but remove fluff. If the draft makes claims without evidence, flag them in-line with [VERIFY] tags. Do not invent citations. Keep paragraphs short and technical.
+Template sections:
+1 Executive Summary
+2 Theoretical Foundations
+3 Measurement Methods (Objective, Subjective, Comparative Validity)
+4 Experimental Contexts
+5 Methodological Strengths/Weaknesses
+6 Engineering Design Implications
+7 Airworthiness and MoC Implications (Relevant Standards, MoC table, Risk)
+8 Open Gaps”
+	14. Paste the Elicit draft after the prompt.
+	15. Copy ChatGPT’s reorganized output into review.adoc.
+D. Build the evidence backbone (60–120 minutes)
+	16. From Elicit’s included/cited papers list, select 8–12 core empirical papers.
+	17. For each paper, create a one-line entry in your scratchpad:
+	• Citation, N, environment, key metric, key finding, limitation
+	18. Open PDFs for at least the top 6 papers (full text).
+	19. Verify the highest-impact claims from the draft:
+	• any numeric threshold claim
+	• any “X is better than Y” claim
+	• any statement about simulator vs live flight
+If you cannot verify a claim, delete or rephrase as uncertain.
+E. Paragraph-by-paragraph correction (90–180 minutes)
+You will now iterate through the review in order.
+	20. Section 1: Executive Summary
+	• Ensure it reflects only verified themes.
+	• Remove any [VERIFY] claims.
+	21. Section 2: Theoretical Foundations
+	• Keep it conceptual but precise.
+	• Add 1–2 theory citations if you have them in your evidence set.
+	22. Section 3: Measurement Methods
+	• For each metric, state:
+		○ what it measures
+		○ sensitivity/limitations
+		○ context sensitivity
+	• If you have no data, state “Evidence limited.”
+	23. Section 4: Experimental Contexts
+	• Explicitly name environment classes:
+		○ sim fidelity
+		○ live flight
+		○ NVG
+		○ +Gz
+		○ vibration
+	24. Section 5: Limitations
+	• List limitations as bullets.
+	• Each bullet should reference a concrete reason.
+	25. Section 6: Engineering implications
+	• Only include implications you can defend.
+	• Tie each implication to at least one evidence bullet in your scratchpad.
+	26. Section 7: Airworthiness and MoC implications
+	• Add standards pointers (even if placeholders until you finalize exact paragraphs).
+	• Populate MoC table (next step).
+	27. Section 8: Open gaps
+	• Separate:
+		○ research gaps
+		○ certification gaps
+		○ measurement gaps
+F. Populate MoC table (15–30 minutes)
+	28. Under 7.2, insert this table:
+
+[options="header"]
+|===
+| MoC Type | Application in This Topic | Evidence Required
+
+| Inspection | |
+| Analysis | |
+| Demonstration | |
+| Test | |
+|===
+	29. Fill each cell with short phrases.
+	30. For each MoC row, add one example evidence artifact type (test report, analysis output, etc.) as text in the cell.
+G. Link and tag (10–15 minutes)
+	31. Under “Related Artifacts,” add links to:
+	• at least 1 airworthiness criterion deconstruction
+	• at least 1 MoC playbook (if exists)
+	• the process framework
+Example:
+
+== 10. Related Artifacts
+xref:../../airworthiness/criteria-deconstruction/<file>.adoc[]
+xref:../../airworthiness/moc-playbooks/<file>.adoc[]
+xref:../../process/he-airworthiness-framework.adoc[]
+	32. Populate :tags: with 8–15 tags.
+H. Run your audit checklist (end)
+	33. Run the Review Article audit checklist you already requested.
+	34. Fix any failed items immediately.

@@ -1,0 +1,187 @@
+= Method Of Compliance Playbook Template
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: 0000-00-00
+:author: <Your Name>
+:domain: <workload | lighting | visual-display | hotas | auditory | etc>
+:tags: moc, compliance, certification, <domain>
+
+////
+PURPOSE
+Reusable compliance logic for recurring human engineering domains.
+
+This is NOT a criterion deconstruction.
+This is reusable MoC architecture across multiple standards.
+
+No invented thresholds.
+No generic compliance claims.
+Every MoC must identify concrete evidence artifacts.
+////
+
+== 0. Scope
+
+* Domain: <e.g., Pilot Workload>
+* Applicable Standards:
+** MIL-HDBK-516 (list sections)
+** MIL-STD-1472 (list sections)
+** Other applicable guidance (if relevant)
+
+* Operational Context:
+** <fighter cockpit, high-G, NVG, etc.>
+
+== 1. Human Engineering Construct Summary
+
+* Primary Constructs:
+** <Construct 1>
+** <Construct 2>
+** <Construct 3>
+
+* Primary Risk Categories:
+** Cognitive overload
+** Visual misinterpretation
+** Motor degradation
+** Communication failure
+** Other (domain specific)
+
+== 2. Compliance Philosophy by MoC Type
+
+=== 2.1 Inspection
+
+* Appropriate When:
+** Physical attributes are directly observable
+** Deterministic design criteria exist
+
+* Inappropriate When:
+** Performance margin must be empirically demonstrated
+** Human variability is dominant
+
+* Typical Evidence:
+** Engineering drawings
+** Configuration audit
+** Requirements matrix
+** Design compliance checklist
+
+=== 2.2 Analysis
+
+* Appropriate When:
+** Analytical models exist (timeline analysis, workload modeling)
+** Data simulation is feasible
+
+* Inappropriate When:
+** Empirical validation required by hazard severity
+
+* Typical Evidence:
+** Task timeline analysis
+** Queuing model output
+** Monte Carlo simulation
+** Statistical model validation
+
+=== 2.3 Demonstration
+
+* Appropriate When:
+** Controlled scenario replication possible
+** SME evaluation required
+
+* Inappropriate When:
+** Hazard classification requires quantitative validation
+
+* Typical Evidence:
+** Demonstration video
+** SME sign-off
+** Scenario evaluation checklist
+
+=== 2.4 Test
+
+* Appropriate When:
+** Criterion involves performance margin
+** Environmental stressors relevant
+** Human variability affects outcome
+
+* Typical Evidence:
+** Formal test report
+** Raw data archive
+** Statistical analysis report
+** Traceable configuration record
+
+== 3. Evidence Architecture
+
+[options="header"]
+|===
+| Evidence Artifact | MoC Type | Data Owner | Configuration Control Required | Audit Sensitivity
+
+| <artifact> | <Inspection/Analysis/Demonstration/Test> | <domain owner> | <Yes/No> | <High/Medium/Low>
+| <artifact> | <Inspection/Analysis/Demonstration/Test> | <domain owner> | <Yes/No> | <High/Medium/Low>
+|===
+
+== 4. Environmental Stress Mapping
+
+////
+Must explicitly discuss environmental factors.
+If not relevant, state why.
+////
+
+* +Gz
+* Vibration
+* NVG compatibility
+* High noise
+* Time pressure
+* Fatigue
+* Thermal stress
+
+For each relevant factor:
+* Impact on compliance logic
+* Impact on MoC selection
+* Additional evidence required
+
+== 5. Cross-Domain Integration Dependencies
+
+=== 5.1 Avionics
+* <data timing requirements>
+* <refresh constraints>
+* <display architecture constraints>
+
+=== 5.2 Software
+* <logging requirements>
+* <algorithm transparency>
+* <failure state visibility>
+
+=== 5.3 Flight Test
+* <sortie burden>
+* <instrumentation needs>
+* <data integrity considerations>
+
+=== 5.4 Supplier Oversight
+* <data package expectations>
+* <SOW clauses>
+* <acceptance criteria>
+
+== 6. Reusable Compliance Logic Summary
+
+////
+Summarize 5–10 rules that can be reused across criteria.
+These should reflect certification philosophy.
+////
+
+* <rule>
+* <rule>
+* <rule>
+* <rule>
+* <rule>
+
+== 7. Known Certification Pitfalls
+
+* Overreliance on SME opinion
+* No environmental stress inclusion
+* No statistical sufficiency logic
+* No traceable requirement linkage
+* Incomplete MoC justification
+
+== 8. Related Criteria
+
+////
+Link to criteria-deconstruction artifacts using this playbook.
+////
+* xref:../criteria-deconstruction/<file>.adoc[]
+* xref:../criteria-deconstruction/<file>.adoc[]

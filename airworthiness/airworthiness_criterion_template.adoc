@@ -1,0 +1,304 @@
+= <Criterion Title>
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+:criterion: <Exact standard reference>
+:tags: <criterion, topic, moc, verification, risk>
+
+////
+AIRWORTHINESS CRITERION ARTIFACT TEMPLATE
+Use for:
+- Criteria Deconstruction
+- Method of Compliance Development
+- Verification Blueprint Definition
+
+Hard Rules:
+- Verbatim standard text only (no paraphrasing).
+- No invented thresholds.
+- No speculative requirements.
+- All MoC rows populated or explicitly justified.
+- Environmental constraints addressed.
+- Risk entry created if applicable.
+////
+
+== 1. Regulatory Source Deconstruction
+
+=== 1.1 Verbatim Criterion Text
+
+////
+Copy exact paragraph text from MIL-HDBK-516 or MIL-STD-1472.
+Include exact numbering and formatting.
+No paraphrasing.
+////
+
+<Insert verbatim criterion text here>
+
+=== 1.2 Intent of Criterion
+
+////
+5–10 bullets maximum.
+No prose longer than 5 lines.
+No added requirements.
+////
+
+* <Bullet>
+* <Bullet>
+* <Bullet>
+
+=== 1.3 Certification Philosophy
+
+////
+Classify and justify:
+- Deterministic
+- Probabilistic
+- Performance margin-based
+- Human error mitigation
+3–6 bullets.
+////
+
+* <Bullet>
+* <Bullet>
+* <Bullet>
+
+== 2. Human Engineering Technical Basis
+
+=== 2.1 Relevant HE Constructs
+
+////
+List 1–3 constructs maximum.
+Example: workload, situational awareness, motor control precision.
+////
+
+* <Construct 1>
+* <Construct 2>
+
+=== 2.2 Defensible Metrics
+
+==== Objective Metrics
+
+////
+For each metric:
+- What it measures
+- Known limitations
+- Environmental sensitivity
+4–6 bullets per metric.
+////
+
+* <Metric name>
+** Measures:
+** Limitations:
+** Environmental sensitivity:
+
+==== Subjective Metrics
+
+* <Metric name>
+** Measures:
+** Limitations:
+** Environmental sensitivity:
+
+==== Performance Metrics
+
+* <Metric name>
+** Measures:
+** Limitations:
+** Environmental sensitivity:
+
+=== 2.3 Evidence Strength Classification
+
+////
+Classify as:
+- Strong
+- Moderate
+- Weak
+
+Justify in 3–6 bullets.
+No vague wording.
+////
+
+* Evidence Strength: <Classification>
+* Justification:
+** <Bullet>
+** <Bullet>
+
+== 3. Hazard & Operational Risk Pathway
+
+=== 3.1 Failure Mode Statement
+
+////
+Single sentence only.
+////
+
+<Failure statement>
+
+=== 3.2 Contributing System Factors
+
+////
+Max 10 bullets.
+System-level factors only.
+////
+
+* <Factor>
+* <Factor>
+
+=== 3.3 Severity Classification
+
+* Severity Level: <Catastrophic | Hazardous | Major | Minor>
+* Justification:
+** <Bullet>
+** <Bullet>
+
+=== 3.4 Human Error Mechanisms
+
+////
+Identify theoretical mechanisms.
+////
+
+* Attentional tunneling
+* Task shedding
+* Motor degradation
+* Communication breakdown
+* <Other>
+
+== 4. Method of Compliance (MoC)
+
+////
+Brainstorm separately.
+Populate deliberately.
+No blank rows.
+////
+
+[options="header"]
+|===
+| MoC Type | Description | Required Evidence | Primary/Supporting
+
+| Inspection
+| <Description>
+| <Concrete artifact>
+| <Primary/Supporting>
+
+| Analysis
+| <Description>
+| <Concrete artifact>
+| <Primary/Supporting>
+
+| Demonstration
+| <Description>
+| <Concrete artifact>
+| <Primary/Supporting>
+
+| Test
+| <Description>
+| <Concrete artifact>
+| <Primary/Supporting>
+
+|===
+
+== 5. Verification Strategy Blueprint
+
+=== 5.1 Test Architecture
+
+* Platform (sim level):
+* Subject population:
+* Sample size rationale:
+* Environmental stress inclusion:
+
+=== 5.2 Variables
+
+* Independent Variables (IV):
+** <IV>
+
+* Dependent Variables (DV):
+** <DV>
+** <DV>
+
+Ensure alignment with Section 2 metrics.
+
+=== 5.3 Statistical Validation Plan
+
+////
+No fabricated numeric thresholds.
+Use literature-based logic only.
+////
+
+* Target effect size (if known):
+* Minimum N rationale:
+* CI or equivalence testing approach:
+* Success criteria logic:
+
+== 6. Cross-Functional Integration Impact
+
+=== Avionics
+
+* <Display architecture implications>
+* <Timing/refresh implications>
+
+=== Software
+
+* <Logging implications>
+* <Algorithm transparency / HITL validation>
+
+=== Flight Test
+
+* <Sortie burden>
+* <Environmental window constraints>
+
+=== Supplier Oversight
+
+* <Data package requirements>
+* <SOW implications>
+
+== 7. Traceability & Risk
+
+=== 7.1 Requirement Flowdown
+
+Standard → System Requirement → Subsystem Requirement → Interface Specification
+
+* <Mapping>
+
+=== 7.2 Verification Mapping
+
+Req ID → MoC → Test Event → Evidence Artifact
+
+* <Mapping>
+
+=== 7.3 Certification Risk
+
+* Risk Description:
+* Probability: <Low | Medium | High>
+* Severity:
+* Mitigation Strategy:
+
+== 8. Environmental Considerations
+
+////
+Explicitly address if applicable.
+If not applicable, justify.
+////
+
+* +Gz:
+* NVG compatibility:
+* Noise:
+* Vibration:
+* Thermal:
+* Fatigue / Time pressure:
+
+== 9. Related Artifacts
+
+* xref:../../topics/<topic>/review.adoc[]
+* xref:../../process/he-airworthiness-framework.adoc[]
+* xref:../../airworthiness/risk-register/risk_register.adoc[]
+
+////
+FINAL SELF CHECK (before audit)
+
+Confirm:
+- Verbatim criterion present
+- No invented thresholds
+- All MoC rows justified
+- Environmental constraints discussed
+- Risk included
+- Cross-links functional
+////

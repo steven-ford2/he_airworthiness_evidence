@@ -11,7 +11,7 @@ A. Setup (10–15 minutes)
 	2. Create file using naming convention.
 	3. Paste header:
 
-= <System/Feature> Compliance Simulation – <Criterion>
+= <System Feature> Compliance Simulation <Criterion>
 :doctype: article
 :toc: left
 :sectnums:
