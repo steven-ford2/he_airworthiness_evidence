@@ -1,0 +1,71 @@
+= Fighter Human Engineering Airworthiness Knowledge System
+:doctype: article
+:toc: left
+:sectnums:
+
+== Purpose
+
+This repository documents the structured development of:
+
+1. A comprehensive Human Engineering Airworthiness Documentation and Assessment Process.
+2. Deep technical mastery of essential Human Engineering tools and topics relevant to fighter aircraft pilot-vehicle interaction.
+
+The system is designed to:
+- Integrate technical Human Engineering knowledge with airworthiness compliance.
+- Standardize Methods of Compliance (MoC) selection and verification planning.
+- Provide traceable, reusable artifacts aligned with MIL-HDBK-516 and MIL-STD-1472.
+- Serve as a relational knowledge base for future program execution.
+
+== Strategic Objectives Supported
+
+=== Goal 1: Develop and Implement a Human Engineering Airworthiness Process
+
+- Criteria deconstruction (MIL-HDBK-516 / MIL-STD-1472)
+- Methods of Compliance playbooks
+- Verification strategy blueprints
+- Certification risk integration
+- MBSE traceability hooks
+
+=== Goal 2: Gain Comprehensive Familiarity with Essential HE Tools and Topics
+
+- Workload measurement
+- Situational awareness
+- Lighting
+- Modified Rhyme Test and communications
+- Unclassified interfaces
+- Physical interaction modalities
+
+Each topic artifact explicitly connects technical mastery to airworthiness application.
+
+== Repository Architecture
+
+=== Topics (Technical Mastery Layer)
+xref:topics/workload/review.adoc[]
+xref:topics/situational-awareness/review.adoc[]
+xref:topics/lighting/review.adoc[]
+
+=== Airworthiness (Compliance & Integration Layer)
+xref:airworthiness/criteria-deconstruction/[]
+xref:airworthiness/moc-playbooks/[]
+xref:airworthiness/verification-blueprints/[]
+
+=== Process Framework (Capstone Deliverable)
+xref:process/he-airworthiness-framework.adoc[]
+
+=== Crosswalks
+xref:crosswalks/topic-to-criterion-mapping.adoc[]
+
+== Design Philosophy
+
+This repository enforces:
+
+- Bidirectional coupling between technical HE topics and airworthiness compliance.
+- Standardized artifact templates.
+- Explicit MoC logic.
+- Cross-functional impact identification.
+- Risk-aware verification strategy design.
+- Traceable requirement-to-evidence mapping.
+
+This is not a literature collection.
+It is a structured, reusable Human Engineering Airworthiness system.
+<img width="624" height="1601" alt="image" src="https://github.com/user-attachments/assets/d9940acc-2b1d-446d-bd0b-c99d4a770313" />
