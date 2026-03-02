@@ -1,0 +1,264 @@
+= MSR-03: Electronic Warfare Displays and Attentional Capture
+:artifact_type: MSR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on how electronic warfare (EW) and threat-warning display characteristics (RWR/EW symbology, prioritization cues, alert modalities, nuisance rate, uncertainty presentation) influence pilot attention allocation, cognitive tunneling, decision accuracy, and mission performance in tactical or high-tempo aviation contexts.
+
+This review focuses on: attentional capture, alert storms, nuisance/false alarm effects, and trust/reliance behaviors.
+
+SECTION 1 — IDENTIFYING RELEVANT STUDIES
+
+== 1.1 EW / Threat-Warning Displays in Aviation
+
+=== Semantic Queries
+
+What empirical studies evaluate threat-warning or EW display design in aviation?
+
+What research examines radar warning receiver (RWR) alerting and pilot performance?
+
+What studies evaluate threat prioritization displays under multi-threat conditions?
+
+What experiments test different alert modalities (audio/visual/haptic) for threat warnings?
+
+What empirical research exists on nuisance warnings and alert credibility in aviation?
+
+=== Keyword Searches
+
+"radar warning receiver" AND human factors
+
+"RWR" AND cockpit AND performance
+
+"threat warning display" AND aviation
+
+"electronic warfare display" AND pilot
+
+"threat prioritization" AND cockpit
+
+"nuisance warning" AND aviation
+
+"false alarm" AND warning AND pilot
+
+== 1.2 Attention Allocation and Cognitive Tunneling in Threat Contexts
+
+=== Semantic Queries
+
+How do threat warnings affect pilot visual scanning and attention allocation?
+
+What evidence exists for cognitive tunneling triggered by threat alerts?
+
+How do alert storms influence performance in safety-critical domains?
+
+What is the effect of high alert density on detection of other critical cues?
+
+=== Keyword Searches
+
+"cognitive tunneling" AND warning AND aviation
+
+"attentional capture" AND alarm AND cockpit
+
+"alert storm" AND aviation
+
+"alarm flooding" AND pilot
+
+"high alert density" AND performance
+
+SECTION 2 — EXTRACTION COLUMNS (ADD TO BASE SR SCHEMA)
+
+Add these columns in Elicit.
+
+=== EW/Warning System Characteristics
+
+Warning type (EW/RWR, missile warning, generic threat warning)
+
+Threat prioritization present (Y/N)
+
+Priority encoding method (size/color/flashing/position/audio tone/etc.)
+
+Uncertainty/confidence shown (Y/N)
+
+Source attribution shown (Y/N)
+
+Declutter/filtering available (Y/N)
+
+=== Alert Modality
+
+Visual only / audio only / combined / haptic / other
+
+Alert rate (if reported)
+
+False alarm rate (if reported)
+
+Nuisance warning discussed (Y/N)
+
+=== Attention and Behavior Outcomes
+
+Visual scanning metrics used (Y/N)
+
+Fixation concentration / dwell time changes
+
+Missed cue rate (if reported)
+
+Attentional tunneling observed (Y/N)
+
+Task shedding observed (Y/N)
+
+=== Performance Outcomes
+
+Decision accuracy
+
+Reaction time / response latency
+
+Mission performance metric
+
+Error rate
+
+=== Trust / Compliance Outcomes
+
+Compliance rate to warnings
+
+Alarm response rate decline over time
+
+Reported trust/credibility measure (if any)
+
+=== Context Coding
+
+High tempo/time pressure present (Y/N)
+
+Multi-threat scenario (Y/N)
+
+Contested/degraded environment simulated (Y/N)
+
+Military aviation / high-performance analog / other domain
+
+SECTION 3 — MECHANISMS (WHY THE EFFECTS OCCUR)
+
+== 3.1 Priority Cueing and Salience Effects
+
+=== Semantic Queries
+
+Which priority cueing methods most strongly capture attention?
+
+Do highly salient alerts improve response time at the cost of missed peripheral cues?
+
+How do different salience levels trade off speed vs accuracy?
+
+=== Keyword Searches
+
+"salience" AND warning AND reaction time
+
+"priority cue" AND attention
+
+"visual salience" AND alarm AND performance
+
+"tradeoff" AND warning AND missed cues
+
+== 3.2 Nuisance and False Alarm Effects (Alarm Fatigue)
+
+=== Semantic Queries
+
+How does false alarm rate influence compliance and trust?
+
+What levels of nuisance warnings lead to ignoring alerts?
+
+How does alarm fatigue manifest in aviation or similar domains?
+
+=== Keyword Searches
+
+"alarm fatigue" AND aviation
+
+"false alarm rate" AND compliance AND warning
+
+"nuisance alarms" AND trust
+
+"cry wolf effect" AND warning system
+
+SECTION 4 — CONTEXT SENSITIVITY
+
+== 4.1 Time Pressure and Multi-Tasking
+
+=== Semantic Queries
+
+How does time pressure change pilot responses to threat warnings?
+
+How does multitasking load influence missed-cue rates during alerts?
+
+Under what conditions do pilots task-shed due to warning load?
+
+=== Keyword Searches
+
+"time pressure" AND warning response
+
+"multitasking" AND alarm AND missed cues
+
+"task shedding" AND aviation
+
+"high workload" AND warning compliance
+
+== 4.2 Contested / Degraded Information Integrity
+
+=== Semantic Queries
+
+What happens when warning reliability is degraded by deception or noise?
+
+How do pilots respond to ambiguous or uncertain threat warnings?
+
+Do uncertainty displays reduce tunneling or increase hesitation?
+
+=== Keyword Searches
+
+"warning reliability" AND uncertainty AND performance
+
+"ambiguous warning" AND decision making
+
+"uncertainty visualization" AND warning system
+
+"spoofing" AND warning display (if available)
+
+SECTION 5 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+
+What warning display designs reduce attentional tunneling while preserving timely response?
+
+What evidence supports adaptive filtering or declutter of warnings?
+
+How should uncertainty and reliability be communicated to calibrate trust?
+
+What verification metrics should be used to validate EW warning effectiveness?
+
+=== Keyword Searches
+
+"adaptive alarm" AND aviation
+
+"alarm filtering" AND performance
+
+"uncertainty communication" AND warning display
+
+"trust calibration" AND alarm system
+
+"warning system validation" AND aviation
+
+STOP CONDITIONS
+
+Stop when:
+
+≥ 35 empirical studies included
+
+≥ 10 directly involve aviation threat/warning displays (or high-fidelity military analogs)
+
+≥ 10 report attention/scanning outcomes or missed-cue measures
+
+≥ 10 quantify false alarm or nuisance effects (or credibility/compliance decline)
+
+≥ 5 evaluate different alert modalities
+
+≥ 5 examine multi-threat or alert storm conditions
+
+≥ 5 address uncertainty/reliability communication
+
+If insufficient:
+
+Expand to ATC alerts, medical alarm fatigue, nuclear/industrial warning research, then map findings back to aviation via context coding.

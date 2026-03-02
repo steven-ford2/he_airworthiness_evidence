@@ -1,0 +1,389 @@
+= CRR-01: Workload Theory and Resource Models in Tactical Aviation
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize workload theory (Multiple Resource Theory, capacity models, dual-task theory) and translate it into certification-relevant claims for tactical aviation.
+
+This is theory integration with targeted empirical support.
+
+SECTION 1 — THEORETICAL FOUNDATIONS
+
+=== Semantic Queries
+
+What are the primary cognitive workload theories relevant to aviation?
+
+What is Multiple Resource Theory and how does it apply to cockpit task management?
+
+How do capacity models explain task interference?
+
+What are the limits of cognitive throughput under multitasking?
+
+=== Keyword Searches
+
+"Multiple Resource Theory" AND aviation
+
+"cognitive capacity model" AND pilot
+
+"dual-task interference" AND cockpit
+
+"resource competition" AND multitasking
+
+SECTION 2 — TASK INTERFERENCE IN TACTICAL CONTEXTS
+
+=== Semantic Queries
+
+How does multitasking affect pilot performance in high-tempo scenarios?
+
+What empirical evidence supports workload overload thresholds?
+
+How does resource competition differ across modalities (visual, auditory, manual)?
+
+=== Keyword Searches
+
+"multitasking" AND tactical aviation
+
+"overload threshold" AND pilot
+
+"modality interference" AND cockpit
+
+"dual task" AND fighter
+
+SECTION 3 — LIMITATIONS OF CURRENT WORKLOAD MEASURES
+
+=== Semantic Queries
+
+Where do subjective workload measures fail in predicting performance?
+
+Do physiological measures reliably detect overload?
+
+Are workload scores predictive of error or only subjective strain?
+
+=== Keyword Searches
+
+"workload predictive validity" AND aviation
+
+"NASA-TLX limitations"
+
+"physiological workload" AND pilot performance
+
+SECTION 4 — CERTIFICATION IMPLICATIONS
+
+=== Semantic Queries
+
+How should workload theory inform airworthiness criteria?
+
+What constitutes defensible evidence that workload is acceptable?
+
+What measurable thresholds support certification arguments?
+
+=== Keyword Searches
+
+"workload certification" AND aviation
+
+"human performance requirements" AND military aircraft
+
+"airworthiness human factors" AND workload
+
+STOP CONDITION
+
+Stop when:
+
+≥ 15 foundational theoretical sources
+
+≥ 20 aviation-relevant empirical overload studies
+
+Clear articulation of overload threshold logic
+
+Clear mapping to measurable verification metrics
+
+=========================================================
+CRR-02
+
+Situational Awareness Theory and Certification Implications
+
+=========================================================
+= CRR-02: Situational Awareness Theory and Certification Implications
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize situational awareness theory and translate SA constructs into certifiable performance claims and verification strategies.
+
+SECTION 1 — SA THEORY FOUNDATIONS
+
+=== Semantic Queries
+
+What are the major theoretical models of situational awareness?
+
+What are Levels 1, 2, and 3 SA?
+
+What criticisms exist of traditional SA theory?
+
+How does ecological or distributed cognition theory reinterpret SA?
+
+=== Keyword Searches
+
+"Endsley situational awareness"
+
+"Level 1 Level 2 Level 3 SA"
+
+"situational awareness theory critique"
+
+"distributed cognition" AND aviation
+
+SECTION 2 — MECHANISMS OF SA DEGRADATION
+
+=== Semantic Queries
+
+How does high workload degrade SA?
+
+How does automation influence SA maintenance?
+
+What role does display clutter play in SA decay?
+
+=== Keyword Searches
+
+"SA degradation" AND workload
+
+"automation" AND situational awareness
+
+"display clutter" AND SA
+
+SECTION 3 — MEASUREMENT AND DEFENSIBILITY
+
+=== Semantic Queries
+
+What methods validly measure SA?
+
+Are SA measures predictive of operational performance?
+
+What limitations exist in SAGAT-like measures?
+
+=== Keyword Searches
+
+"SAGAT validity"
+
+"SA measurement" AND aviation
+
+"predictive validity" AND situational awareness
+
+SECTION 4 — CERTIFICATION TRANSLATION
+
+=== Semantic Queries
+
+How can SA be translated into measurable system requirements?
+
+What constitutes sufficient evidence that SA is maintained?
+
+How should SA risk be framed in airworthiness arguments?
+
+=== Keyword Searches
+
+"situational awareness requirement" AND aviation
+
+"human performance verification" AND SA
+
+"airworthiness human factors" AND awareness
+
+STOP CONDITION
+
+≥ 15 foundational theory papers
+
+≥ 20 empirical aviation SA studies
+
+Clear mapping from SA construct → measurable variable → verification method
+
+=========================================================
+CRR-03
+
+Human Error, Mode Confusion, and Automation Surprise
+
+=========================================================
+= CRR-03: Human Error, Mode Confusion, and Automation Surprise
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize error theory (slips, mistakes, violations), automation surprise research, and mode confusion mechanisms to derive certifiable design constraints.
+
+SECTION 1 — HUMAN ERROR THEORY
+
+=== Semantic Queries
+
+What are the primary taxonomies of human error in safety-critical systems?
+
+How do slips and mistakes differ?
+
+What systemic factors contribute to operator error?
+
+=== Keyword Searches
+
+"Reason human error model"
+
+"slips and mistakes" AND aviation
+
+"human error taxonomy" AND cockpit
+
+SECTION 2 — MODE CONFUSION MECHANISMS
+
+=== Semantic Queries
+
+What cognitive mechanisms drive mode confusion?
+
+How does hidden state contribute to automation surprise?
+
+What evidence links annunciation failures to accidents?
+
+=== Keyword Searches
+
+"mode confusion" AND aviation
+
+"automation surprise" AND cockpit
+
+"hidden mode" AND pilot error
+
+SECTION 3 — SYSTEM DESIGN CONTRIBUTIONS
+
+=== Semantic Queries
+
+What interface features increase mode confusion risk?
+
+What mitigations reduce automation misunderstanding?
+
+How does transparency influence error rates?
+
+=== Keyword Searches
+
+"mode annunciation" AND aviation
+
+"automation transparency" AND cockpit
+
+"state feedback" AND pilot
+
+SECTION 4 — CERTIFICATION FRAMING
+
+=== Semantic Queries
+
+How can mode confusion risk be framed in hazard analysis?
+
+What verification strategies demonstrate acceptable automation transparency?
+
+What constitutes evidence that automation surprise risk is mitigated?
+
+=== Keyword Searches
+
+"hazard analysis" AND automation
+
+"human factors verification" AND automation
+
+"mode error mitigation" AND certification
+
+STOP CONDITION
+
+≥ 15 foundational error theory sources
+
+≥ 20 aviation automation surprise studies
+
+Clear mapping to hazard pathways and verification strategies
+
+=========================================================
+CRR-04
+
+Trust in Automation and Human–AI Teaming Risk
+
+=========================================================
+= CRR-04: Trust in Automation and Human–AI Teaming Risk
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize trust theory, reliance calibration, and adaptive automation research to derive certification-relevant constraints for AI-enabled cockpit systems.
+
+SECTION 1 — TRUST THEORY FOUNDATIONS
+
+=== Semantic Queries
+
+What models explain trust in automation?
+
+How does perceived reliability influence reliance?
+
+What causes overtrust and undertrust?
+
+=== Keyword Searches
+
+"trust in automation" model
+
+"reliance behavior" AND aviation
+
+"overtrust" AND cockpit
+
+SECTION 2 — HUMAN–AI TEAMING
+
+=== Semantic Queries
+
+How does adaptive automation influence trust?
+
+What transparency mechanisms affect trust calibration?
+
+How does explainability influence pilot reliance?
+
+=== Keyword Searches
+
+"adaptive automation" AND pilot
+
+"explainable AI" AND cockpit
+
+"automation transparency" AND aviation
+
+SECTION 3 — FAILURE MODES
+
+=== Semantic Queries
+
+What risks occur when trust is miscalibrated?
+
+How does trust erosion occur after system errors?
+
+What are recovery mechanisms after automation failure?
+
+=== Keyword Searches
+
+"trust miscalibration" AND aviation
+
+"automation failure recovery" AND pilot
+
+"trust repair" AND automation
+
+SECTION 4 — CERTIFICATION IMPLICATIONS
+
+=== Semantic Queries
+
+How should AI trust be verified in certification?
+
+What metrics demonstrate appropriate reliance behavior?
+
+How should adaptive systems be evaluated for trust safety?
+
+=== Keyword Searches
+
+"AI certification" AND aviation
+
+"trust metrics" AND cockpit
+
+"human-AI teaming verification"
+
+STOP CONDITION
+
+≥ 20 foundational trust papers
+
+≥ 20 aviation or safety-critical empirical studies
+
+Clear framework for trust calibration → measurable behavior → verification test

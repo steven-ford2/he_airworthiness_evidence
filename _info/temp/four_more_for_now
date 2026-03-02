@@ -1,0 +1,482 @@
+Good. We’re switching to the Concept-to-Compliance (C branch) backbone.
+
+These are extraction-heavy, certification-relevant systematic reviews.
+They will feed CRRs and Airworthiness artifacts.
+
+Below are CSR-01 through CSR-04, fully structured for Elicit:
+
+Section-by-section semantic queries
+
+Keyword searches
+
+Extraction column schema
+
+Stop conditions
+
+No synthesis prompts. These are empirical capture engines.
+
+=========================================================
+CSR-01
+
+Workload Measurement Methods and Validity in Aviation
+
+=========================================================
+= CSR-01: Workload Measurement Methods and Validity in Aviation
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical methods used to measure pilot workload in aviation and evaluate their validity, reliability, sensitivity, and suitability for certification evidence.
+
+SECTION 1 — IDENTIFYING WORKLOAD MEASUREMENT STUDIES
+
+=== Semantic Queries
+
+What methods are used to measure pilot workload in aviation?
+
+How is workload measured in high-performance or tactical flight environments?
+
+What validation studies exist for workload measurement tools in aviation?
+
+How sensitive are workload measures to task difficulty changes?
+
+What are limitations of subjective workload measures in aviation?
+
+=== Keyword Searches
+
+"pilot workload measurement"
+
+"NASA-TLX" AND aviation
+
+"subjective workload" AND cockpit
+
+"objective workload metrics" AND flight
+
+"dual-task paradigm" AND aviation
+
+"physiological workload" AND pilot
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Measurement Method
+
+Subjective (NASA-TLX, Bedford, SWAT, etc.)
+
+Performance-based (dual-task, error rate, RT)
+
+Physiological (HRV, EEG, pupil dilation)
+
+Behavioral (scan entropy, eye tracking)
+
+Composite metric (Y/N)
+
+=== Validity & Reliability
+
+Construct validity discussed (Y/N)
+
+Criterion validity tested (Y/N)
+
+Sensitivity to task manipulation (Y/N)
+
+Reliability reported (Y/N)
+
+Effect size reported (Y/N)
+
+=== Context Variables
+
+Flight simulation / live flight
+
+Tactical scenario (Y/N)
+
+High tempo (Y/N)
+
+Multi-task environment (Y/N)
+
+Physical stressors (G, vibration) (Y/N)
+
+=== Outcome Sensitivity
+
+Detects overload threshold (Y/N)
+
+Detects underload (Y/N)
+
+Differentiates expertise levels (Y/N)
+
+SECTION 3 — VALIDITY AND LIMITATIONS
+
+=== Semantic Queries
+
+When do subjective workload measures fail?
+
+What physiological measures correlate best with performance?
+
+Are workload measures predictive of performance degradation?
+
+What measurement artifacts exist in flight simulation studies?
+
+=== Keyword Searches
+
+"workload validity" AND aviation
+
+"physiological correlates" AND pilot workload
+
+"predictive validity" AND workload
+
+"measurement artifact" AND simulation
+
+STOP CONDITION
+
+≥ 40 empirical workload measurement studies
+
+≥ 15 compare subjective vs objective methods
+
+≥ 10 test validity explicitly
+
+≥ 10 include tactical/high-tempo scenarios
+
+=========================================================
+CSR-02
+
+Situational Awareness Measurement and Degradation
+
+=========================================================
+= CSR-02: Situational Awareness Measurement and Degradation
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical methods used to measure situational awareness (SA) in aviation and identify mechanisms of SA degradation under workload, automation, and time pressure.
+
+SECTION 1 — IDENTIFYING SA MEASUREMENT STUDIES
+
+=== Semantic Queries
+
+How is situational awareness measured in aviation?
+
+What empirical tools assess Level 1, 2, and 3 SA?
+
+How reliable are SAGAT and similar measures?
+
+What objective proxies are used for SA?
+
+What factors degrade SA in tactical aviation?
+
+=== Keyword Searches
+
+"situational awareness measurement" AND aviation
+
+"SAGAT" AND pilot
+
+"SA degradation" AND cockpit
+
+"Level 1 Level 2 Level 3 SA"
+
+"freeze probe" AND aviation
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== SA Measurement Type
+
+SAGAT
+
+SPAM
+
+Self-rating
+
+Performance proxy
+
+Eye tracking
+
+Composite measure
+
+=== Validity Indicators
+
+Construct validity addressed (Y/N)
+
+Predictive validity reported (Y/N)
+
+Reliability reported (Y/N)
+
+Sensitivity to workload (Y/N)
+
+=== Degradation Factors
+
+High workload
+
+Automation level
+
+Time pressure
+
+Multi-threat environment
+
+Display clutter
+
+Alert interference
+
+=== Outcome Metrics
+
+Accuracy (%)
+
+Response latency
+
+Projection accuracy (L3 SA)
+
+Error rate
+
+SECTION 3 — AUTOMATION AND SA
+
+=== Semantic Queries
+
+How does automation level influence SA?
+
+Does adaptive automation preserve SA?
+
+What is the relationship between trust and SA degradation?
+
+=== Keyword Searches
+
+"automation" AND "situational awareness"
+
+"adaptive automation" AND SA
+
+"automation surprise" AND SA
+
+STOP CONDITION
+
+≥ 40 empirical SA studies
+
+≥ 15 tactical/high-tempo contexts
+
+≥ 10 address automation impact
+
+≥ 10 compare measurement techniques
+
+=========================================================
+CSR-03
+
+Automation Surprise and Mode Confusion Evidence
+
+=========================================================
+= CSR-03: Automation Surprise and Mode Confusion Evidence
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on automation surprise, mode confusion, and control-state misunderstanding in aviation and comparable high-reliability domains.
+
+SECTION 1 — IDENTIFYING MODE CONFUSION STUDIES
+
+=== Semantic Queries
+
+What empirical evidence documents mode confusion in aviation?
+
+How does automation surprise occur in cockpit systems?
+
+What design features contribute to control-state misunderstanding?
+
+How often do pilots misinterpret automation mode?
+
+=== Keyword Searches
+
+"mode confusion" AND aviation
+
+"automation surprise" AND cockpit
+
+"mode error" AND pilot
+
+"autopilot misunderstanding"
+
+"flight management system error"
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Automation Context
+
+Autopilot
+
+FMS
+
+Flight control
+
+Weapons system
+
+Adaptive automation
+
+=== Failure Mechanism
+
+Mode ambiguity
+
+Hidden state
+
+Delayed feedback
+
+Poor annunciation
+
+Inconsistent mapping
+
+=== Outcome
+
+Error occurrence (Y/N)
+
+Recovery time
+
+Loss of SA
+
+Incident/accident linked (Y/N)
+
+=== Experimental Manipulation
+
+Mode change hidden (Y/N)
+
+Time pressure (Y/N)
+
+High workload (Y/N)
+
+SECTION 3 — DESIGN MITIGATIONS
+
+=== Semantic Queries
+
+What interface changes reduce mode confusion?
+
+How does feedback timing affect automation understanding?
+
+What annunciation strategies improve state awareness?
+
+=== Keyword Searches
+
+"mode annunciation" AND aviation
+
+"automation transparency" AND cockpit
+
+"state feedback" AND pilot
+
+STOP CONDITION
+
+≥ 30 empirical mode confusion studies
+
+≥ 10 aviation-specific
+
+≥ 5 link to incident reports
+
+≥ 10 test mitigation strategies
+
+=========================================================
+CSR-04
+
+Trust Calibration and Automation Reliance Metrics
+
+=========================================================
+= CSR-04: Trust Calibration and Automation Reliance Metrics
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on trust in automation, overtrust, undertrust, and reliance calibration in aviation and comparable safety-critical domains.
+
+SECTION 1 — IDENTIFYING TRUST STUDIES
+
+=== Semantic Queries
+
+How is trust in automation measured in aviation?
+
+What causes overtrust and undertrust in cockpit systems?
+
+How does automation reliability influence reliance behavior?
+
+What experimental manipulations change trust calibration?
+
+=== Keyword Searches
+
+"trust in automation" AND aviation
+
+"automation reliance" AND pilot
+
+"overtrust" AND cockpit
+
+"undertrust" AND aviation
+
+"trust calibration" AND adaptive automation
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Trust Measure
+
+Self-report scale
+
+Behavioral reliance measure
+
+Compliance rate
+
+Override rate
+
+Trust repair manipulation (Y/N)
+
+=== Automation Characteristics
+
+Reliability level (%)
+
+Transparency provided (Y/N)
+
+Confidence indicator present (Y/N)
+
+Explanation provided (Y/N)
+
+=== Outcome
+
+Overreliance observed (Y/N)
+
+Underreliance observed (Y/N)
+
+Performance degradation (Y/N)
+
+Error rate change
+
+=== Context
+
+High workload (Y/N)
+
+Time pressure (Y/N)
+
+Military/tactical (Y/N)
+
+Adaptive automation (Y/N)
+
+SECTION 3 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+
+What interface features improve trust calibration?
+
+Does uncertainty visualization reduce overtrust?
+
+How does explanation affect reliance?
+
+=== Keyword Searches
+
+"automation transparency" AND trust
+
+"confidence display" AND automation
+
+"explainable AI" AND pilot trust
+
+"uncertainty visualization" AND reliance
+
+STOP CONDITION
+
+≥ 40 empirical trust studies
+
+≥ 10 aviation-specific
+
+≥ 10 manipulate reliability experimentally
+
+≥ 10 measure behavioral reliance
+
+≥ 5 address adaptive or AI automation
