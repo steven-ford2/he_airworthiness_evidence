@@ -1,0 +1,232 @@
+= MRR-F05: Data Link and Networked Operations in Modern Fighter Mission Systems
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Develop technical and operational understanding of tactical data link systems (e.g., Link-16), networked track sharing, latency, message management, and information integrity — and derive PVI implications for decision-making and display design.
+
+This is synthesis-driven, not a full systematic review.
+
+SECTION 1 — TACTICAL DATA LINK FUNDAMENTALS
+
+== 1.1 Architecture and Function
+
+=== Semantic Queries
+
+How does Link-16 function in modern fighter aircraft?
+
+What are the architectural components of tactical data link systems?
+
+How is information transmitted and synchronized across network participants?
+
+What distinguishes line-of-sight and beyond-line-of-sight data links?
+
+How are network time slots managed in tactical aviation?
+
+=== Keyword Searches
+
+"Link-16 architecture" AND fighter
+
+"tactical data link" AND combat aircraft
+
+"JTIDS" OR "MIDS" AND fighter
+
+"time division multiple access" AND Link-16
+
+"network participation group" AND Link-16
+
+"beyond line of sight datalink" AND military aircraft
+
+SECTION 2 — TRACK SHARING AND NETWORK FUSION
+
+== 2.1 Shared Track Files
+
+=== Semantic Queries
+
+How are radar tracks shared across aircraft in a Link-16 network?
+
+How does network track correlation occur in modern fighters?
+
+What mechanisms prevent duplicate or conflicting track IDs?
+
+How is track confidence propagated across the network?
+
+How does track latency influence tactical awareness?
+
+=== Keyword Searches
+
+"network track correlation" AND fighter
+
+"composite track" AND Link-16
+
+"track ID management" AND tactical datalink
+
+"shared situational awareness" AND Link-16
+
+"track latency" AND networked aviation
+
+== 2.2 Latency and Update Cycles
+
+=== Semantic Queries
+
+What are typical latency ranges for Link-16 updates?
+
+How does update delay affect target engagement timing?
+
+What tradeoffs exist between bandwidth and update frequency?
+
+How does network congestion impact data freshness?
+
+=== Keyword Searches
+
+"Link-16 latency"
+
+"network update rate" AND tactical aircraft
+
+"bandwidth limitation" AND military datalink
+
+"network congestion" AND Link-16
+
+"data freshness" AND tactical network
+
+SECTION 3 — MESSAGE MANAGEMENT AND CHANNEL LOAD
+
+== 3.1 Communication Volume and Prioritization
+
+=== Semantic Queries
+
+How many message types are transmitted in typical tactical operations?
+
+How is message prioritization managed in Link-16?
+
+What happens when message load exceeds network capacity?
+
+How do pilots manage datalink message saturation?
+
+=== Keyword Searches
+
+"Link-16 message types"
+
+"message prioritization" AND tactical datalink
+
+"network saturation" AND military aviation
+
+"channel load" AND Link-16
+
+"data link overload" AND cockpit
+
+== 3.2 Human Factors of Datalink Interaction
+
+=== Semantic Queries
+
+How does datalink message load affect pilot cognitive workload?
+
+What display design strategies mitigate network overload?
+
+How do pilots interpret conflicting network and onboard sensor tracks?
+
+What are known failure modes in networked situational awareness?
+
+=== Keyword Searches
+
+"datalink workload" AND pilot
+
+"networked situational awareness" AND fighter
+
+"conflicting track information" AND cockpit
+
+"information overload" AND Link-16
+
+"message filtering" AND cockpit display
+
+SECTION 4 — INFORMATION INTEGRITY AND CONTESTED ENVIRONMENTS
+
+== 4.1 Degradation and Adversarial Effects
+
+=== Semantic Queries
+
+How can tactical data links be degraded or jammed?
+
+What spoofing or deception threats affect networked track data?
+
+How is network integrity maintained under contested conditions?
+
+What verification methods ensure network reliability?
+
+=== Keyword Searches
+
+"Link-16 jamming"
+
+"datalink spoofing" AND military aviation
+
+"electronic attack" AND tactical network
+
+"network integrity" AND combat aircraft
+
+"contested environment" AND data link
+
+SECTION 5 — PVI AND ARCHITECTURAL IMPLICATIONS
+
+== 5.1 Display and Interaction Impacts
+
+=== Semantic Queries
+
+How should network latency be communicated to pilots?
+
+How should conflicting network and onboard sensor tracks be visualized?
+
+What declutter or filtering strategies reduce datalink overload?
+
+How should trust in network data be calibrated?
+
+=== Keyword Searches
+
+"network latency visualization" AND cockpit
+
+"datalink display design"
+
+"conflict resolution display" AND fighter
+
+"trust in datalink" AND aviation
+
+"track source indication" AND cockpit
+
+== 5.2 Mission-Type Sensitivity
+
+=== Semantic Queries
+
+How does datalink reliance differ between A2A and A2G missions?
+
+How does network performance affect SEAD operations?
+
+How does distributed ISR depend on network integrity?
+
+=== Keyword Searches
+
+"Link-16" AND "air to air"
+
+"SEAD" AND datalink
+
+"ISR" AND networked aircraft
+
+"distributed operations" AND tactical aviation
+
+STOP CONDITION
+
+Stop when:
+
+≥ 25 authoritative technical and operational sources
+
+≥ 10 discuss track correlation across aircraft
+
+≥ 5 address latency quantitatively
+
+≥ 5 address network saturation or overload
+
+≥ 5 address contested or jamming effects
+
+≥ 5 discuss cockpit display implications
+
+This artifact must allow you to clearly explain how networked tracks influence engagement decisions and cockpit design constraints.

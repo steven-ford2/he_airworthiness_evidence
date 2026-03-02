@@ -1,0 +1,224 @@
+= MRR-F02: Radar Systems, Track Generation, and Confidence Modeling
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Develop deep technical fluency in fighter radar systems, track generation logic, ambiguity resolution, and confidence modeling — and identify how these mechanisms shape PVI design constraints.
+
+This artifact builds system-level understanding that informs later display and fusion architecture work.
+
+SECTION 1 — RADAR FUNDAMENTALS
+
+== 1.1 Pulse-Doppler and AESA Basics
+
+=== Semantic Queries
+
+How do pulse-Doppler radars function in modern fighter aircraft?
+
+What distinguishes mechanically scanned arrays from AESA radar systems?
+
+How does Doppler processing enable target discrimination in combat aircraft?
+
+What are the performance advantages of AESA radars in tactical aviation?
+
+How does radar beam steering affect detection and tracking?
+
+=== Keyword Searches
+
+"pulse Doppler radar" AND fighter aircraft
+
+"AESA radar" AND combat aircraft
+
+"mechanically scanned array" AND fighter
+
+"Doppler processing" AND airborne radar
+
+"beam steering" AND AESA fighter
+
+SECTION 2 — TRACK GENERATION AND MANAGEMENT
+
+== 2.1 Track File Creation
+
+=== Semantic Queries
+
+How are radar detections converted into track files?
+
+What filtering algorithms are used in radar track generation?
+
+How does track-while-scan operate in modern fighter radar?
+
+How are track files maintained under maneuvering targets?
+
+How is track association handled during target crossing?
+
+=== Keyword Searches
+
+"track while scan" AND fighter radar
+
+"track file generation" AND airborne radar
+
+"Kalman filter" AND radar tracking
+
+"track association" AND radar
+
+"target crossing" AND radar track management
+
+== 2.2 Track Confidence and Quality Metrics
+
+=== Semantic Queries
+
+How is track confidence calculated in airborne radar systems?
+
+What variables influence radar track quality?
+
+How is track uncertainty represented internally before display?
+
+How does track stability affect fire control decisions?
+
+What are typical confidence thresholds for engagement?
+
+=== Keyword Searches
+
+"track quality" AND fighter radar
+
+"track confidence" AND airborne radar
+
+"radar uncertainty modeling"
+
+"fire control track criteria"
+
+"track stability metrics" AND combat aircraft
+
+SECTION 3 — AMBIGUITY AND ERROR MECHANISMS
+
+== 3.1 Range and Velocity Ambiguities
+
+=== Semantic Queries
+
+What are common radar ambiguities in airborne systems?
+
+How are range and Doppler ambiguities resolved?
+
+How does clutter impact radar track integrity?
+
+What false track mechanisms occur in pulse-Doppler systems?
+
+=== Keyword Searches
+
+"range ambiguity" AND airborne radar
+
+"velocity ambiguity" AND pulse Doppler
+
+"clutter rejection" AND fighter radar
+
+"false track" AND radar
+
+"ghost targets" AND airborne radar
+
+== 3.2 Degraded and Contested Environments
+
+=== Semantic Queries
+
+How does electronic jamming affect radar track stability?
+
+What spoofing techniques degrade radar performance?
+
+How does track corruption manifest in contested environments?
+
+What mitigation strategies are built into radar systems?
+
+=== Keyword Searches
+
+"radar jamming" AND fighter
+
+"radar spoofing" AND airborne
+
+"ECM effects" AND radar tracking
+
+"track corruption" AND combat radar
+
+"electronic attack" AND radar
+
+SECTION 4 — LATENCY AND UPDATE RATES
+
+=== Semantic Queries
+
+What are typical update rates for fighter radar track files?
+
+How does latency influence pilot decision timing?
+
+How do processing delays affect engagement envelopes?
+
+What tradeoffs exist between scan volume and update frequency?
+
+=== Keyword Searches
+
+"radar update rate" AND fighter
+
+"scan volume" AND airborne radar
+
+"latency" AND radar track
+
+"engagement envelope timing" AND radar
+
+SECTION 5 — PVI IMPLICATIONS
+
+== 5.1 Confidence Encoding and Display Design
+
+=== Semantic Queries
+
+How should radar track confidence be displayed to pilots?
+
+What display strategies reduce misinterpretation of uncertain tracks?
+
+How does ambiguous radar data influence pilot cognitive workload?
+
+What failure modes occur when confidence is poorly communicated?
+
+=== Keyword Searches
+
+"radar confidence display" AND cockpit
+
+"track uncertainty visualization" AND fighter
+
+"radar symbology" AND confidence
+
+"misidentification" AND radar display
+
+== 5.2 Engagement Decision Consequences
+
+=== Semantic Queries
+
+How does track quality influence weapons release decisions?
+
+What radar characteristics most influence engagement timing?
+
+How do pilots compensate for uncertain track information?
+
+=== Keyword Searches
+
+"fire control solution" AND radar track
+
+"engagement decision" AND track quality
+
+"weapons release criteria" AND radar
+
+STOP CONDITION
+
+Stop when:
+
+≥ 25 authoritative technical and operational sources
+
+≥ 10 discuss track-while-scan and filtering logic
+
+≥ 5 address track quality/confidence modeling
+
+≥ 5 address ambiguity resolution
+
+≥ 5 discuss jamming or spoofing effects
+
+≥ 5 discuss engagement decision implications
+
+This artifact must allow you to explain radar track logic clearly without referencing generic summaries.

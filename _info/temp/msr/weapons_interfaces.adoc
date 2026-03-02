@@ -1,0 +1,250 @@
+ MSR-02: Weapons Interfaces and Target Identification Error
+:artifact_type: MSR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on how weapons employment interfaces, target identification workflows, display design, and confirmation mechanisms influence decision accuracy, engagement timing, and cognitive error in tactical aviation and comparable military systems.
+
+This artifact focuses on ID gating logic, misidentification risk, and interface-induced decision bias.
+
+SECTION 1 — IDENTIFYING RELEVANT STUDIES
+
+== 1.1 Weapons Interface Design
+
+=== Semantic Queries
+
+What empirical studies evaluate weapons employment interfaces in tactical aviation?
+
+How does interface design influence engagement decision accuracy?
+
+What display features influence weapons release timing?
+
+How do fire control interfaces affect pilot cognitive workload?
+
+What human factors issues are associated with missile or precision-guided munition interfaces?
+
+=== Keyword Searches
+
+"weapons employment interface" AND fighter
+
+"fire control display" AND aviation
+
+"missile interface design" AND pilot
+
+"weapons release decision" AND cockpit
+
+"precision guided munition" AND human factors
+
+"targeting pod interface" AND pilot
+
+== 1.2 Target Identification and ROE Constraints
+
+=== Semantic Queries
+
+How do pilots confirm target identity before engagement?
+
+What human factors issues affect target identification accuracy?
+
+How do rules of engagement (ROE) influence cognitive workload?
+
+What empirical evidence exists on misidentification in military aviation?
+
+How does time pressure affect target confirmation accuracy?
+
+=== Keyword Searches
+
+"target identification" AND fighter pilot
+
+"rules of engagement" AND cognitive workload
+
+"misidentification" AND aviation
+
+"combat identification" AND cockpit
+
+"ID gating" AND tactical aviation
+
+"friend or foe identification" AND display
+
+SECTION 2 — EXTRACTION COLUMNS
+
+Add the following columns in Elicit.
+
+=== Interface Architecture
+
+Weapon type (A2A, A2G, SEAD, etc.)
+
+Sensor type used for ID (radar, EO/IR, datalink)
+
+Confirmation steps required (count)
+
+Automation support present (Y/N)
+
+Visual cueing type (symbol, color, flashing, etc.)
+
+=== Performance Metrics
+
+Identification accuracy (%)
+
+False positive rate
+
+False negative rate
+
+Decision latency
+
+Engagement timing deviation
+
+=== Cognitive Effects
+
+Workload measure used (NASA-TLX, etc.)
+
+SA measure used (if any)
+
+Attentional tunneling observed (Y/N)
+
+Confirmation bias discussed (Y/N)
+
+Automation surprise observed (Y/N)
+
+=== Context Variables
+
+Time pressure present (Y/N)
+
+Degraded visibility (Y/N)
+
+High information density (Y/N)
+
+Contested environment simulated (Y/N)
+
+SECTION 3 — COGNITIVE ERROR MECHANISMS
+
+== 3.1 Confirmation Bias and Expectation Effects
+
+=== Semantic Queries
+
+How does confirmation bias influence target identification decisions?
+
+What interface designs increase expectation-driven errors?
+
+How does prior threat briefing influence ID decisions?
+
+How does ambiguous sensor information affect engagement choices?
+
+=== Keyword Searches
+
+"confirmation bias" AND military aviation
+
+"expectation effect" AND target identification
+
+"ambiguous sensor data" AND engagement
+
+"decision bias" AND weapons release
+
+== 3.2 Mode Confusion and Automation Effects
+
+=== Semantic Queries
+
+How does mode confusion affect weapons selection?
+
+What automation surprises have occurred in weapons systems?
+
+How does automation confidence affect pilot override behavior?
+
+How does adaptive aiding influence engagement timing?
+
+=== Keyword Searches
+
+"mode confusion" AND weapons system
+
+"automation surprise" AND cockpit
+
+"fire control mode" AND pilot error
+
+"adaptive autonomy" AND weapons interface
+
+SECTION 4 — TIME PRESSURE AND TEMPO EFFECTS
+
+=== Semantic Queries
+
+How does time compression affect ID accuracy?
+
+What display designs mitigate rapid engagement errors?
+
+How do multitarget scenarios influence misidentification risk?
+
+What workload thresholds predict engagement error?
+
+=== Keyword Searches
+
+"time pressure" AND weapons decision
+
+"multitarget engagement" AND pilot
+
+"decision latency" AND combat aviation
+
+"engagement error" AND fighter
+
+SECTION 5 — FAILURE CASES AND INCIDENT ANALYSIS
+
+=== Semantic Queries
+
+What documented cases involve weapons misidentification in aviation?
+
+What interface design flaws contributed to engagement errors?
+
+What lessons were learned from friendly fire incidents?
+
+What systemic factors increased ID error probability?
+
+=== Keyword Searches
+
+"friendly fire" AND cockpit interface
+
+"misidentification incident" AND aviation
+
+"combat identification failure"
+
+"weapons system error" AND human factors
+
+SECTION 6 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+
+What interface characteristics reduce misidentification risk?
+
+What confirmation steps improve decision accuracy?
+
+How should confidence and uncertainty be displayed in engagement workflows?
+
+What verification metrics should be used for weapons interface validation?
+
+=== Keyword Searches
+
+"engagement confirmation design"
+
+"confidence display" AND weapons system
+
+"verification testing" AND weapons interface
+
+"human factors validation" AND fire control
+
+STOP CONDITION
+
+Stop when:
+
+≥ 35 empirical studies
+
+≥ 10 include real or high-fidelity tactical simulation
+
+≥ 10 report quantitative ID accuracy
+
+≥ 5 discuss friendly fire or misidentification events
+
+≥ 5 examine time-pressure manipulation
+
+≥ 5 discuss automation influence
+
+If insufficient:
+
+Expand to UAV strike interfaces, naval fire control systems, and ground combat identification interfaces.

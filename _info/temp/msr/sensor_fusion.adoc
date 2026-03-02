@@ -1,0 +1,238 @@
+= MSR-01: Sensor Fusion Displays and Cognitive Throughput
+:artifact_type: MSR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on how sensor fusion displays, information density, and confidence encoding affect pilot performance, cognitive throughput, and decision latency in tactical aviation contexts.
+
+This is extraction-driven.
+
+SECTION 1 — IDENTIFYING RELEVANT STUDIES
+
+== 1.1 Core Sensor Fusion Display Studies
+
+=== Semantic Queries
+
+What empirical studies examine sensor fusion displays in military or high-performance aviation?
+
+How does information density in cockpit displays affect pilot performance?
+
+What research evaluates track confidence or uncertainty visualization in aviation displays?
+
+How do fused displays compare to raw sensor presentations in performance outcomes?
+
+What display integration methods are used in modern fighter cockpits?
+
+=== Keyword Searches
+
+"sensor fusion display" AND fighter
+
+"integrated tactical display" AND aviation
+
+"information density" AND cockpit
+
+"uncertainty visualization" AND aviation
+
+"track confidence display" AND fighter
+
+"fused sensor display" AND military aircraft
+
+== 1.2 Cognitive Throughput and Information Overload
+
+=== Semantic Queries
+
+How does increased display information density impact pilot decision speed?
+
+What is the relationship between display clutter and task performance in aviation?
+
+How do declutter strategies affect mission performance?
+
+What experimental manipulations increase cognitive throughput demands in cockpits?
+
+=== Keyword Searches
+
+"display clutter" AND pilot
+
+"declutter logic" AND cockpit
+
+"cognitive throughput" AND aviation
+
+"visual information load" AND fighter
+
+"decision latency" AND cockpit display
+
+SECTION 2 — EXTRACTION COLUMNS
+
+Use base SR schema.
+
+Add these columns in Elicit:
+
+=== Display Architecture
+
+Fusion type (raw overlay / integrated / hierarchical)
+
+Confidence encoding present (Y/N)
+
+Declutter logic present (Y/N)
+
+Information density manipulated (Y/N)
+
+=== Performance Outcomes
+
+Decision latency (mean, SD if available)
+
+Target identification accuracy
+
+Error rate
+
+Secondary task impact (if measured)
+
+=== Cognitive Effects
+
+Reported overload effects (Y/N)
+
+Attentional tunneling observed (Y/N)
+
+Scan entropy or eye metrics used (Y/N)
+
+Subjective workload measured (Y/N)
+
+=== Context Coding
+
+Mission type (A2A, A2G, ISR, etc.)
+
+High tempo present (Y/N)
+
+Degraded information present (Y/N)
+
+Physical stress (G, vibration) present (Y/N)
+
+SECTION 3 — DISPLAY MECHANISMS
+
+== 3.1 Confidence & Ambiguity Encoding
+
+=== Semantic Queries
+
+How is uncertainty encoded in tactical displays?
+
+Does confidence visualization improve pilot decision accuracy?
+
+What are the risks of ambiguous symbol encoding?
+
+How do pilots interpret track confidence indicators?
+
+=== Keyword Searches
+
+"uncertainty encoding" AND cockpit
+
+"confidence symbology" AND fighter
+
+"ambiguous display" AND aviation
+
+"track confidence" AND tactical display
+
+== 3.2 Declutter and Layering Logic
+
+=== Semantic Queries
+
+What declutter mechanisms improve pilot performance?
+
+How does adaptive declutter affect situational awareness?
+
+What are the failure modes of over-decluttering?
+
+How do layered displays affect cognitive switching costs?
+
+=== Keyword Searches
+
+"adaptive declutter" AND aviation
+
+"layered display" AND cockpit
+
+"display filtering" AND tactical aircraft
+
+"symbol density" AND pilot
+
+SECTION 4 — CONTEXT SENSITIVITY
+
+== 4.1 Contested Information Environments
+
+=== Semantic Queries
+
+How do false tracks or spoofed data affect display performance?
+
+How does jamming influence track visualization and interpretation?
+
+What happens to decision accuracy under degraded sensor integrity?
+
+=== Keyword Searches
+
+"false track" AND cockpit
+
+"jamming" AND sensor display
+
+"spoofing" AND aviation display
+
+"degraded sensor data" AND fighter
+
+== 4.2 High-Tempo Mission Conditions
+
+=== Semantic Queries
+
+How does time pressure interact with display density?
+
+What display designs reduce decision latency in high-tempo missions?
+
+How does multitasking affect fused display interpretation?
+
+=== Keyword Searches
+
+"time pressure" AND cockpit display
+
+"multitasking" AND display performance
+
+"high tempo" AND tactical aviation
+
+SECTION 5 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+
+What display characteristics optimize cognitive throughput?
+
+What tradeoffs exist between completeness and clarity?
+
+What evidence supports adaptive information filtering?
+
+What verification metrics should be used for display validation?
+
+=== Keyword Searches
+
+"display validation" AND fighter
+
+"information tradeoff" AND cockpit
+
+"adaptive filtering" AND aviation
+
+"display verification" AND tactical aircraft
+
+STOP CONDITIONS
+
+Stop when:
+
+≥ 30 empirical studies included
+
+≥ 10 manipulate information density
+
+≥ 10 examine declutter logic
+
+≥ 5 address uncertainty visualization
+
+≥ 5 include performance latency measures
+
+≥ 5 include mission-representative scenarios
+
+If insufficient:
+
+Expand to UAV supervisory control, ATC high-density displays, naval CIC displays.

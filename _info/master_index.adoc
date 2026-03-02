@@ -1,0 +1,164 @@
+= Human Engineering Master Index
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 1.0
+:revdate: <YYYY-MM-DD>
+:author: Steven Ford
+
+== Strategic Objectives
+
+=== Goal 1 — Develop and Implement a Human Engineering Airworthiness Framework
+
+This layer maps human performance theory to certifiable evidence.
+
+Primary Outputs:
+
+* Criteria Deconstruction (MIL-HDBK-516 / MIL-STD-1472)
+* Methods of Compliance (MoC) Playbooks
+* Verification Strategy Blueprints
+* Certification Risk Integration
+* MBSE Traceability Hooks
+* Evidence Dossier System
+
+xref:airworthiness/[]
+xref:process/airworthiness-framework/airworthiness-framework.adoc[]
+xref:crosswalks/[]
+
+=== Goal 2 — Gain Comprehensive Familiarity with Essential HE Tools & Mission Systems PVI
+
+This goal is executed through two parallel mastery branches:
+
+* Concept-to-Compliance (C Branch)
+* Mission Systems PVI Mastery (M Branch)
+
+xref:evidence/[]
+
+---
+
+== Branch A — Concept-to-Compliance (Theory → Certification)
+
+Purpose:
+Translate cognitive theory and empirical measurement into defensible certification arguments.
+
+=== Concept Research Reports (CRR)
+
+* CRR-01 — Workload Theory and Resource Models in Tactical Aviation
+* CRR-02 — Situational Awareness Theory and Certification Implications
+* CRR-03 — Human Error, Mode Confusion, and Automation Surprise
+* CRR-04 — Trust in Automation and Human–AI Teaming Risk
+* CRR-05 — Cognitive Throughput Limits and Decision Boundaries
+* CRR-06 — Attention, Tunneling, and Visual Capture Mechanisms
+* CRR-07 — Fatigue and Performance Degradation Across Mission Duration
+* CRR-08 — Ecological Validity and the Limits of Simulation
+* CRR-09 — Measurement Validity and Construct Defensibility
+* CRR-10 — Evidence Sufficiency and Human Performance Claims
+
+=== Concept Systematic Reviews (CSR)
+
+* CSR-01 — Workload Measurement Methods and Validity
+* CSR-02 — Situational Awareness Measurement and Degradation
+* CSR-03 — Automation Surprise and Mode Confusion Evidence
+* CSR-04 — Trust Calibration and Automation Reliance Metrics
+* CSR-05 — Digital Biomarkers of Cognitive State
+* CSR-06 — Simulator-to-Flight Transfer Evidence
+* CSR-07 — Fatigue Accumulation and Mission Duration Effects
+* CSR-08 — Human Error Taxonomies in Safety-Critical Systems
+
+---
+
+== Branch B — Mission Systems PVI Mastery
+
+Purpose:
+Develop fluency in modern fighter mission systems, operational contexts, and interaction architecture.
+
+=== Phase 1 — Systems Fundamentals
+
+* MRR-F01 — Modern Fighter Mission Systems Architecture
+* MRR-F02 — Radar Systems, Track Generation, and Confidence Modeling
+* MRR-F03 — EO/IR, Targeting Pods, and Sensor Handoff Logic
+* MRR-F04 — Tactical Maps and Geospatial Cognition
+* MRR-F05 — Data Link and Networked Operations
+* MRR-F06 — Weapons Systems and Kill Chain Workflow
+* MRR-F07 — Control Architecture and Interaction Ecosystem
+
+=== Phase 2 — Operational & Contextual Fluency
+
+* MRR-01 — Mission Systems as an Information Factory
+* MRR-02 — Weapons Employment as Cognitive Workflow
+* MRR-03 — Electronic Warfare as PVI
+* MRR-04 — Mission Types and Strategic Context
+* MRR-05 — Environmental and Theatre Effects on Mission Systems
+
+=== Phase 3 — Interaction & PVI Architecture
+
+* MRR-06 — Sensor Fusion Displays and Information Density Architecture
+* MRR-07 — Supervisory Control and MUM-T Architecture
+* MRR-08 — AI Decision Support and Trust Calibration
+* MRR-09 — Alarm Philosophy and Integrated Alert Management
+
+=== Mission System Empirical Reviews (MSR)
+
+* MSR-01 — Sensor Fusion Displays and Cognitive Throughput
+* MSR-02 — Weapons Interfaces and Target Identification Error
+* MSR-03 — Electronic Warfare Displays and Attentional Capture
+* MSR-04 — Data Link Load and Communication Capacity
+* MSR-05 — Interaction Modalities (HOTAS, Touch, Voice, Head)
+* MSR-06 — Supervisory Control and MUM-T Performance
+* MSR-07 — AI Decision Aiding and Adaptive Autonomy
+* MSR-08 — Geospatial Displays Under Mission Constraints
+* MSR-09 — Alarm Design and Alert Prioritization
+* MSR-10 — Ecological Validity in Mission-System Contexts
+
+---
+
+== Field Manuals (Playbook Layer)
+
+Purpose:
+Translate research and theory into executable engineering guidance.
+
+xref:manuals/field-manuals/[]
+
+* FM-01 — PVI in the Defense Acquisition Lifecycle
+* FM-02 — Mission Threads and Scenario Architecture Guide
+* FM-03 — Tactical Symbology and Density Guidelines
+* FM-04 — Weapons Workflow Architecture Guide
+* FM-05 — MUM-T Supervisory Control Implementation Guide
+* FM-06 — AI Decision Support Implementation Guide
+* FM-07 — PVI Verification and Evidence Strategy
+* FM-08 — Environmental and Contested Test Planning Guide
+* FM-09 — Human Error Hazard Pathway Identification Guide
+* FM-10 — Preventing Rework Through Early HE Influence
+
+---
+
+== Airworthiness Artifact Layer
+
+Purpose:
+Operationalize certification logic and traceability.
+
+xref:airworthiness/[]
+
+* AW-01 — Criteria Deconstruction
+* AW-02 — Methods of Compliance Playbooks
+* AW-03 — Verification Strategy Blueprints
+* AW-04 — Certification Risk Register
+* AW-05 — Compliance Simulation Framework
+* AW-06 — Traceability Model
+* AW-07 — Topic-to-Criterion Crosswalk
+* AW-08 — 1472 Evidence Dossier System
+* AW-09 — MoC Decision Tree
+* AW-10 — Airworthiness Framework Document
+
+---
+
+== Design Philosophy
+
+This repository enforces:
+
+* Separation between theory-driven certification logic and mission-system fluency.
+* Bidirectional coupling between research and compliance.
+* Explicit context modeling (environment, theatre, mission type).
+* Measurable human performance claims.
+* Traceable requirement → hazard → design → evidence chains.
+* Standardized artifact templates.

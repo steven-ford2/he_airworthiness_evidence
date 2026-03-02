@@ -1,0 +1,144 @@
+= MRR-F01: Modern Fighter Mission Systems Architecture
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Develop technical fluency in the structure, components, and integration logic of modern fighter mission systems.
+
+This is a synthesis artifact, not a systematic review.
+
+== SECTION 1 — AVIONICS ARCHITECTURE FOUNDATIONS
+
+=== Semantic Queries
+
+What is the architecture of modern fighter aircraft mission systems?
+
+How are mission computers integrated with sensors and displays in advanced fighters?
+
+What is the difference between federated and integrated avionics architectures?
+
+How does sensor fusion architecture operate in fifth-generation aircraft?
+
+How are data buses structured in modern military avionics?
+
+=== Keyword Searches
+
+"fighter avionics architecture"
+
+"integrated modular avionics" AND fighter
+
+"federated avionics" AND military aircraft
+
+"mission computer architecture" AND fighter
+
+"sensor fusion architecture" AND combat aircraft
+
+"MIL-STD-1553" AND fighter avionics
+
+"ARINC 664" OR "AFDX" AND military aircraft
+
+== SECTION 2 — SENSOR PIPELINE & DATA FLOW
+
+=== Semantic Queries
+
+How is radar, EO/IR, and datalink information integrated in modern fighters?
+
+What stages exist between raw sensor detection and pilot display?
+
+How is track data generated and maintained?
+
+What latency constraints exist in fighter mission systems?
+
+How is sensor arbitration handled in integrated avionics?
+
+=== Keyword Searches
+
+"sensor fusion pipeline" AND fighter
+
+"track file generation" AND radar
+
+"target track management" AND military aviation
+
+"sensor arbitration" AND avionics
+
+"fusion latency" AND combat aircraft
+
+== SECTION 3 — INFORMATION FLOW TO THE PILOT
+
+=== Semantic Queries
+
+How is fused information presented to pilots in modern cockpits?
+
+What are the layers between raw detection and displayed symbol?
+
+How is confidence encoded in track displays?
+
+How are data conflicts resolved before display?
+
+What design constraints limit display update rates?
+
+=== Keyword Searches
+
+"track confidence display" AND fighter
+
+"symbol generation logic" AND cockpit
+
+"fusion confidence" AND display
+
+"display latency" AND avionics
+
+"declutter logic" AND tactical display
+
+== SECTION 4 — FAILURE MODES
+
+=== Semantic Queries
+
+What architectural failure modes exist in integrated avionics?
+
+How do track corruption and latency affect pilot decision making?
+
+What are known issues in fusion mis-association?
+
+How does degraded datalink affect system architecture?
+
+=== Keyword Searches
+
+"fusion error" AND fighter
+
+"track misassociation" AND radar
+
+"datalink latency" AND tactical aircraft
+
+"sensor dropout" AND combat aircraft
+
+== SECTION 5 — DESIGN IMPLICATIONS FOR PVI
+
+=== Semantic Queries
+
+What architectural features reduce pilot cognitive load?
+
+How should fusion architecture support clarity under high tempo?
+
+What display constraints are driven by mission computer limitations?
+
+=== Keyword Searches
+
+"fusion display design" AND fighter
+
+"information overload" AND tactical cockpit
+
+"cognitive throughput" AND sensor fusion
+
+== STOP CONDITION
+
+Stop when:
+
+≥ 20 authoritative technical sources
+
+≥ 5 describe integrated modular avionics
+
+≥ 5 address fusion pipeline logic
+
+≥ 5 address track management logic

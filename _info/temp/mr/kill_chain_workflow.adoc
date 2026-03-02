@@ -1,0 +1,278 @@
+= MRR-F06: Weapons Systems and Kill Chain Workflow (Modern Fighters)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Build technical fluency in modern fighter weapons systems and the end-to-end kill chain (detect → track → ID → target → engage → assess), focusing on how system logic and constraints shape pilot workflows and PVI design requirements.
+
+This is a synthesis artifact, not a systematic review.
+
+SECTION 1 — WEAPONS SYSTEMS OVERVIEW (TYPES AND ROLES)
+
+== 1.1 A2A and A2G Weapon Families
+
+=== Semantic Queries
+
+What are the major categories of weapons employed by modern fighter aircraft and how do their employment requirements differ?
+
+How do air-to-air missile guidance modes (e.g., IR, radar semi-active/active) change pilot workflow?
+
+How do air-to-ground weapon types (e.g., JDAM, LGB, stand-off) differ in targeting and confirmation demands?
+
+What constraints do weapons impose on sensor and display requirements?
+
+=== Keyword Searches
+
+"air-to-air missile guidance" AND fighter
+
+"active radar homing" AND employment
+
+"infrared missile" AND seeker AND pilot
+
+"JDAM" AND targeting workflow
+
+"laser guided bomb" AND targeting pod AND pilot
+
+"stand-off weapon" AND targeting AND cockpit
+
+SECTION 2 — FIRE CONTROL SYSTEMS AND ENGAGEMENT LOGIC
+
+== 2.1 Fire Control Fundamentals
+
+=== Semantic Queries
+
+What is the role of the fire control system in weapons employment in modern fighters?
+
+How does the fire control system generate a firing solution and what inputs does it require?
+
+How are weapons selection and arming logic structured in tactical aircraft?
+
+What are common modes and mode transitions in fire control systems?
+
+=== Keyword Searches
+
+"fire control system" AND fighter aircraft
+
+"firing solution" AND airborne fire control
+
+"weapons selection logic" AND cockpit
+
+"fire control modes" AND pilot
+
+"arming logic" AND tactical aircraft
+
+== 2.2 Launch Acceptability Regions and Constraints
+
+=== Semantic Queries
+
+How are launch acceptability regions (LAR) computed and displayed to pilots?
+
+What factors reduce or expand engagement envelopes during A2A weapons employment?
+
+How does sensor quality (track confidence, ID certainty) constrain weapon release?
+
+How do rules of engagement constraints influence engagement decision logic?
+
+=== Keyword Searches
+
+"launch acceptability region" AND fighter
+
+"engagement envelope" AND air-to-air missile
+
+"shoot cue" AND fire control display
+
+"rules of engagement" AND weapons release
+
+"track quality" AND engagement criteria
+
+SECTION 3 — THE KILL CHAIN WORKFLOW (COGNITIVE AND SYSTEM PIPELINE)
+
+== 3.1 Sensor-to-Shooter Pipeline
+
+=== Semantic Queries
+
+What is the sensor-to-shooter timeline in modern fighter engagements?
+
+How do sensor fusion and track management support the kill chain?
+
+What steps are required for identification, targeting, and engagement authorization?
+
+How does the workflow differ between BVR and WVR A2A engagements?
+
+How does the workflow differ between dynamic targeting and preplanned strikes?
+
+=== Keyword Searches
+
+"sensor-to-shooter" AND aviation
+
+"kill chain" AND fighter aircraft
+
+"BVR engagement workflow" AND pilot
+
+"WVR engagement workflow" AND helmet mounted display
+
+"dynamic targeting" AND cockpit workflow
+
+"preplanned strike" AND targeting pod workflow
+
+== 3.2 Target Identification and Combat ID
+
+=== Semantic Queries
+
+How is combat identification performed prior to engagement in modern fighters?
+
+What is the role of IFF and how does it integrate into engagement decisions?
+
+What are common failure points in target ID during high-tempo engagements?
+
+How do pilots reconcile conflicting ID cues (radar vs EO/IR vs datalink)?
+
+=== Keyword Searches
+
+"combat identification" AND fighter pilot
+
+"IFF integration" AND fire control
+
+"identification friend or foe" AND cockpit display
+
+"conflicting cues" AND target identification
+
+"ID gating logic" AND engagement
+
+SECTION 4 — WEAPONS EMPLOYMENT INTERFACES (WHAT THE PILOT USES)
+
+== 4.1 Displays, Symbology, and Cues
+
+=== Semantic Queries
+
+What symbology and cues are commonly used for weapons employment in tactical aircraft?
+
+How are firing solutions, shoot/no-shoot cues, and constraints displayed?
+
+What design patterns reduce misinterpretation of engagement cues?
+
+How does display declutter influence weapons employment accuracy?
+
+=== Keyword Searches
+
+"weapons employment symbology" AND fighter
+
+"shoot cue" AND cockpit symbology
+
+"no shoot" AND symbology AND fire control
+
+"constraint cueing" AND weapons display
+
+"declutter" AND weapons display
+
+== 4.2 Controls and Interaction
+
+=== Semantic Queries
+
+How are weapons functions mapped to HOTAS controls in modern fighters?
+
+What are common interaction sequences for target designation, weapon selection, and consent?
+
+How do control allocation and mode switching influence error likelihood?
+
+=== Keyword Searches
+
+"HOTAS" AND weapons employment
+
+"target designation" AND cockpit controls
+
+"weapon consent" AND pilot
+
+"mode switching" AND weapons system error
+
+"control allocation" AND tactical cockpit
+
+SECTION 5 — FAILURE MODES, HAZARDS, AND DESIGN PITFALLS
+
+== 5.1 Misidentification and Friendly Fire Drivers
+
+=== Semantic Queries
+
+What system and interface factors contribute to misidentification and engagement errors?
+
+What are known human factors contributors to friendly fire events in aviation?
+
+What workload or attention traps occur during rapid engagements?
+
+How do ambiguous cues or automation errors contribute to incorrect engagements?
+
+=== Keyword Searches
+
+"friendly fire" AND aviation AND human factors
+
+"misidentification" AND engagement AND cockpit
+
+"automation error" AND weapons release
+
+"ambiguous symbology" AND pilot error
+
+"mode confusion" AND engagement
+
+== 5.2 Contested Environment Impacts
+
+=== Semantic Queries
+
+How do jamming and spoofing affect the kill chain workflow?
+
+How does degraded track confidence impact engagement decisions?
+
+What mitigation strategies are used when sensors are degraded?
+
+=== Keyword Searches
+
+"jamming" AND engagement decision AND fighter
+
+"spoofing" AND track confidence AND cockpit
+
+"degraded sensor" AND weapons employment
+
+"false tracks" AND engagement
+
+SECTION 6 — PVI DESIGN IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+What design features best support safe engagement decisions under time pressure?
+
+What interface mechanisms reduce confirmation bias and expectation-driven errors?
+
+How should confidence, uncertainty, and data source be presented in the engagement workflow?
+
+What training and procedural supports reduce engagement error likelihood?
+
+=== Keyword Searches
+
+"uncertainty visualization" AND engagement
+
+"source attribution" AND tactical display
+
+"confirmation bias" AND weapons decision
+
+"training" AND combat identification AND aviation
+
+"verification metrics" AND weapons interface
+
+STOP CONDITION
+
+Stop when:
+
+≥ 25 authoritative sources describing weapons employment workflow and fire control logic
+
+≥ 10 address the kill chain or sensor-to-shooter timeline explicitly
+
+≥ 5 cover IFF/combat ID integration
+
+≥ 5 cover human factors failure modes in engagement decisions
+
+≥ 5 cover contested/degraded sensor effects on engagement decisions
+
+≥ 5 describe pilot interaction sequences (controls + modes)
+
+This artifact should leave you able to explain the kill chain end-to-end and where PVI failures occur.
