@@ -1,0 +1,50 @@
+== Master Extraction Columns (Schema v1.0)
+
+=== Study Identification
+- Citation
+- Year
+- Domain
+- Platform Type
+- Live vs Simulator
+
+=== Participants
+- Sample Size (N)
+- Participant Type
+- Experience Level
+
+=== Task Characteristics
+- Task Type
+- Mission Phase
+- Time Pressure Present (Y/N)
+- Retasking Rate (if reported)
+- Alert Density (if reported)
+
+=== Context Axis Coding
+- Axis 1 Level
+- Axis 2 Level
+- Axis 3 Level
+- Axis 4 Level
+- Axis 5 Level
+- Axis 6 Level
+
+=== Performance Metrics
+- Accuracy
+- Response Time
+- Error Rate
+- Missed Alerts / False Alarms
+- Workload Measure + Score
+- SA Measure + Score
+- Trust Measure + Score
+- Effect Size (if reported)
+- p-value / CI (if reported)
+
+=== Interface/System Factors
+- Display Type
+- Input Modality
+- Automation Level
+- Adaptive Interface (Y/N)
+
+=== Evidence Quality
+- Ecological Validity (Low / Med / High)
+- Key Limitations
+- Fighter PVI Generalizability (Low / Med / High)

@@ -1,0 +1,125 @@
+= {artifact_id}: {title}
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+
+// -----------------------------------------------------------------------------
+// Required Artifact Metadata
+// -----------------------------------------------------------------------------
+:artifact_type: SR
+:artifact_id: <CSR-01 | MSR-01>
+:path_name: <Concept-to-Compliance | Mission Systems PVI Mastery>
+:status: <Not Started | Prompt Pack Ready | Elicit In Progress | Screening Complete | Extraction Complete | Draft | Final>
+:template_version: v1.0
+:context_model_version: v1.0
+:schema_version: v1.0
+:topic: <topic>
+:tags: <comma-separated tags>
+
+// Optional
+:related_rr: <CRR-xx | MRR-xx>
+:related_fm: <FM-xx>
+
+// -----------------------------------------------------------------------------
+// 1. Review Objective
+// -----------------------------------------------------------------------------
+== 1. Review Objective
+
+- Review question (PICOTS structure recommended)
+- Intended use (design decision, validation, evidence strategy)
+
+// -----------------------------------------------------------------------------
+// 2. Methods
+// -----------------------------------------------------------------------------
+== 2. Methods
+
+=== 2.1 Inclusion Criteria
+- Empirical studies
+- Quantitative performance outcomes
+- Aviation preferred (define acceptable analogs)
+
+=== 2.2 Exclusion Criteria
+- Conceptual-only
+- No measurable performance outcomes
+- Non-transferable domains
+
+=== 2.3 Search Strategy
+- Semantic queries used
+- Keyword queries used
+- Date bounds
+- Deduplication method
+
+// -----------------------------------------------------------------------------
+// 3. Extraction Schema (Standardized)
+// -----------------------------------------------------------------------------
+== 3. Extraction Schema
+
+include::process/templates/_includes/sr_column_schema.adoc[]
+
+// -----------------------------------------------------------------------------
+// 4. Results
+// -----------------------------------------------------------------------------
+== 4. Results
+
+=== 4.1 Study Set Overview
+- Identified / screened / included counts
+- Domain distribution
+- Ecological validity distribution
+
+=== 4.2 Study Summary Table
+(Insert extracted table or link to CSV)
+
+// -----------------------------------------------------------------------------
+// 5. Quantitative Synthesis
+// -----------------------------------------------------------------------------
+== 5. Quantitative Synthesis
+
+- Performance shifts
+- Error impacts
+- Workload/SA/trust patterns
+- Effect sizes (when reported)
+
+// -----------------------------------------------------------------------------
+// 6. Context Axis Coding & Patterns (MANDATORY)
+// -----------------------------------------------------------------------------
+== 6. Context Axis Coding & Patterns
+
+include::process/templates/_includes/context_axes_table.adoc[]
+
+=== 6.1 Axis Coverage Map
+- Represented vs missing axes
+- Thin evidence areas
+
+=== 6.2 Cross-Axis Findings
+- High-risk combinations
+- Stability regions
+
+// -----------------------------------------------------------------------------
+// 7. Design & Measurement Implications
+// -----------------------------------------------------------------------------
+== 7. Design & Measurement Implications
+
+- Evidence-backed design guidance
+- Measurement implications
+- Evidence insufficiencies
+
+// -----------------------------------------------------------------------------
+// 8. Limitations
+// -----------------------------------------------------------------------------
+== 8. Limitations
+
+// -----------------------------------------------------------------------------
+// 9. Related Artifacts
+// -----------------------------------------------------------------------------
+== 9. Related Artifacts
+
+- xref:../../evidence/review_articles/<CRR-xx or MRR-xx>.adoc[]
+- xref:../../manuals/<FM-xx>.adoc[]
+
+// -----------------------------------------------------------------------------
+// 10. References
+// -----------------------------------------------------------------------------
+== 10. References

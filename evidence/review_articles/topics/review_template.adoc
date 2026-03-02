@@ -5,34 +5,64 @@
 :revnumber: 0.1
 :revdate: <YYYY-MM-DD>
 :author: <Your Name>
+
+// Required artifact metadata (RR master template alignment)
+:artifact_type: RR
+:artifact_id: <CRR-01 | MRR-01>
+:path_name: <Concept-to-Compliance | Mission Systems PVI Mastery>
+:status: <Not Started | Prompt Pack Ready | Elicit In Progress | Extraction Complete | Draft Written | Final>
+:template_version: v1.0
+:context_model_version: v1.0
+
 :topic: <topic>
 :standards: <MIL-HDBK-516C §__, MIL-STD-1472H §__>
 :tags: <comma-separated tags>
-	4. Paste the full review structure (leave content blank for now):
 
 == 1. Executive Summary
 
-== 2. Theoretical Foundations
+== 2. Operational Framing
 
-== 3. Measurement Methods
+=== 2.1 Mission/System Context
+- Mission thread / phase of flight / operator role
+- System scope and boundaries
 
-=== 3.1 Objective Metrics
+=== 2.2 Context Axis Declaration
+include::../process/templates/_includes/context_axes_table.adoc[]
 
-=== 3.2 Subjective Metrics
+== 3. Theoretical Foundations
 
-=== 3.3 Comparative Validity
+== 4. Measurement Methods
 
-== 4. Experimental Contexts Reviewed
+=== 4.1 Objective Metrics
 
-== 5. Methodological Strengths and Weaknesses
+=== 4.2 Subjective Metrics
 
-== 6. Engineering Design Implications
+=== 4.3 Comparative Validity
 
-== 7. Airworthiness and Methods of Compliance Implications
+== 5. Experimental Contexts Reviewed
 
-=== 7.1 Relevant Standards
+== 6. Context Sensitivity Analysis
 
-=== 7.2 Potential Methods of Compliance
+For each context axis:
+- Expected direction of effect on performance metrics
+- Evidence support level (high / medium / low)
+- Failure modes and boundary conditions
+
+=== 6.1 Cross-Axis Interactions
+- Tempo × Information Integrity
+- Physical Stress × Interaction Modality
+- Team Structure × SA
+- Strategic Constraint × Decision Latency
+
+== 7. Methodological Strengths and Weaknesses
+
+== 8. Engineering Design Implications
+
+== 9. Airworthiness and Methods of Compliance Implications
+
+=== 9.1 Relevant Standards
+
+=== 9.2 Potential Methods of Compliance
 [options="header"]
 |===
 | MoC Type | Application in This Topic | Evidence Required
@@ -43,13 +73,13 @@
 | Test | |
 |===
 
-=== 7.3 Certification Risk Considerations
+=== 9.3 Certification Risk Considerations
 
-== 8. Open Research and Certification Gaps
+== 10. Open Research and Certification Gaps
 
-== 9. Definition of Done Checklist
+== 11. Definition of Done Checklist
 
-== 10. Related Artifacts
+== 12. Related Artifacts
 Example:
 
 xref:../../airworthiness/criteria-deconstruction/<file>.adoc[]

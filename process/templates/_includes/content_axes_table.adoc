@@ -1,0 +1,29 @@
+// Context Axis Declaration (fill in Low/Med/High + notes)
+[cols="2,1,4", options="header"]
+|===
+| Context Axis | Level | Notes / Assumptions / Evidence anchors
+
+| Axis 1: Physiological & Physical Stress Envelope
+| <Low/Med/High>
+| <+Gz, vibration, NVG/illumination, noise, PPE>
+
+| Axis 2: Operational Environment Complexity
+| <Low/Med/High>
+| <over-water horizon, terrain masking, weather ambiguity>
+
+| Axis 3: Mission Tempo & Task Density
+| <Low/Med/High>
+| <retasking rate, alert density, time compression>
+
+| Axis 4: Information Integrity & Adversarial Degradation
+| <Low/Med/High>
+| <jamming/spoofing, false tracks, latency, uncertainty>
+
+| Axis 5: Team Structure & Delegation Architecture
+| <Low/Med/High>
+| <single ship, multi-ship, MUM-T, # autonomous agents>
+
+| Axis 6: Strategic Constraint & Decision Accountability
+| <Low/Med/High>
+| <ROE strictness, ID threshold, collateral sensitivity>
+|===

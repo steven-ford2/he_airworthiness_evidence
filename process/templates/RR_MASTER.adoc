@@ -1,0 +1,126 @@
+= {artifact_id}: {title}
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+
+// -----------------------------------------------------------------------------
+// Required Artifact Metadata
+// -----------------------------------------------------------------------------
+:artifact_type: RR
+:artifact_id: <CRR-01 | MRR-01>
+:path_name: <Concept-to-Compliance | Mission Systems PVI Mastery>
+:status: <Not Started | Prompt Pack Ready | Elicit In Progress | Extraction Complete | Draft | Final>
+:template_version: v1.0
+:context_model_version: v1.0
+:topic: <topic>
+:tags: <comma-separated tags>
+
+// Optional
+:related_sr: <CSR-xx | MSR-xx>
+:related_fm: <FM-xx>
+
+// -----------------------------------------------------------------------------
+// 1. Executive Summary
+// -----------------------------------------------------------------------------
+== 1. Executive Summary
+
+- Core research question
+- Operational relevance
+- Key quantitative findings
+- Top 3 PVI implications
+
+// -----------------------------------------------------------------------------
+// 2. Operational Framing
+// -----------------------------------------------------------------------------
+== 2. Operational Framing
+
+=== 2.1 Mission/System Context
+- Mission thread
+- Phase of flight
+- Operator role
+- System boundaries
+
+=== 2.2 Context Axis Declaration
+include::process/templates/_includes/context_axes_table.adoc[]
+
+// -----------------------------------------------------------------------------
+// 3. Theoretical Foundations
+// -----------------------------------------------------------------------------
+== 3. Theoretical Foundations
+
+- Definitions and constructs
+- Relevant cognitive / workload / SA / automation models
+- Architecture assumptions
+
+// -----------------------------------------------------------------------------
+// 4. Empirical Evidence
+// -----------------------------------------------------------------------------
+== 4. Empirical Evidence
+
+For each major study:
+
+- Population and N
+- Task and environment
+- Measures (IV / DV)
+- Quantitative results (accuracy, RT, error, workload, SA, trust)
+- Limitations / boundary conditions
+
+// -----------------------------------------------------------------------------
+// 5. Context Sensitivity Analysis (MANDATORY)
+// -----------------------------------------------------------------------------
+== 5. Context Sensitivity Analysis
+
+For each axis:
+- Expected performance shift
+- Strength of supporting evidence (High / Medium / Low)
+- Failure modes and thresholds
+
+=== 5.1 Cross-Axis Interactions
+- Tempo × Information Integrity
+- Physical Stress × Interaction Modality
+- Team Structure × SA
+- Strategic Constraint × Decision Latency
+(Add others as relevant)
+
+// -----------------------------------------------------------------------------
+// 6. PVI Design Implications
+// -----------------------------------------------------------------------------
+== 6. PVI Design Implications
+
+- Evidence-backed design implications
+- Static vs adaptive design justification
+- Where degradation tolerance is required
+
+// -----------------------------------------------------------------------------
+// 7. Verification & Evidence Implications (Short; Not FM)
+// -----------------------------------------------------------------------------
+== 7. Verification & Evidence Implications
+
+- What must be measured
+- Required ecological validity level
+- Evidence gaps blocking defensible claims
+
+// -----------------------------------------------------------------------------
+// 8. Open Research Gaps
+// -----------------------------------------------------------------------------
+== 8. Open Research Gaps
+
+- Understudied context combinations
+- Missing metrics
+- Proposed study designs
+
+// -----------------------------------------------------------------------------
+// 9. Related Artifacts
+// -----------------------------------------------------------------------------
+== 9. Related Artifacts
+
+- xref:../../evidence/systematic-reviews/<CSR-xx or MSR-xx>.adoc[]
+- xref:../../manuals/<FM-xx>.adoc[]
+
+// -----------------------------------------------------------------------------
+// 10. References
+// -----------------------------------------------------------------------------
+== 10. References
