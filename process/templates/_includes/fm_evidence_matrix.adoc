@@ -1,0 +1,150 @@
+= {artifact_id}: {title}
+:doctype: article
+:toc: left
+:sectnums:
+:revnumber: 0.1
+:revdate: <YYYY-MM-DD>
+:author: <Your Name>
+
+// -----------------------------------------------------------------------------
+// Required Artifact Metadata
+// -----------------------------------------------------------------------------
+:artifact_type: FM
+:artifact_id: <FM-01>
+:path_name: <Common Layer (applies to Concept-to-Compliance and Mission Systems PVI Mastery)>
+:status: <Not Started | Draft | In Review | Final>
+:template_version: v1.0
+:context_model_version: v1.0
+:topic: <topic>
+:tags: <comma-separated tags>
+
+// Optional metadata
+:primary_users: <New HFE | Mission systems | Systems engineering | Test | Certification>
+:program_phase: <Concept | TMRR | EMD | Production | Sustainment>
+
+// -----------------------------------------------------------------------------
+// 1. Purpose and Scope
+// -----------------------------------------------------------------------------
+== 1. Purpose and Scope
+
+=== 1.1 Purpose
+What this manual enables and for whom.
+
+=== 1.2 Scope and Non-Scope
+- In-scope systems and decisions
+- Out-of-scope boundaries
+
+=== 1.3 Assumptions
+Operational assumptions and constraints (brief).
+
+// -----------------------------------------------------------------------------
+// 2. Operational Context (Lightweight)
+// -----------------------------------------------------------------------------
+== 2. Operational Context
+
+=== 2.1 Mission/System Context
+- Mission thread perspective
+- Operator roles (pilot / WSO / remote operator if relevant)
+
+=== 2.2 Context Axis Declaration (only if critical to the manual)
+include::process/templates/_includes/context_axes_table.adoc[]
+
+// -----------------------------------------------------------------------------
+// 3. Where This Fits in the Lifecycle
+// -----------------------------------------------------------------------------
+== 3. Where This Fits in the Lifecycle
+
+- Which lifecycle gates this manual informs
+- Key deliverables by phase
+- Decision points where HFE input prevents rework
+
+include::process/templates/_includes/fm_gate_checklist.adoc[]
+
+// -----------------------------------------------------------------------------
+// 4. Roles, Interfaces, and Inputs
+// -----------------------------------------------------------------------------
+== 4. Roles, Interfaces, and Inputs
+
+=== 4.1 Stakeholders and Decision Owners
+Who owns what.
+
+=== 4.2 Required Inputs
+- Requirements sources
+- System architecture artifacts
+- Concept of operations
+- Test constraints
+- Known hazards / prior lessons
+
+=== 4.3 Outputs Produced
+List the artifacts produced by applying this manual (tables, checklists, test plans, evidence packages).
+
+// -----------------------------------------------------------------------------
+// 5. Execution Playbook (Do This)
+// -----------------------------------------------------------------------------
+== 5. Execution Playbook (Do This)
+
+A step-by-step procedure.
+
+=== 5.1 Step 1 – Define the Mission Thread(s)
+- What thread(s)
+- What success looks like
+
+=== 5.2 Step 2 – Build the Human Task Model
+- Task decomposition
+- Workload/SA/trust risk points
+
+=== 5.3 Step 3 – Allocate Functions and Authority
+- What the human does vs automation
+- Reversion modes and control authority
+
+=== 5.4 Step 4 – Identify Failure Modes and Controls
+- Mode confusion, alert masking, tunneling, trust error, etc.
+
+=== 5.5 Step 5 – Specify Measurements and Acceptance Arguments
+- What metrics
+- What thresholds
+- What evidence types
+
+include::process/templates/_includes/fm_evidence_matrix.adoc[]
+
+// -----------------------------------------------------------------------------
+// 6. Common Failure Modes and Pitfalls
+// -----------------------------------------------------------------------------
+== 6. Common Failure Modes and Pitfalls
+
+- What typically fails late
+- What creates rework
+- What gets missed in reviews
+
+// -----------------------------------------------------------------------------
+// 7. Evidence Strategy (Sufficiency and Traceability)
+// -----------------------------------------------------------------------------
+== 7. Evidence Strategy (Sufficiency and Traceability)
+
+=== 7.1 Evidence Sufficiency Rules of Thumb
+- What “good enough evidence” looks like by claim type
+- Simulator vs flight transfer considerations
+
+=== 7.2 Traceability Pattern
+How to link:
+- requirement → hazard → design feature → test evidence → certification claim
+
+// -----------------------------------------------------------------------------
+// 8. Templates and Checklists (Reusable)
+// -----------------------------------------------------------------------------
+== 8. Templates and Checklists (Reusable)
+
+- Provide any local checklists
+- Provide the standard tables to copy
+
+// -----------------------------------------------------------------------------
+// 9. Related Artifacts (RR/SR Evidence Links)
+// -----------------------------------------------------------------------------
+== 9. Related Artifacts
+
+include::process/templates/_includes/fm_related_artifacts_block.adoc[]
+
+// -----------------------------------------------------------------------------
+// 10. References (Optional)
+// -----------------------------------------------------------------------------
+== 10. References

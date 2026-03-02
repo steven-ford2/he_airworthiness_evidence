@@ -1,0 +1,11 @@
+// Related artifacts block (fill for each FM)
+- Concept-to-Compliance RRs/SRs:
+  * xref:../../evidence/review_articles/<CRR-xx>.adoc[]
+  * xref:../../evidence/systematic-reviews/<CSR-xx>.adoc[]
+
+- Mission Systems PVI Mastery RRs/SRs:
+  * xref:../../evidence/review_articles/<MRR-xx>.adoc[]
+  * xref:../../evidence/systematic-reviews/<MSR-xx>.adoc[]
+
+- Field Manuals:
+  * xref:../../manuals/<FM-xx>.adoc[]

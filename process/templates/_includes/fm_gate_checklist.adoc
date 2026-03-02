@@ -1,0 +1,23 @@
+// Lifecycle Gate Checklist (fill per manual)
+[cols="2,3", options="header"]
+|===
+| Lifecycle Phase / Gate | HFE Actions / Deliverables
+
+| Concept / Early Architecture
+| <mission threads; task models; early hazards; PVI requirements hooks>
+
+| Requirements Baseline
+| <allocation decisions; measurable requirements; verification hooks>
+
+| Design Reviews (PDR/CDR equivalents)
+| <interface architecture; mode logic; alert philosophy; workload budgets>
+
+| Integration / Test Planning
+| <testable metrics; instrumentation; scenarios; context coverage>
+
+| Verification / Certification Evidence
+| <evidence sufficiency package; traceability; risk closure>
+
+| Sustainment / Field Feedback
+| <operational lessons; training impacts; update loop>
+|===
