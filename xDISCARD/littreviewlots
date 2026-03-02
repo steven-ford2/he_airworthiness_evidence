@@ -1,0 +1,4316 @@
+Good. This is the Unified Elicit Prompt Bank.
+
+This is not narrative.
+This is execution-ready.
+
+Structured so you can:
+
+• Copy section blocks directly into Elicit
+• Run semantic questions first
+• Supplement with keyword searches
+• Know exactly what you’re looking for
+
+Organized by branch and artifact.
+
+⸻
+
+============================================================
+
+UNIFIED ELICIT PROMPT BANK
+
+TheoryToCertificationProject
+
+============================================================
+
+⸻
+
+============================================================
+
+CONCEPT-TO-COMPLIANCE (C PATH)
+
+============================================================
+
+————————————————————
+
+CRR-01 — Workload Theory & Resource Models
+
+————————————————————
+
+Theoretical Foundations
+
+Semantic Questions
+	•	What are the dominant cognitive workload theories used in aviation?
+	•	How does Multiple Resource Theory apply to cockpit task management?
+	•	What capacity limits constrain pilot multitasking?
+	•	How do dual-task interference effects manifest in flight operations?
+
+Keyword Searches
+	•	“Multiple Resource Theory” AND aviation
+	•	“cognitive capacity model” AND pilot
+	•	“dual task interference” AND cockpit
+	•	“resource competition” AND multitasking
+
+⸻
+
+Overload and Thresholds
+
+Semantic Questions
+	•	What empirical evidence identifies workload overload thresholds?
+	•	At what point does performance degrade under multitasking?
+	•	How do modality conflicts drive overload?
+
+Keywords
+	•	“overload threshold” AND pilot
+	•	“workload collapse” AND cockpit
+	•	“modality interference” AND aviation
+
+⸻
+
+Certification Translation
+
+Semantic Questions
+	•	How can workload theory inform airworthiness requirements?
+	•	What measurable criteria demonstrate acceptable workload?
+
+Keywords
+	•	“workload certification” AND aviation
+	•	“human performance requirement” AND military aircraft
+
+⸻
+
+————————————————————
+
+CRR-02 — Situational Awareness Theory
+
+————————————————————
+
+SA Models
+
+Questions
+	•	What are the primary theoretical models of situational awareness?
+	•	What are limitations of the 3-level SA model?
+	•	How does distributed cognition reinterpret SA?
+
+Keywords
+	•	“Endsley situational awareness”
+	•	“distributed cognition” AND aviation
+	•	“SA theory critique”
+
+⸻
+
+SA Degradation
+
+Questions
+	•	How does high workload degrade SA?
+	•	How does automation influence SA maintenance?
+
+Keywords
+	•	“SA degradation” AND workload
+	•	“automation” AND situational awareness
+	•	“display clutter” AND SA
+
+⸻
+
+————————————————————
+
+CSR-01 — Workload Measurement
+
+————————————————————
+
+Identification
+
+Questions
+	•	What empirical studies measure pilot workload?
+	•	How valid are NASA-TLX and physiological measures?
+
+Keywords
+	•	“NASA TLX” AND aviation
+	•	“physiological workload” AND pilot
+	•	“heart rate variability” AND cockpit
+
+Extraction Columns
+	•	Workload metric used
+	•	Objective performance measured (Y/N)
+	•	Aviation context (sim/flight)
+	•	Predictive validity (Y/N)
+
+Stop at ≥ 40 empirical studies.
+
+⸻
+
+————————————————————
+
+CSR-05 — Digital Biomarkers
+
+————————————————————
+
+Identification
+
+Questions
+	•	What physiological signals detect pilot workload or fatigue?
+	•	What multimodal models improve cognitive state detection?
+
+Keywords
+	•	“digital biomarker” AND aviation
+	•	“EEG workload” AND pilot
+	•	“pupil dilation” AND cockpit
+	•	“heart rate variability” AND fatigue
+
+Extraction Columns
+	•	Sensor type
+	•	Accuracy / AUC reported
+	•	Real-time capable (Y/N)
+	•	Live flight tested (Y/N)
+
+Stop at ≥ 40 empirical, ≥ 10 live-flight.
+
+⸻
+
+————————————————————
+
+CSR-06 — Simulator to Flight Transfer
+
+————————————————————
+
+Questions
+	•	How well do simulator results generalize to live flight?
+	•	What factors break transfer?
+
+Keywords
+	•	“simulator to flight transfer”
+	•	“ecological validity” AND cockpit
+	•	“fidelity” AND aviation simulation
+
+Extraction:
+	•	Direct sim vs flight comparison (Y/N)
+	•	Performance difference significant (Y/N)
+	•	Fidelity level reported (Y/N)
+
+⸻
+
+============================================================
+
+MISSION SYSTEMS PVI MASTERY (M PATH)
+
+============================================================
+
+————————————————————
+
+MRR-01 — Mission Systems as Information Factory
+
+————————————————————
+
+Information Flow
+
+Questions
+	•	How is information processed from sensors to pilot decisions?
+	•	What stages exist in sensor → fusion → display → action?
+
+Keywords
+	•	“sensor to shooter” AND information flow
+	•	“mission systems architecture” AND fighter
+	•	“sensor fusion pipeline” AND cockpit
+
+⸻
+
+Bottlenecks
+
+Questions
+	•	What causes cognitive throughput collapse?
+	•	What failure modes occur during retasking?
+
+Keywords
+	•	“information overload” AND tactical cockpit
+	•	“retasking” AND overload
+	•	“alert storm” AND cockpit
+
+⸻
+
+————————————————————
+
+MRR-02 — Weapons Employment Workflow
+
+————————————————————
+
+Decision Chain
+
+Questions
+	•	What are the cognitive steps from detection to weapons release?
+	•	How do BVR and WVR workflows differ?
+
+Keywords
+	•	“weapons employment workflow” AND fighter
+	•	“sensor to shooter” AND decision chain
+	•	“positive identification” AND engagement
+
+⸻
+
+Error Pathways
+
+Questions
+	•	What biases affect engagement decisions?
+	•	How does time pressure alter ID accuracy?
+
+Keywords
+	•	“confirmation bias” AND target identification
+	•	“plan continuation error” AND aviation
+	•	“speed accuracy tradeoff” AND engagement
+
+⸻
+
+————————————————————
+
+MRR-F05 — Radar Fundamentals & Track Management
+
+————————————————————
+
+Questions
+	•	How do pulse-Doppler radar and track-while-scan operate?
+	•	What causes track loss or false tracks?
+	•	How is track confidence computed?
+
+Keywords
+	•	“pulse Doppler radar” AND fighter
+	•	“track while scan” AND cockpit
+	•	“track confidence” AND radar display
+	•	“false track” AND tactical aviation
+
+⸻
+
+————————————————————
+
+MRR-F03 — EO/IR & Targeting Pods
+
+————————————————————
+
+Questions
+	•	How are EO/IR sensors used for ID and targeting?
+	•	What are common handoff workflows between radar and EO/IR?
+	•	What failure modes occur during ID gating?
+
+Keywords
+	•	“targeting pod” AND human factors
+	•	“EO IR” AND cockpit
+	•	“sensor handoff” AND radar AND EO
+	•	“combat identification” AND pilot
+
+⸻
+
+————————————————————
+
+MRR-F04 — Tactical Maps & Geospatial Cognition
+
+————————————————————
+
+Questions
+	•	How do pilots maintain orientation under terrain masking?
+	•	What map declutter strategies are most effective?
+	•	What errors occur in maritime or low-visibility contexts?
+
+Keywords
+	•	“tactical moving map” AND cockpit
+	•	“terrain masking” AND pilot
+	•	“display clutter” AND navigation
+	•	“maritime navigation” AND cockpit
+
+⸻
+
+————————————————————
+
+MRR-07 — Supervisory Control & MUM-T
+
+————————————————————
+
+Questions
+	•	What defines supervisory control in aviation?
+	•	What delegation thresholds prevent overload?
+	•	How is shared SA maintained with autonomous agents?
+
+Keywords
+	•	“supervisory control” AND UAV
+	•	“loyal wingman” AND human factors
+	•	“automation transparency” AND unmanned teaming
+	•	“delegation threshold” AND cockpit
+
+⸻
+
+————————————————————
+
+MRR-08 — AI Decision Support
+
+————————————————————
+
+Questions
+	•	What forms of AI decision support exist in tactical aviation?
+	•	How should AI uncertainty be displayed?
+	•	What causes automation bias in cockpits?
+
+Keywords
+	•	“AI decision support” AND cockpit
+	•	“automation bias” AND aviation
+	•	“explainable AI” AND pilot
+	•	“confidence score” AND cockpit display
+
+⸻
+
+————————————————————
+
+MRR-09 — Alarm Philosophy
+
+————————————————————
+
+Questions
+	•	What principles govern caution/warning design?
+	•	What causes alert storms?
+	•	How does modality competition affect warning detection?
+
+Keywords
+	•	“caution warning advisory” AND aviation
+	•	“alarm fatigue” AND cockpit
+	•	“multimodal alert” AND pilot
+	•	“attentional capture” AND warning
+
+⸻
+
+————————————————————
+
+MSR-05 — Interaction Modalities
+
+————————————————————
+
+Questions
+	•	How do HOTAS, touch, voice, and eye tracking compare under workload?
+	•	How does high-G or vibration affect modality performance?
+
+Keywords
+	•	“HOTAS performance” AND fighter
+	•	“touchscreen” AND cockpit AND glove
+	•	“voice recognition” AND cockpit noise
+	•	“high G” AND pointing accuracy
+
+Extraction Columns:
+	•	Modality
+	•	Task completion time
+	•	Error rate
+	•	High-G tested (Y/N)
+	•	Tactical context (Y/N)
+
+Stop at ≥ 40 empirical studies.
+
+⸻
+
+============================================================
+
+GLOBAL RULES
+
+============================================================
+	1.	Semantic first.
+	2.	Keyword expansion second.
+	3.	Stay inside artifact boundary.
+	4.	Stop at defined thresholds.
+	5.	No duplication between C and M branches.
+	6.	Every artifact ends with:
+	•	Identified failure modes
+	•	PVI constraints
+	•	Verification metrics
+
+⸻
+
+This is now your portable Elicit execution backbone.
+
+If you want to make this even tighter, next I can:
+
+• Build a printable one-page “Daily Elicit Execution Checklist”
+• Or build a matrix mapping every artifact to IC3 competencies
+• Or build a no-drift crosswalk between C and M branches
+
+Your move.
+
+////////:/
+
+
+
+
+
+
+
+
+
+Good. This is the control document that prevents drift.
+
+Below is your Master Elicit Index File for the entire repo.
+
+It is structured so you can:
+
+• Open it at work
+• Copy the artifact block you need
+• Run the exact questions/keywords in Elicit
+• Know when to stop
+• Maintain branch separation
+
+This is not verbose. It is execution control.
+
+⸻
+
+
+= MASTER ELICIT INDEX
+:project: TheoryToCertificationProject
+:owner: Steven Ford
+:purpose: Central control document for all Elicit workflows
+:revnumber: 1.0
+
+== HOW TO USE
+
+1. Select artifact.
+2. Run semantic questions first.
+3. Supplement with keyword searches.
+4. Populate defined extraction columns (if SR).
+5. Stop only when stop condition met.
+6. Do not expand scope beyond artifact boundary.
+
+---
+
+# =====================================================
+# CONCEPT-TO-COMPLIANCE (C PATH)
+# =====================================================
+
+== CRR SERIES (SYNTHESIS-DRIVEN)
+
+CRR-01 — Workload Theory and Resource Models  
+CRR-02 — Situational Awareness Theory  
+CRR-03 — Human Error & Mode Confusion  
+CRR-04 — Trust in Automation  
+CRR-05 — Cognitive Throughput Limits  
+CRR-06 — Attention & Tunneling  
+CRR-07 — Fatigue Risk & Margins  
+CRR-08 — Ecological Validity & Evidence Hierarchy  
+CRR-09 — Measurement Validity & Construct Defensibility  
+CRR-10 — Evidence Sufficiency Framework  
+
+Execution rule:
+• Pull foundational theory.
+• Pull aviation-specific empirical support.
+• End with certification translation section.
+• No duplication with CSR series.
+
+---
+
+== CSR SERIES (SYSTEMATIC REVIEWS)
+
+CSR-01 — Workload Measurement  
+CSR-02 — Situational Awareness Measurement  
+CSR-03 — Mode Confusion & Automation Surprise  
+CSR-04 — Trust & Automation Bias  
+CSR-05 — Digital Biomarkers  
+CSR-06 — Simulator-to-Flight Transfer  
+CSR-07 — Fatigue Accumulation  
+CSR-08 — Human Error Taxonomies  
+
+Execution rule:
+• Extraction-driven.
+• Populate defined column schema.
+• Minimum 30–40 empirical studies.
+• Include aviation-specific tagging.
+
+---
+
+# =====================================================
+# MISSION SYSTEMS PVI MASTERY (M PATH)
+# =====================================================
+
+== MRR SERIES (ARCHITECTURE + WORKFLOW SYNTHESIS)
+
+MRR-01 — Mission Systems as Information Factory  
+MRR-02 — Weapons Employment as Cognitive Workflow  
+MRR-F03 — EO/IR & Targeting Pods  
+MRR-F04 — Tactical Maps & Geospatial Cognition  
+MRR-F05 — Radar Fundamentals & Track Management  
+MRR-F06 — Sensor Fusion Display Architecture  
+MRR-F07 — Control Architecture & Interaction Ecosystem  
+MRR-07 — Supervisory Control & MUM-T  
+MRR-08 — AI Decision Support & Trust Calibration  
+MRR-09 — Alarm Philosophy & Integrated Alerting  
+
+Execution rule:
+• Understand technical system.
+• Map information flow.
+• Identify cognitive bottlenecks.
+• Derive PVI constraints.
+• Define verification metrics.
+• Do NOT turn into systematic review.
+
+---
+
+== MSR SERIES (EMPIRICAL FOUNDATIONS FOR MRR)
+
+MSR-01 — Sensor Fusion & Display Density  
+MSR-02 — Weapons Interface & ID Errors  
+MSR-03 — Tactical Communication Load  
+MSR-04 — Data Link & Channel Capacity  
+MSR-05 — Interaction Modalities (HOTAS/Touch/Voice/etc)
+
+Execution rule:
+• Extraction-driven.
+• Populate modality/latency/error columns.
+• ≥ 40 empirical studies.
+• Include tactical/high-tempo tagging.
+
+---
+
+# =====================================================
+# FIELD MANUAL SERIES (NO ELICIT PRIMARY DRIVER)
+# =====================================================
+
+FM-01 — PVI in Defense Acquisition Lifecycle  
+FM-02 — Mission Systems Architecture  
+FM-03 — Tactical Symbology & Density  
+FM-04 — Weapons Workflow Architecture  
+FM-05 — Supervisory Control Architecture  
+FM-06 — Workload & Retasking  
+FM-07 — Verification & Evidence Strategy  
+FM-08 — Environmental & Contested Effects  
+FM-09 — Human Error Hazard Pathways  
+FM-10 — Preventing Rework Through Early HE Influence  
+
+Execution rule:
+• Built from RR + SR outputs.
+• Integrate internal standards manually.
+• No duplication of research sections.
+• Architect-level synthesis.
+
+---
+
+# =====================================================
+# EXECUTION PRIORITY (THIS YEAR)
+# =====================================================
+
+Tier 1 (Foundation – Q1–Q2)
+
+MRR-01  
+MRR-02  
+MRR-F05 (Radar)  
+MRR-F03 (EO/IR)  
+MSR-01  
+CSR-01  
+CSR-02  
+
+Tier 2 (Architecture & Tempo – Q2–Q3)
+
+MRR-F04  
+MRR-F06  
+MRR-F07  
+MRR-07  
+MSR-03  
+CSR-03  
+CSR-04  
+
+Tier 3 (Autonomy & Defensibility – Q3–Q4)
+
+MRR-08  
+MRR-09  
+MSR-04  
+MSR-05  
+CSR-05  
+CSR-06  
+CRR-08  
+CRR-10  
+
+---
+
+# STOP RULE FOR ENTIRE PROJECT
+
+You do NOT create new artifacts unless:
+
+• There is a clear gap.
+• It does not duplicate another artifact.
+• It directly supports IC3 trajectory or PVI mastery.
+
+No drift.
+
+
+⸻
+
+This is now your anchor.
+
+
+
+
+
+
+
+
+
+
+Good. Continuing the Mission Systems spine.
+
+Below are full Elicit askiidocs for:
+	•	MRR-07 — Supervisory Control & MUM-T Architecture
+	•	MRR-08 — AI Decision Support & Trust Calibration
+	•	MRR-09 — Alarm Philosophy & Integrated Alert Management
+	•	MSR-05 — Interaction Modalities (HOTAS, Touch, Voice, Eye, Head)
+
+All structured correctly for Elicit: multiple semantic questions + keyword searches per section, plus stop conditions.
+
+⸻
+
+
+= MRR-07: Supervisory Control and MUM-T Architecture (Quarterback of the Skies)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Define architecture-level principles for supervisory control of autonomous teammates (UAVs, loyal wingmen, remote sensors). Identify delegation thresholds, feedback requirements, shared SA mechanics, and collapse points under tempo.
+
+Synthesis-driven with targeted evidence pulls.
+
+== SECTION 1 — SUPERVISORY CONTROL FOUNDATIONS
+
+=== Semantic Queries
+
+1. What is supervisory control in high-reliability domains?
+2. How does supervisory control differ from direct manipulation?
+3. What models describe human–automation task allocation?
+4. What cognitive demands arise when managing multiple semi-autonomous agents?
+
+=== Keyword Searches
+
+- "supervisory control" AND aviation
+- "human supervisory control" AND unmanned systems
+- "task allocation" AND human automation teaming
+- "multiple UAV control" AND pilot
+- "loyal wingman" AND human factors
+
+== SECTION 2 — DELEGATION AND AUTHORITY BOUNDARIES
+
+=== Semantic Queries
+
+1. What determines when control should shift between human and autonomous systems?
+2. What delegation thresholds reduce workload without degrading SA?
+3. What are risks of over-delegation and under-delegation?
+4. How should reversion of control be handled under failure?
+
+=== Keyword Searches
+
+- "delegation threshold" AND automation
+- "authority boundary" AND cockpit
+- "control reversion" AND unmanned teaming
+- "automation failure recovery" AND pilot
+- "adaptive autonomy" AND aviation
+
+== SECTION 3 — SHARED SITUATIONAL AWARENESS
+
+=== Semantic Queries
+
+1. How is shared SA maintained between pilot and autonomous teammates?
+2. How should agent intent, state, and confidence be displayed?
+3. What breakdowns occur when agent state is hidden or ambiguous?
+4. How does multi-agent management affect attention allocation?
+
+=== Keyword Searches
+
+- "shared situational awareness" AND unmanned
+- "agent intent display" AND cockpit
+- "automation transparency" AND UAV teaming
+- "state visibility" AND autonomous systems
+- "multi-agent supervision" AND pilot
+
+== SECTION 4 — FEEDBACK, TRUST, AND CALIBRATION
+
+=== Semantic Queries
+
+1. What feedback mechanisms improve trust calibration in supervisory control?
+2. How does explainability affect reliance decisions?
+3. What are failure modes of trust miscalibration in MUM-T?
+4. How should uncertainty be communicated for autonomous decisions?
+
+=== Keyword Searches
+
+- "trust calibration" AND unmanned teaming
+- "explainable AI" AND aviation cockpit
+- "automation miscalibration" AND pilot
+- "confidence display" AND autonomous system
+
+== SECTION 5 — TEMPO AND COLLAPSE POINTS
+
+=== Semantic Queries
+
+1. Under what tempo conditions does supervisory control collapse?
+2. What metrics indicate saturation (agent count, task rate, event rate)?
+3. How should UI design protect against supervisory overload?
+
+=== Keyword Searches
+
+- "multi-UAV overload" AND pilot
+- "event rate" AND supervisory control
+- "saturation threshold" AND automation supervision
+- "workload collapse" AND unmanned teaming
+
+== SECTION 6 — PVI IMPLICATIONS
+
+=== Semantic Queries
+
+1. What PVI architecture best supports quarterback-level control?
+2. What verification metrics demonstrate safe supervisory performance?
+3. What mission threads stress-test supervisory control (multi-agent SEAD, ISR swarm)?
+
+=== Keyword Searches
+
+- "supervisory validation" AND aviation
+- "multi-agent mission" AND human factors
+- "performance metric" AND UAV control
+- "human performance test" AND MUM-T
+
+== STOP CONDITION
+
+- ≥ 25 authoritative supervisory control sources
+- ≥ 10 aviation-specific or defense-domain
+- ≥ 5 address delegation thresholds
+- ≥ 5 address shared SA or transparency
+- ≥ 5 propose measurable validation metrics
+
+
+⸻
+
+
+= MRR-08: AI Decision Support and Trust Calibration in Tactical Cockpits
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Architect decision-support integration for AI-enabled cockpit systems. Define explainability, transparency, confidence encoding, and overtrust/undertrust mitigation strategies.
+
+Synthesis-driven; empirical trust foundation lives in CSR-04.
+
+== SECTION 1 — AI DECISION SUPPORT FUNCTIONS
+
+=== Semantic Queries
+
+1. What types of AI decision support are deployed or proposed in tactical aviation?
+2. How do recommendation systems alter pilot decision processes?
+3. What tasks are most suitable for AI assistance?
+
+=== Keyword Searches
+
+- "AI decision support" AND cockpit
+- "machine learning" AND tactical aviation
+- "recommendation system" AND pilot
+- "predictive analytics" AND cockpit
+
+== SECTION 2 — EXPLAINABILITY AND TRANSPARENCY
+
+=== Semantic Queries
+
+1. What forms of explainability are effective under time pressure?
+2. How much explanation is too much in high-tempo contexts?
+3. How should AI uncertainty be visualized?
+
+=== Keyword Searches
+
+- "explainable AI" AND aviation
+- "uncertainty visualization" AND AI cockpit
+- "transparency" AND decision support
+- "confidence score" AND pilot display
+
+== SECTION 3 — TRUST MIS-CALIBRATION RISKS
+
+=== Semantic Queries
+
+1. What causes overtrust and undertrust in AI systems?
+2. How does automation bias manifest in cockpit contexts?
+3. What mitigation strategies reduce blind reliance?
+
+=== Keyword Searches
+
+- "automation bias" AND aviation
+- "overtrust" AND AI cockpit
+- "undertrust" AND automation
+- "trust repair" AND AI system
+
+== SECTION 4 — FAILURE AND RECOVERY DESIGN
+
+=== Semantic Queries
+
+1. How should AI failure be annunciated?
+2. What recovery pathways should be built into AI decision support?
+3. How should pilots regain manual authority safely?
+
+=== Keyword Searches
+
+- "AI failure mode" AND cockpit
+- "automation failure annunciation"
+- "control reversion" AND AI
+- "fallback mode" AND aviation system
+
+== SECTION 5 — PVI IMPLICATIONS
+
+=== Semantic Queries
+
+1. What architectural rules ensure calibrated trust?
+2. What metrics validate appropriate reliance behavior?
+3. What scenario set best stress-tests AI integration (dense track, degraded sensor, contested environment)?
+
+=== Keyword Searches
+
+- "trust metric" AND aviation
+- "reliance behavior" AND pilot
+- "validation scenario" AND AI cockpit
+- "decision latency" AND AI support
+
+== STOP CONDITION
+
+- ≥ 25 authoritative sources
+- ≥ 10 aviation or defense-domain
+- ≥ 5 address trust calibration explicitly
+- ≥ 5 support measurable validation approaches
+
+
+⸻
+
+
+= MRR-09: Alarm Philosophy and Integrated Alert Management
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Define integrated caution/warning/advisory architecture for tactical cockpits. Address prioritization, nuisance control, multimodal alerting, and attention preservation.
+
+Synthesis-driven.
+
+== SECTION 1 — ALERT PHILOSOPHY FOUNDATIONS
+
+=== Semantic Queries
+
+1. What principles govern caution/warning/advisory system design?
+2. How are alerts categorized and prioritized in aviation?
+3. What are known failure modes of alert systems?
+
+=== Keyword Searches
+
+- "caution warning advisory" AND aviation
+- "alert prioritization" AND cockpit
+- "warning system design" AND aviation
+- "nuisance alarm" AND pilot
+
+== SECTION 2 — ALERT STORMS AND ATTENTIONAL CAPTURE
+
+=== Semantic Queries
+
+1. What causes alert storms in integrated cockpits?
+2. How does salience influence attentional capture?
+3. What mitigation strategies reduce alarm fatigue?
+
+=== Keyword Searches
+
+- "alert storm" AND cockpit
+- "alarm fatigue" AND aviation
+- "attentional capture" AND warning
+- "multimodal alerting" AND pilot
+
+== SECTION 3 — MULTIMODAL ALERTING (VISUAL, AUDITORY, HAPTIC)
+
+=== Semantic Queries
+
+1. When should alerts be visual vs auditory vs tactile?
+2. How does modality competition affect alert detection?
+3. What are failure modes in multimodal alerts?
+
+=== Keyword Searches
+
+- "haptic alert" AND cockpit
+- "auditory warning" AND aviation
+- "modality interference" AND pilot
+- "tactile cue" AND fighter
+
+== SECTION 4 — INTEGRATED ALERT ARCHITECTURE
+
+=== Semantic Queries
+
+1. How should alerts be integrated with fused displays?
+2. How should suppression and acknowledgment be handled?
+3. What transparency is required to avoid hidden filtering?
+
+=== Keyword Searches
+
+- "alert integration" AND sensor fusion
+- "acknowledgment logic" AND cockpit
+- "alert suppression" AND aviation
+- "priority encoding" AND cockpit
+
+== SECTION 5 — PVI IMPLICATIONS
+
+=== Semantic Queries
+
+1. What design constraints prevent nuisance and masking?
+2. What verification metrics demonstrate alert effectiveness (detection rate, response time, missed alert rate)?
+3. What mission threads stress alert systems (multi-threat, degraded sensor, high G)?
+
+=== Keyword Searches
+
+- "missed alert rate" AND cockpit
+- "response time" AND warning system
+- "alert validation" AND aviation
+- "warning performance" AND pilot
+
+== STOP CONDITION
+
+- ≥ 25 authoritative sources
+- ≥ 10 aviation-specific
+- ≥ 5 address multimodal alerting
+- ≥ 5 support measurable validation metrics
+
+
+⸻
+
+
+= MSR-05: Interaction Modalities in Tactical Aviation (HOTAS, Touch, Voice, Eye, Head)
+:artifact_type: MSR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on interaction modality performance in tactical aviation: speed, error, workload, environmental robustness (G, vibration, gloves).
+
+Extraction-driven.
+
+== SECTION 1 — IDENTIFYING MODALITY STUDIES
+
+=== Semantic Queries
+
+1. What empirical studies compare cockpit interaction modalities?
+2. How do HOTAS, touch, voice, eye, and head input compare under workload?
+3. What evidence quantifies speed and error differences?
+
+=== Keyword Searches
+
+- "HOTAS performance" AND pilot
+- "touchscreen" AND cockpit AND performance
+- "voice control" AND aviation performance
+- "eye tracking control" AND cockpit
+- "head pointing" AND pilot performance
+
+== SECTION 2 — EXTRACTION COLUMNS
+
+=== Modality
+
+- HOTAS
+- Cursor control device
+- Touchscreen
+- Voice
+- Eye tracking
+- Head pointing
+
+=== Environmental Conditions
+
+- High G (Y/N)
+- Vibration (Y/N)
+- Gloves (Y/N)
+- Night/NVG (Y/N)
+
+=== Performance Metrics
+
+- Task completion time
+- Error rate
+- Wrong-mode rate
+- Workload score
+- Recovery time
+
+=== Context
+
+- Tactical scenario (Y/N)
+- Simulator vs flight vs lab
+- Multi-task environment (Y/N)
+
+=== Outcome Strength
+
+- Significant performance difference (Y/N)
+- Effect size reported (Y/N)
+- Modality advantage identified (Y/N)
+
+== SECTION 3 — FAILURE MODES
+
+=== Semantic Queries
+
+1. What error types are modality-specific?
+2. How does environment amplify modality weaknesses?
+3. What hybrid strategies outperform single modality?
+
+=== Keyword Searches
+
+- "interaction error" AND cockpit
+- "glove effect" AND touchscreen aviation
+- "voice misrecognition" AND cockpit
+- "high G" AND pointing accuracy
+
+== SECTION 4 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+
+1. Which tasks should map to which modality?
+2. What evidence supports hybrid interaction architectures?
+3. What verification metrics demonstrate safe interaction under stress?
+
+=== Keyword Searches
+
+- "control allocation" AND cockpit
+- "hybrid interface" AND aviation
+- "validation" AND interaction performance
+- "human factors verification" AND modality
+
+== STOP CONDITION
+
+- ≥ 40 empirical studies
+- ≥ 15 aviation-specific
+- ≥ 10 include high G, vibration, or glove conditions
+- ≥ 10 report quantitative performance metrics
+- ≥ 5 compare multiple modalities directly
+
+
+⸻
+
+At this point, your Mission Systems PVI Mastery branch is architecturally complete.
+
+Next logical move:
+	•	Build the Master Elicit Index file (single document listing every RR/SR with direct question packs)
+	•	Or pivot back to integrating this into the repo structure cleanly.
+
+Your call.
+
+
+
+
+
+
+
+
+
+
+
+Understood. Here are the full Elicit askiidocs for all three I referenced next:
+	•	MRR-01 — Mission Systems as an Information Factory
+	•	MRR-02 — Weapons Employment as Cognitive Workflow
+	•	MRR-06 — Sensor Fusion Displays and Information Density Architecture
+
+All are MRR (synthesis-driven, targeted pulls), sectioned for Elicit with multiple semantic questions + keyword searches per section.
+
+⸻
+
+
+= MRR-01: Mission Systems as an Information Factory (Information Flow, Bottlenecks, Cognitive Throughput)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Model the modern fighter mission system as an end-to-end information production pipeline (sense → fuse → prioritize → decide → act), identify bottlenecks and failure modes, and derive PVI constraints that preserve cognitive throughput under tempo.
+
+Synthesis-driven with targeted evidence pulls (not a systematic review).
+
+== SECTION 1 — MISSION SYSTEMS INFORMATION PIPELINE (END-TO-END)
+
+=== Semantic Queries
+
+1. How is information processed from sensors to pilot decisions in modern fighter mission systems?
+2. What are the major stages of the sensor-to-decision pipeline (detection, tracking, fusion, prioritization, display, action)?
+3. What is the “information factory” model in mission systems (inputs, transforms, outputs, waste/errors)?
+4. What architectures are used to manage multi-sensor inputs at tactical tempos?
+
+=== Keyword Searches
+
+- "mission systems" AND "information flow" AND fighter
+- "sensor to shooter" AND "information flow"
+- "information processing pipeline" AND tactical aviation
+- "sensor fusion pipeline" AND cockpit
+- "track management" AND "display generation" AND avionics
+
+== SECTION 2 — BOTTLENECKS: WHERE THROUGHPUT COLLAPSES
+
+=== Semantic Queries
+
+1. What are common bottlenecks in mission systems decision-making (display overload, alert storms, comms, mode switching)?
+2. What causes cognitive throughput collapse during retasking?
+3. What is known about multi-source conflict (sensor disagreement) as a bottleneck?
+4. What are the limiting constraints: human attention, working memory, display density, interaction time?
+
+=== Keyword Searches
+
+- "cognitive throughput" AND cockpit
+- "information overload" AND tactical display
+- "retasking" AND cockpit AND overload
+- "alert storm" AND cockpit
+- "sensor disagreement" AND decision making AND aviation
+- "bottleneck" AND "mission management" AND pilot
+
+== SECTION 3 — PRIORITIZATION AND TRIAGE (THE CORE CONTROL FUNCTION)
+
+=== Semantic Queries
+
+1. How do mission systems prioritize threats, tracks, messages, and tasks for pilot attention?
+2. What triage strategies are used (ranking, filtering, declutter, adaptive aiding)?
+3. What are failure modes of prioritization (masking, over-filtering, misranking)?
+4. How should systems communicate why something is prioritized (transparency)?
+
+=== Keyword Searches
+
+- "threat prioritization" AND tactical cockpit
+- "declutter logic" AND integrated display
+- "adaptive filtering" AND cockpit
+- "priority cueing" AND display
+- "transparency" AND automation AND cockpit
+
+== SECTION 4 — CONFLICT, AMBIGUITY, AND CONFIDENCE MANAGEMENT
+
+=== Semantic Queries
+
+1. How is uncertainty handled between sensors and tracks before presentation?
+2. What mechanisms create false tracks or ambiguous track identity?
+3. How should confidence be computed, propagated, and displayed?
+4. What evidence exists on pilot misinterpretation of ambiguous fused information?
+
+=== Keyword Searches
+
+- "uncertainty visualization" AND sensor fusion AND cockpit
+- "track confidence" AND display
+- "false tracks" AND tactical aviation
+- "ambiguity" AND fused display
+- "confidence encoding" AND symbology
+
+== SECTION 5 — INTERACTION TIME AND CONTROL AUTHORITY (ACTION LATENCY)
+
+=== Semantic Queries
+
+1. How do interaction modalities (HOTAS/cursor/touch/voice) affect action latency in mission tasks?
+2. What authority boundaries reduce pilot action time under tempo?
+3. What mode/state structures reduce errors while preserving speed?
+4. How does automation change the pipeline (what shifts to machine vs pilot)?
+
+=== Keyword Searches
+
+- "action latency" AND cockpit interaction
+- "control authority allocation" AND mission systems
+- "mode confusion" AND tactical cockpit
+- "supervisory control" AND tactical aviation
+- "automation boundary" AND cockpit
+
+== SECTION 6 — PVI IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+1. What PVI design constraints best preserve cognitive throughput (density budgets, declutter, prioritization, cueing, interaction time limits)?
+2. What verification metrics demonstrate throughput preservation (decision latency, missed-cue rate, task completion under retasking)?
+3. What mission-thread scenarios best stress-test the information factory (multi-threat intercept, SEAD push, dynamic retask)?
+
+=== Keyword Searches
+
+- "missed cue rate" AND cockpit
+- "decision latency" AND tactical aviation
+- "task completion" AND retasking AND pilot
+- "mission thread" AND validation AND cockpit
+- "performance under stress" AND integrated display
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 25 authoritative sources describing mission systems flow/architecture
+- ≥ 10 explicitly discuss information flow, bottlenecks, or prioritization
+- ≥ 5 address uncertainty/confidence handling
+- ≥ 5 address retasking/high-tempo collapse points
+- ≥ 5 support measurable verification metrics for throughput protection
+
+
+⸻
+
+
+= MRR-02: Weapons Employment as Cognitive Workflow (Sensor-to-Shooter Decision Chains)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Describe weapons employment as a cognitive workflow: detect → track → ID → decide → consent → assess. Identify decision gates, bias/error pathways, and PVI constraints that reduce mis-ID and timing errors under ROE and tempo.
+
+Synthesis-driven with targeted pulls; paired empirical foundation is MSR-02.
+
+== SECTION 1 — WEAPONS EMPLOYMENT WORKFLOW (A2A/A2G VARIANTS)
+
+=== Semantic Queries
+
+1. What are the canonical pilot workflow steps for A2A and A2G weapons employment?
+2. How do BVR vs WVR workflows differ in decision gating and cueing?
+3. How do dynamic targeting vs preplanned strike workflows differ?
+4. What are the key cognitive gates (ID, authorization, timing, geometry)?
+
+=== Keyword Searches
+
+- "weapons employment workflow" AND fighter
+- "sensor to shooter" AND decision chain
+- "BVR" AND "engagement workflow" AND pilot
+- "dynamic targeting" AND cockpit workflow
+- "preplanned strike" AND targeting workflow
+
+== SECTION 2 — DECISION GATES AND ROE (ID GATING, AUTHORIZATION)
+
+=== Semantic Queries
+
+1. What decision gates exist before weapons release (positive ID, ROE, collateral constraints)?
+2. How is combat ID performed across sensors and sources?
+3. What causes gate failure (ambiguous cues, time pressure, expectation effects)?
+4. How should systems support “stop points” without adding friction?
+
+=== Keyword Searches
+
+- "rules of engagement" AND cognitive workload
+- "positive identification" AND engagement
+- "combat identification" AND cockpit interface
+- "ID gating" AND tactical aviation
+- "authorization" AND weapons release AND cockpit
+
+== SECTION 3 — COGNITIVE ERROR PATHWAYS (BIAS, TUNNELING, MODE/STATE)
+
+=== Semantic Queries
+
+1. What biases drive misidentification or premature engagement (confirmation bias, expectation, plan continuation)?
+2. How does attentional tunneling occur during engagement?
+3. What mode/state misunderstandings contribute to wrong-weapon or wrong-target errors?
+4. How do confidence displays influence overtrust in targeting cues?
+
+=== Keyword Searches
+
+- "confirmation bias" AND target identification AND pilot
+- "plan continuation error" AND aviation
+- "cognitive tunneling" AND engagement
+- "mode confusion" AND fire control
+- "overtrust" AND targeting cues
+
+== SECTION 4 — TIMING, LATENCY, AND THROUGH-PUT (DECISION-TO-ACTION)
+
+=== Semantic Queries
+
+1. How does time pressure affect speed-accuracy tradeoffs in engagement decisions?
+2. What latencies matter (sensor update, track stability, cue timing, pilot action)?
+3. What design patterns reduce decision-to-consent time without raising error probability?
+4. What metrics capture “good” engagement timing?
+
+=== Keyword Searches
+
+- "time pressure" AND engagement decision
+- "speed accuracy tradeoff" AND tactical decision
+- "decision latency" AND weapons employment
+- "track quality" AND engagement timing
+- "consent time" AND cockpit
+
+== SECTION 5 — PVI SUPPORT FUNCTIONS (CUEING, CONFIDENCE, SOURCE ATTRIBUTION)
+
+=== Semantic Queries
+
+1. How should confidence and uncertainty be presented during engagement workflows?
+2. How should source attribution be communicated (radar vs EO/IR vs datalink)?
+3. What confirmation mechanisms reduce mis-ID (redundant cues, forced cross-checks, gated consent)?
+4. What are failure modes of excessive gating (delays, missed opportunities)?
+
+=== Keyword Searches
+
+- "uncertainty visualization" AND weapons decision
+- "source attribution" AND tactical display
+- "cross-check" AND combat identification
+- "gated consent" AND engagement
+- "forced function" AND error prevention AND cockpit
+
+== SECTION 6 — PVI IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+1. What design constraints and verification metrics best reduce mis-ID risk (ID accuracy, false positive rate, decision latency)?
+2. What mission threads should be used for validation (multi-target, degraded data, contested environment)?
+3. What evidence is required to argue weapons interface safety for certification?
+
+=== Keyword Searches
+
+- "misidentification risk" AND cockpit
+- "verification metrics" AND weapons interface
+- "human factors validation" AND fire control
+- "multi-target engagement" AND pilot error
+- "degraded sensor" AND engagement decision
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 25 authoritative sources on engagement workflow and cognitive gating
+- ≥ 10 sources explicitly discuss decision gates/ROE/ID gating
+- ≥ 5 sources address bias/tunneling in engagement decisions
+- ≥ 5 sources support measurable validation metrics for safe employment
+
+
+⸻
+
+
+= MRR-06: Sensor Fusion Displays and Information Density Architecture (Confidence, Ambiguity, Declutter)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Define architecture-level design principles for fused tactical displays: how density is budgeted, how confidence/ambiguity is encoded, how declutter is controlled, and how latency and false tracks are managed for pilot comprehension.
+
+Synthesis-driven; paired empirical foundation is MSR-01.
+
+== SECTION 1 — FUSION DISPLAY ARCHITECTURE PATTERNS
+
+=== Semantic Queries
+
+1. What are common architectures for fused tactical displays in modern fighters?
+2. How do integrated displays balance completeness vs clarity?
+3. What layering models are used (summary + drill-down, context-dependent layers)?
+4. How do fused displays manage track identity and continuity?
+
+=== Keyword Searches
+
+- "fused tactical display" AND architecture
+- "integrated display" AND sensor fusion AND cockpit
+- "layered display" AND tactical aviation
+- "track continuity" AND symbology
+- "integrated situation display" AND fighter
+
+== SECTION 2 — INFORMATION DENSITY BUDGETING (DECLUTTER + FILTERING)
+
+=== Semantic Queries
+
+1. How is information density measured or bounded in cockpit display design?
+2. What declutter logic strategies are used (manual vs adaptive vs context-triggered)?
+3. What are failure modes of declutter (masking, missed threats, loss of trust)?
+4. How should declutter state be communicated to avoid hidden filtering?
+
+=== Keyword Searches
+
+- "display clutter" AND pilot performance
+- "declutter logic" AND tactical display
+- "adaptive declutter" AND cockpit
+- "information density" AND cockpit
+- "hidden filtering" AND automation transparency
+
+== SECTION 3 — CONFIDENCE, AMBIGUITY, AND FALSE TRACKS (WHAT TO SHOW)
+
+=== Semantic Queries
+
+1. How should uncertainty/confidence be computed and visualized for tracks?
+2. What evidence exists on pilot misinterpretation of confidence cues?
+3. How should ambiguous/competing hypotheses be presented (not just a single track truth)?
+4. How should false tracks, dropouts, and track swaps be communicated?
+
+=== Keyword Searches
+
+- "track confidence" AND visualization
+- "uncertainty visualization" AND aviation display
+- "ambiguous tracks" AND cockpit
+- "false track" AND display warning
+- "track swap" AND symbology
+
+== SECTION 4 — LATENCY, UPDATE RATE, AND TEMPORAL COHERENCE
+
+=== Semantic Queries
+
+1. What latency and update-rate constraints affect fused display comprehension?
+2. How should temporal staleness be represented (age-of-data, source latency)?
+3. What visual techniques reduce temporal confusion (smoothing, prediction, explicit staleness tags)?
+4. What are risks of over-smoothing (illusory certainty)?
+
+=== Keyword Searches
+
+- "age of data" AND cockpit display
+- "latency visualization" AND tactical display
+- "update rate" AND fused display
+- "temporal coherence" AND display design
+- "smoothing" AND tracking AND human factors
+
+== SECTION 5 — ATTENTION MANAGEMENT (PRIORITY CUEING WITHOUT TUNNELING)
+
+=== Semantic Queries
+
+1. How should priority cueing be done without inducing attentional tunneling?
+2. How should multi-threat prioritization be represented (rank, clusters, proximity, lethality)?
+3. What design patterns support rapid triage (glanceable state + drill-down)?
+
+=== Keyword Searches
+
+- "threat prioritization" AND display design
+- "priority cueing" AND cockpit
+- "attentional capture" AND warning AND aviation
+- "triage" AND tactical display
+- "glanceable" AND cockpit display
+
+== SECTION 6 — PVI IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+1. What measurable display requirements follow from this architecture (max density, declutter behaviors, confidence encoding rules)?
+2. What verification metrics best demonstrate safe comprehension (decision latency, missed cues, misclassification errors, trust calibration)?
+3. What mission-thread test scenarios stress these requirements (dense track environment, spoofing, rapid retask)?
+
+=== Keyword Searches
+
+- "display validation" AND sensor fusion
+- "missed cues" AND cockpit display
+- "decision latency" AND fused display
+- "trust calibration" AND confidence display
+- "mission thread" AND display verification
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 25 authoritative sources on fused display architecture/declutter/confidence
+- ≥ 10 sources address density/clutter and mitigations explicitly
+- ≥ 5 sources address confidence/uncertainty encoding explicitly
+- ≥ 5 sources address latency/staleness representation
+- ≥ 5 sources support measurable verification metrics and scenario design
+
+
+⸻
+
+If you want to keep rolling, the next highest-yield M artifacts to generate Elicit packs for are:
+	•	MRR-07 — Supervisory Control and MUM-T Architecture (MRR synthesis)
+	•	MRR-08 — AI Decision Support and Trust Calibration (MRR synthesis)
+	•	MRR-09 — Alarm Philosophy and Integrated Alert Management (MRR synthesis)
+	•	MSR-05 — Interaction Modalities (SR extraction)
+
+Say “next” and I’ll generate those four.
+
+
+
+
+
+
+
+
+
+
+Got it. We stay in the Mission Systems PVI Mastery (M) track.
+
+Best next set (keeps the spine coherent and avoids gaps):
+	1.	MRR-F03 (EO/IR + targeting pod + handoff logic)
+	2.	MRR-F04 (tactical maps + geospatial cognition)
+	3.	MRR-F07 (control architecture + interaction ecosystem)
+	4.	MSR-04 (data link load + comms capacity, empirical)
+
+Below are the full Elicit askiidocs for those four.
+
+⸻
+
+
+= MRR-F03: EO/IR, Targeting Pods, and Sensor Handoff Logic
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Build technical fluency in EO/IR and targeting pod concepts, the detect → track → ID → designate workflow, and sensor handoff/arbitration logic. Derive PVI constraints (ID gating, latency, cueing, mode/state clarity).
+
+This is synthesis-driven with targeted literature pulls.
+
+== SECTION 1 — EO/IR FUNDAMENTALS AND TARGETING POD CAPABILITIES
+
+=== Semantic Queries
+
+1. What are the core functions and limitations of EO/IR sensors used in tactical aviation?
+2. How do targeting pods support detection, identification, and tracking?
+3. What are common EO/IR modes (wide/narrow FOV, tracking modes) and what do they imply for pilot interaction?
+4. What performance constraints matter for PVI (resolution, contrast, range, stabilization, latency)?
+
+=== Keyword Searches
+
+- "EO/IR sensor" AND tactical aviation
+- "targeting pod" AND human factors
+- "FLIR" AND cockpit AND interaction
+- "FOV switching" AND targeting pod
+- "stabilization" AND targeting pod AND latency
+- "IR contrast" AND target detection
+
+== SECTION 2 — DETECTION TO ID GATING (COGNITIVE + SYSTEM PIPELINE)
+
+=== Semantic Queries
+
+1. What steps occur between EO/IR detection and positive target identification in tactical contexts?
+2. How do pilots perform ID confirmation using EO/IR under time pressure?
+3. What are known failure modes in EO/IR-based target identification (mis-ID, confirmation bias, ambiguous cues)?
+4. How do ROE and ID requirements shape workflow design?
+
+=== Keyword Searches
+
+- "target identification" AND EO/IR AND pilot
+- "combat identification" AND EO/IR
+- "ROE" AND identification AND cockpit
+- "misidentification" AND targeting pod
+- "confirmation bias" AND target identification
+
+== SECTION 3 — SENSOR HANDOFFS AND ARBITRATION (RADAR ↔ EO/IR ↔ DATALINK)
+
+=== Semantic Queries
+
+1. How are targets handed off between radar and EO/IR in modern tactical aircraft?
+2. What are common handoff workflows (cueing, slaving, auto-track acquisition)?
+3. How are conflicts resolved when sensors disagree (location, identity, confidence)?
+4. What timing/latency issues most affect handoff performance?
+
+=== Keyword Searches
+
+- "sensor handoff" AND radar AND EO/IR
+- "sensor cueing" AND targeting pod
+- "slaved" AND EO/IR AND radar
+- "handoff latency" AND tactical aircraft
+- "track correlation" AND EO/IR AND radar
+
+== SECTION 4 — DISPLAY CONCEPTS AND CONTROL INTERACTION
+
+=== Semantic Queries
+
+1. How is EO/IR imagery integrated into cockpit displays (MFD, HMD, overlays)?
+2. What UI patterns support rapid acquisition and tracking?
+3. How do pilots control EO/IR (HOTAS vs cursor vs touch) and what errors result?
+4. How should tracking state, mode, and confidence be communicated?
+
+=== Keyword Searches
+
+- "EO/IR display integration" AND cockpit
+- "HMD" AND EO/IR cueing
+- "cursor control" AND targeting pod
+- "mode annunciation" AND EO/IR
+- "tracking state display" AND targeting pod
+
+== SECTION 5 — DEGRADED CONDITIONS AND ENVIRONMENTAL EFFECTS
+
+=== Semantic Queries
+
+1. How do weather, haze, maritime clutter, and terrain affect EO/IR usability?
+2. How do night operations and NVG/HMD interactions affect EO/IR workflows?
+3. What mitigations improve performance under degraded imagery?
+
+=== Keyword Searches
+
+- "degraded visual environment" AND EO/IR
+- "maritime clutter" AND IR detection
+- "NVG" AND targeting pod
+- "haze" AND EO/IR performance
+- "low visibility" AND IR target recognition
+
+== SECTION 6 — PVI IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+1. What PVI design patterns reduce mis-ID risk during EO/IR targeting?
+2. What interaction architecture minimizes time-to-designate?
+3. What verification metrics should be used (ID accuracy, time-to-designate, track loss rate)?
+
+=== Keyword Searches
+
+- "time to designate" AND targeting pod
+- "track loss" AND EO/IR
+- "ID accuracy" AND EO/IR AND pilot
+- "verification metrics" AND EO/IR interface
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 25 authoritative technical/operational sources
+- ≥ 10 sources describe handoff/cueing workflows explicitly
+- ≥ 10 sources cover EO/IR modes + pilot interaction
+- ≥ 5 sources address mis-ID / ID gating risk
+- ≥ 5 sources cover degraded environment effects
+
+
+⸻
+
+
+= MRR-F04: Tactical Maps and Geospatial Cognition (Terrain Masking, Maritime, Low-Vis)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Build fluency in tactical moving maps, geospatial overlays, and how pilots reason about terrain, maritime environments, and degraded visibility. Derive PVI constraints for map interaction, declutter, and projection support.
+
+Synthesis-driven, targeted pulls.
+
+== SECTION 1 — TACTICAL MAP SYSTEMS AND OVERLAYS
+
+=== Semantic Queries
+
+1. What are common functions of tactical moving maps in modern fighter cockpits?
+2. What overlays are typically used (threat rings, routes, tracks, terrain, restricted zones)?
+3. How does map symbology encode tactical meaning under time pressure?
+4. What are common design constraints for map display density?
+
+=== Keyword Searches
+
+- "tactical moving map" AND cockpit
+- "geospatial overlay" AND tactical display
+- "threat ring" AND cockpit map
+- "map declutter" AND aviation
+- "tactical symbology" AND map
+
+== SECTION 2 — GEOSPATIAL COGNITION AND PROJECTION
+
+=== Semantic Queries
+
+1. How do pilots maintain geospatial orientation under high workload?
+2. What cognitive errors occur with projection, scale, north-up vs track-up orientation?
+3. How does terrain masking influence pilot planning and perception?
+4. What design features improve projection (future position, intercept geometry cues)?
+
+=== Keyword Searches
+
+- "geospatial cognition" AND pilot
+- "terrain masking" AND cockpit display
+- "map orientation" AND pilot performance
+- "projection" AND navigation AND aviation
+- "scale switching" AND map interaction
+
+== SECTION 3 — ENVIRONMENTAL CONTEXTS
+
+=== Semantic Queries
+
+1. What changes in map interaction demands over-water vs mountainous terrain?
+2. How do low visibility and IMC change map reliance and errors?
+3. What constraints arise in arctic/desert environments (contrast, sensor degradation)?
+4. How do maritime environments affect altitude/perception and navigation risk?
+
+=== Keyword Searches
+
+- "over-water navigation" AND pilot AND display
+- "mountainous terrain" AND navigation AND cockpit
+- "IMC" AND moving map AND performance
+- "low visibility" AND map reliance
+- "maritime" AND altitude misperception
+
+== SECTION 4 — INTERACTION MODALITIES (CURSOR, TOUCH, HOTAS)
+
+=== Semantic Queries
+
+1. How do pilots pan/zoom/select map features under tempo constraints?
+2. How do cursor controls compare with touch for map manipulation?
+3. What are error pathways (wrong layer, wrong scale, mode confusion)?
+4. What interaction patterns minimize time-on-map without losing awareness?
+
+=== Keyword Searches
+
+- "cursor control device" AND moving map
+- "touchscreen" AND cockpit map AND performance
+- "pan zoom" AND aviation display
+- "mode confusion" AND map interface
+
+== SECTION 5 — DISPLAY CLUTTER, DECLUTTER, AND TRUST
+
+=== Semantic Queries
+
+1. What evidence exists on map clutter driving missed threats or route errors?
+2. What declutter logic is most effective (manual vs adaptive)?
+3. How should uncertainty (e.g., track confidence, nav accuracy) be shown?
+
+=== Keyword Searches
+
+- "display clutter" AND navigation AND aviation
+- "adaptive declutter" AND map
+- "uncertainty visualization" AND geospatial display
+- "trust" AND moving map AND aviation
+
+== SECTION 6 — PVI IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+1. What map design features reduce terrain/route errors under time pressure?
+2. What verification metrics best demonstrate safe map interaction (route accuracy, time-to-action, hazard avoidance)?
+3. What mission scenarios should be used for validation (terrain masking, maritime ingress, low-vis rejoin)?
+
+=== Keyword Searches
+
+- "navigation error" AND cockpit display
+- "route planning" AND tactical aviation
+- "validation" AND moving map AND pilot
+- "terrain avoidance" AND display design
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 25 authoritative sources (aviation-focused)
+- ≥ 10 sources address terrain masking or low-level operations
+- ≥ 10 sources address map interaction/performance empirically or operationally
+- ≥ 5 sources address maritime or over-water effects
+- ≥ 5 sources address declutter/clutter impacts
+
+
+⸻
+
+
+= MRR-F07: Control Architecture and Interaction Ecosystem (HOTAS, Cursor, Touch, Voice, Head)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Develop system-level understanding of control allocation, interaction modality tradeoffs, and mode/state management in tactical cockpits. Derive PVI constraints for safe, low-friction control under physical stress and tempo.
+
+Synthesis-driven, targeted pulls.
+
+== SECTION 1 — CONTROL ALLOCATION PRINCIPLES (WHY HOTAS EXISTS)
+
+=== Semantic Queries
+
+1. What principles guide control allocation in fighter cockpits (HOTAS philosophy, minimizing head-down time)?
+2. How are functions partitioned between stick/throttle, cursor, displays, and voice?
+3. What tasks are most sensitive to interaction time and mode errors?
+
+=== Keyword Searches
+
+- "HOTAS philosophy"
+- "control allocation" AND cockpit
+- "head down time" AND fighter
+- "mode switching" AND tactical cockpit
+- "pilot interface workload" AND control design
+
+== SECTION 2 — CURSOR CONTROL DEVICES AND TARGETING INTERACTION
+
+=== Semantic Queries
+
+1. What cursor control devices are used in tactical cockpits and how do they perform?
+2. How do pressure-sensing vs rate-control devices affect accuracy and speed?
+3. What error pathways occur (overshoot, clutching, mode mismatch)?
+4. How does high G/vibration affect cursor performance?
+
+=== Keyword Searches
+
+- "cursor control device" AND fighter
+- "rate control" AND cockpit cursor
+- "isometric joystick" AND cursor control
+- "high G" AND pointing performance
+- "vibration" AND cursor accuracy
+
+== SECTION 3 — TOUCH AND DIRECT MANIPULATION
+
+=== Semantic Queries
+
+1. How does touch performance change with gloves, turbulence, vibration, or high G?
+2. What tasks are suitable vs unsuitable for touch in tactical contexts?
+3. What UI design mitigations reduce touch error (target size, filtering, anchoring)?
+4. How does touch interact with attention and head-down time?
+
+=== Keyword Searches
+
+- "touchscreen" AND cockpit AND glove
+- "high G" AND touchscreen
+- "vibration" AND touch input error
+- "direct manipulation" AND aviation display
+- "touch target size" AND cockpit
+
+== SECTION 4 — VOICE AND HEAD/HELMET INTERACTION
+
+=== Semantic Queries
+
+1. What is the performance and reliability of voice control in high-noise cockpits?
+2. How do head/helmet pointing or HMD interactions affect workload and accuracy?
+3. What are common failure modes (misrecognition, unintended activation, ambiguity)?
+4. When is voice superior to manual interaction?
+
+=== Keyword Searches
+
+- "speech recognition" AND cockpit
+- "voice control" AND aviation AND noise
+- "helmet mounted display" AND interaction
+- "head pointing" AND cockpit
+- "unintended activation" AND voice command
+
+== SECTION 5 — MODE/STATE MANAGEMENT (THE REAL RISK)
+
+=== Semantic Queries
+
+1. What causes mode confusion in multimodal cockpit interaction?
+2. What annunciation and feedback strategies reduce state misunderstanding?
+3. What design patterns prevent accidental weapon/sensor mode transitions?
+
+=== Keyword Searches
+
+- "mode confusion" AND cockpit interface
+- "state feedback" AND aviation
+- "mode annunciation" AND HOTAS
+- "automation transparency" AND cockpit
+
+== SECTION 6 — PVI IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+
+1. What control allocation architectures minimize time-to-action under tempo?
+2. What verification metrics best capture interaction safety (wrong-mode rate, time-to-complete, error recovery time)?
+3. What scenario set should be used for validation (high G, vibration, night, multi-threat)?
+
+=== Keyword Searches
+
+- "wrong mode error rate" AND cockpit
+- "interaction time" AND pilot
+- "error recovery" AND aviation interface
+- "validation scenario" AND HOTAS
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 30 authoritative sources across HOTAS, cursor, touch, voice, HMD
+- ≥ 10 address mode/state management explicitly
+- ≥ 10 address high-G/vibration/turbulence effects
+- ≥ 5 provide quantitative interaction performance measures
+
+
+⸻
+
+
+= MSR-04: Data Link Load and Communication Channel Capacity (Pilot Performance Effects)
+:artifact_type: MSR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on how tactical communications and data link load (voice, messaging, track updates) affect pilot performance, decision latency, error rates, and attention allocation, including channel saturation, prioritization strategies, and mitigation designs.
+
+Extraction-driven.
+
+== SECTION 1 — IDENTIFYING COMMS / DATALINK LOAD STUDIES
+
+=== Semantic Queries
+
+1. What empirical studies quantify pilot performance impacts from communication load?
+2. How does voice/radio traffic volume affect decision accuracy in aviation?
+3. What evidence exists on datalink message saturation effects?
+4. How do pilots prioritize communications under high tempo?
+5. What interface designs mitigate comms overload?
+
+=== Keyword Searches
+
+- "communication load" AND pilot performance
+- "radio traffic" AND aviation AND workload
+- "datalink message" AND overload
+- "Link-16" AND human factors
+- "channel capacity" AND aviation communication
+- "message management" AND cockpit
+
+== SECTION 2 — EXTRACTION COLUMNS
+
+=== Communication Modality
+
+- Voice radio / intercom
+- Data link messaging
+- Mixed voice + data link
+- Automated messaging aids (Y/N)
+
+=== Load Characterization
+
+- Message rate (per min) reported (Y/N)
+- Radio call density manipulated (Y/N)
+- Concurrent task load present (Y/N)
+- Multi-party comms present (Y/N)
+
+=== Performance Outcomes
+
+- Decision latency / reaction time
+- Error rate (comms errors + task errors)
+- Missed call rate
+- Targeting/SA errors attributed to comms load
+
+=== Cognitive/Attention Outcomes
+
+- Workload measure included (Y/N)
+- SA measure included (Y/N)
+- Visual scanning changes (Y/N)
+- Task shedding observed (Y/N)
+
+=== Context Variables
+
+- Tactical/high-tempo scenario (Y/N)
+- Multi-ship operations (Y/N)
+- Contested/degraded comms (Y/N)
+- Simulator vs flight vs lab
+
+=== Mitigations
+
+- Prioritization scheme tested (Y/N)
+- Filtering/triage UI tested (Y/N)
+- Automation/agent support tested (Y/N)
+
+== SECTION 3 — CHANNEL CAPACITY AND BOTTLENECK MECHANISMS
+
+=== Semantic Queries
+
+1. What limits define channel capacity for voice communications in aviation?
+2. How does multi-party comms drive interference and misunderstanding?
+3. What mechanisms cause missed calls (masking, timing, attention capture)?
+
+=== Keyword Searches
+
+- "channel capacity" AND voice communication AND aviation
+- "auditory masking" AND cockpit
+- "communication interference" AND aviation
+- "missed calls" AND pilot
+
+== SECTION 4 — PRIORITIZATION AND MESSAGE MANAGEMENT DESIGNS
+
+=== Semantic Queries
+
+1. What message triage strategies improve performance (queueing, tagging, auto-summarization)?
+2. What UI designs reduce comms errors under tempo?
+3. How should urgency and confidence be displayed for datalink messages?
+
+=== Keyword Searches
+
+- "message triage" AND cockpit
+- "prioritization" AND datalink AND display
+- "communication queue" AND aviation
+- "urgency display" AND messaging
+
+== SECTION 5 — DEGRADED / CONTESTED COMMS
+
+=== Semantic Queries
+
+1. How do jamming and loss of comms affect decision performance?
+2. How should systems communicate comms integrity and latency?
+3. What mitigation designs reduce risk during degraded comms?
+
+=== Keyword Searches
+
+- "communication degradation" AND aviation
+- "jamming" AND communication AND pilot performance
+- "loss of datalink" AND cockpit workload
+- "integrity indication" AND comms display
+
+== SECTION 6 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+
+1. What evidence supports specific comms UI requirements (prioritization, filtering, summarization)?
+2. What verification metrics demonstrate acceptable comms performance (missed-call rate, latency, error rate)?
+3. What scenario set best validates comms under tempo (multi-ship, A2A intercept, SEAD push)?
+
+=== Keyword Searches
+
+- "communication system validation" AND aviation
+- "human factors verification" AND comms
+- "missed call rate" AND cockpit
+
+== STOP CONDITION
+
+Stop when:
+- ≥ 40 empirical studies included
+- ≥ 15 aviation-specific
+- ≥ 10 quantify load (message rate or traffic density)
+- ≥ 10 report decision latency or error outcomes
+- ≥ 5 evaluate mitigation UI/automation approaches
+- ≥ 5 address degraded/contested comms conditions
+
+If insufficient:
+Expand to ATC comms load, naval CIC comms, and emergency medical dispatch as analogs, then code context differences.
+
+
+⸻
+
+Next best continuation (keeps momentum):
+	•	MRR-01 Mission Systems as an Information Factory (architecture synthesis)
+	•	MRR-F01/F02/F05 already done, so this becomes the “integrator”
+	•	Then MRR-02 Weapons Cognitive Workflow and MRR-06 Sensor Fusion Display Architecture
+
+Say “next” and I’ll generate MRR-01.
+
+
+
+
+
+
+
+
+
+
+Good. These next six CRRs deepen the certification logic and integrate tempo, decision boundaries, measurement defensibility, and evidence sufficiency.
+
+They are synthesis-driven and structured to translate theory → measurable constructs → airworthiness framing.
+
+⸻
+
+=========================================================
+
+CRR-05
+
+Cognitive Throughput Limits and Decision Boundaries
+
+=========================================================
+
+= CRR-05: Cognitive Throughput Limits and Decision Boundaries in Tactical Aviation
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize cognitive throughput theory, time pressure research, and bounded rationality models to derive defensible decision-capacity limits for high-tempo tactical aviation.
+
+⸻
+
+SECTION 1 — COGNITIVE THROUGHPUT THEORY
+
+=== Semantic Queries
+	1.	What determines cognitive throughput limits in multitasking environments?
+	2.	How does time pressure influence decision quality?
+	3.	What is bounded rationality in dynamic decision-making?
+	4.	How does working memory capacity constrain tactical decisions?
+
+=== Keyword Searches
+	•	“cognitive throughput”
+	•	“bounded rationality” AND aviation
+	•	“time pressure” AND decision quality
+	•	“working memory capacity” AND multitasking
+
+⸻
+
+SECTION 2 — DECISION LATENCY AND ERROR TRADEOFFS
+
+=== Semantic Queries
+	1.	How does decision speed trade off with accuracy in high-risk domains?
+	2.	What empirical evidence identifies decision breakdown thresholds?
+	3.	How does uncertainty alter speed-accuracy tradeoffs?
+
+=== Keyword Searches
+	•	“speed accuracy tradeoff” AND aviation
+	•	“decision latency” AND cockpit
+	•	“uncertainty” AND tactical decision making
+
+⸻
+
+SECTION 3 — SYSTEM CONSTRAINTS AND DISPLAY LOAD
+
+=== Semantic Queries
+	1.	How does display density affect decision latency?
+	2.	How does multi-threat presentation compress throughput?
+	3.	What role does prioritization logic play in throughput protection?
+
+=== Keyword Searches
+	•	“display density” AND decision performance
+	•	“multi-threat environment” AND pilot
+	•	“information prioritization” AND cockpit
+
+⸻
+
+SECTION 4 — CERTIFICATION IMPLICATIONS
+
+=== Semantic Queries
+	1.	How can cognitive throughput limits be operationalized into testable requirements?
+	2.	What evidence demonstrates acceptable decision boundary margins?
+	3.	How should overload thresholds be validated?
+
+=== Keyword Searches
+	•	“human performance requirement” AND aviation
+	•	“verification test” AND workload limit
+	•	“decision threshold” AND certification
+
+⸻
+
+STOP CONDITION
+	•	≥ 20 foundational cognitive capacity sources
+	•	≥ 20 empirical time-pressure studies
+	•	Clear articulation of measurable overload/decision boundaries
+
+⸻
+
+=========================================================
+
+CRR-06
+
+Attention, Tunneling, and Visual Capture Mechanisms
+
+=========================================================
+
+= CRR-06: Attention, Tunneling, and Visual Capture in Tactical Cockpits
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Integrate attention theory and empirical evidence on attentional capture and cognitive tunneling to derive certifiable design constraints for alerting and display systems.
+
+⸻
+
+SECTION 1 — ATTENTION THEORY FOUNDATIONS
+
+=== Semantic Queries
+	1.	What mechanisms govern visual attention allocation?
+	2.	How does salience influence attentional capture?
+	3.	What is cognitive tunneling and how does it occur?
+
+=== Keyword Searches
+	•	“attentional capture”
+	•	“salience” AND attention
+	•	“cognitive tunneling” AND aviation
+	•	“selective attention” AND cockpit
+
+⸻
+
+SECTION 2 — ALERTING AND CAPTURE EFFECTS
+
+=== Semantic Queries
+	1.	How do warning systems induce attentional capture?
+	2.	When does capture impair detection of secondary cues?
+	3.	What evidence supports alert prioritization strategies?
+
+=== Keyword Searches
+	•	“warning salience” AND aviation
+	•	“alarm flooding”
+	•	“alert storm” AND cockpit
+
+⸻
+
+SECTION 3 — FAILURE MODES
+
+=== Semantic Queries
+	1.	Under what conditions does tunneling cause missed critical information?
+	2.	How does workload amplify capture effects?
+	3.	How does trust interact with attention?
+
+=== Keyword Searches
+	•	“missed cues” AND attention
+	•	“high workload” AND attentional narrowing
+	•	“alarm fatigue” AND attention
+
+⸻
+
+SECTION 4 — CERTIFICATION TRANSLATION
+
+=== Semantic Queries
+	1.	How should attention preservation be tested?
+	2.	What measurable scanning metrics indicate acceptable performance?
+	3.	How can alerting systems be verified for non-interference?
+
+=== Keyword Searches
+	•	“eye tracking” AND attention verification
+	•	“scanning pattern” AND cockpit
+	•	“warning validation” AND aviation
+
+⸻
+
+STOP CONDITION
+	•	≥ 25 attention theory sources
+	•	≥ 20 empirical aviation alert studies
+	•	Clear mapping from attention mechanism → design mitigation → measurable metric
+
+⸻
+
+=========================================================
+
+CRR-07
+
+Fatigue Risk and Performance Margins
+
+=========================================================
+
+= CRR-07: Fatigue Risk and Performance Margins in Tactical Aviation
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize fatigue research to establish defensible performance margins across mission duration and sustained operations.
+
+⸻
+
+SECTION 1 — FATIGUE THEORY
+
+=== Semantic Queries
+	1.	What cognitive processes degrade under fatigue?
+	2.	How does vigilance decrement affect monitoring tasks?
+	3.	What models explain fatigue accumulation?
+
+=== Keyword Searches
+	•	“fatigue model” AND aviation
+	•	“vigilance decrement”
+	•	“cognitive fatigue” AND pilot
+
+⸻
+
+SECTION 2 — PERFORMANCE THRESHOLDS
+
+=== Semantic Queries
+	1.	What performance measures degrade first under fatigue?
+	2.	Are there measurable lapse thresholds?
+	3.	What margin should be preserved in design?
+
+=== Keyword Searches
+	•	“fatigue threshold” AND aviation
+	•	“performance degradation” AND pilot
+	•	“reaction time” AND fatigue
+
+⸻
+
+SECTION 3 — RISK ARGUMENTATION
+
+=== Semantic Queries
+	1.	How should fatigue risk be framed in safety cases?
+	2.	What mitigation evidence is sufficient?
+	3.	How can fatigue robustness be tested?
+
+=== Keyword Searches
+	•	“fatigue risk management”
+	•	“safety case” AND fatigue
+	•	“airworthiness” AND fatigue
+
+⸻
+
+STOP CONDITION
+	•	≥ 20 theoretical fatigue models
+	•	≥ 20 aviation-relevant empirical studies
+	•	Clear articulation of margin-of-safety framing
+
+⸻
+
+=========================================================
+
+CRR-08
+
+Ecological Validity and Evidence Hierarchy
+
+=========================================================
+
+= CRR-08: Ecological Validity and Evidence Hierarchy for PVI Certification
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize ecological validity theory to construct a defensible hierarchy of evidence for simulation, lab, and flight testing.
+
+⸻
+
+SECTION 1 — ECOLOGICAL VALIDITY THEORY
+
+=== Semantic Queries
+	1.	What defines ecological validity in human factors research?
+	2.	How does context influence generalizability?
+	3.	What are limits of laboratory findings?
+
+=== Keyword Searches
+	•	“ecological validity”
+	•	“context dependency” AND performance
+	•	“generalizability” AND aviation
+
+⸻
+
+SECTION 2 — EVIDENCE HIERARCHY
+
+=== Semantic Queries
+	1.	What constitutes strong evidence in safety-critical domains?
+	2.	How should sim and flight data be weighted?
+	3.	What validation sequence strengthens defensibility?
+
+=== Keyword Searches
+	•	“evidence hierarchy” AND safety
+	•	“validation pyramid” AND aviation
+	•	“simulation vs flight” AND evidence
+
+⸻
+
+SECTION 3 — CERTIFICATION FRAMEWORK
+
+=== Semantic Queries
+	1.	How should mixed evidence be structured in certification documents?
+	2.	What constitutes sufficient ecological robustness?
+
+=== Keyword Searches
+	•	“evidence sufficiency”
+	•	“certification evidence” AND aviation
+
+⸻
+
+STOP CONDITION
+	•	≥ 20 foundational ecological validity sources
+	•	Clear structured hierarchy for evidence strength
+
+⸻
+
+=========================================================
+
+CRR-09
+
+Measurement Validity and Construct Defensibility
+
+=========================================================
+
+= CRR-09: Measurement Validity and Construct Defensibility in Aviation HF
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize psychometric validity theory and apply it to workload, SA, and trust measures used in certification.
+
+⸻
+
+SECTION 1 — VALIDITY THEORY
+
+=== Semantic Queries
+	1.	What are construct, criterion, and content validity?
+	2.	How is validity established in applied domains?
+	3.	What are threats to measurement validity?
+
+=== Keyword Searches
+	•	“construct validity”
+	•	“criterion validity”
+	•	“measurement validity” AND aviation
+
+⸻
+
+SECTION 2 — AVIATION MEASURE APPLICATION
+
+=== Semantic Queries
+	1.	Are workload measures construct-valid for performance risk?
+	2.	Do SA measures predict operational outcomes?
+	3.	What validity gaps exist in aviation HF measurement?
+
+=== Keyword Searches
+	•	“validity” AND NASA-TLX
+	•	“SAGAT predictive validity”
+	•	“trust scale validity”
+
+⸻
+
+SECTION 3 — CERTIFICATION DEFENSIBILITY
+
+=== Semantic Queries
+	1.	What evidence demonstrates measurement defensibility?
+	2.	What statistical rigor is required for certification?
+
+=== Keyword Searches
+	•	“psychometric defensibility”
+	•	“regulatory acceptance” AND measurement
+
+⸻
+
+STOP CONDITION
+	•	≥ 20 psychometric foundational sources
+	•	≥ 20 aviation-specific measurement studies
+	•	Clear defensibility criteria framework
+
+⸻
+
+=========================================================
+
+CRR-10
+
+Evidence Sufficiency and Human Performance Claims
+
+=========================================================
+
+= CRR-10: Evidence Sufficiency for Human Performance Certification Claims
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Integrate workload, SA, trust, fatigue, and ecological validity into a structured argument for what constitutes “sufficient evidence” in airworthiness contexts.
+
+⸻
+
+SECTION 1 — DEFINING SUFFICIENCY
+
+=== Semantic Queries
+	1.	What constitutes sufficient evidence in safety-critical certification?
+	2.	How are performance margins justified?
+	3.	What role does uncertainty play in sufficiency arguments?
+
+=== Keyword Searches
+	•	“evidence sufficiency” AND certification
+	•	“margin of safety” AND human performance
+	•	“uncertainty” AND safety case
+
+⸻
+
+SECTION 2 — INTEGRATION OF MEASURES
+
+=== Semantic Queries
+	1.	Should multiple measures converge before claims are made?
+	2.	How should conflicting evidence be handled?
+	3.	What hierarchy strengthens human performance claims?
+
+=== Keyword Searches
+	•	“convergent validity” AND aviation
+	•	“triangulation” AND safety evidence
+	•	“multi-method evidence” AND certification
+
+⸻
+
+SECTION 3 — STRUCTURED ARGUMENT TEMPLATE
+
+=== Semantic Queries
+	1.	What structure should a human performance claim follow?
+	2.	How should risk, margin, and mitigation be articulated?
+
+=== Keyword Searches
+	•	“safety case structure”
+	•	“hazard argument” AND human factors
+	•	“certification claim” AND aviation
+
+⸻
+
+STOP CONDITION
+	•	Clear formalized evidence sufficiency template
+	•	Integration logic connecting all prior CRRs and CSRs
+
+⸻
+
+You now have CRR-01 through CRR-10 complete.
+
+At this point, your Concept-to-Compliance branch is fully architected and executable.
+
+Next high-value move would be:
+
+• Build the CRR → AW crosswalk template
+• Or return to Mission Systems branch (MRR/MSR) to finish that spine
+
+Your call.
+
+
+
+
+
+
+
+
+
+
+
+
+Continuing with CSR-07 and CSR-08 in the same extraction-heavy, certification-defensible format.
+
+⸻
+
+=========================================================
+
+CSR-07
+
+Fatigue Accumulation and Mission Duration Effects
+
+=========================================================
+
+= CSR-07: Fatigue Accumulation and Mission Duration Effects
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on fatigue accumulation, vigilance degradation, and performance decline across mission duration in aviation and comparable high-reliability domains. Focus on measurable predictors, thresholds, and evidence usable for certification and operational risk arguments.
+
+⸻
+
+SECTION 1 — IDENTIFYING FATIGUE / DURATION STUDIES
+
+== 1.1 Mission Duration and Sustained Ops in Aviation
+
+=== Semantic Queries
+	1.	What empirical studies examine pilot fatigue over mission duration?
+	2.	How does performance degrade across long-duration sorties?
+	3.	What metrics are used to quantify fatigue effects in aviation?
+	4.	How does sustained cognitive workload contribute to fatigue accumulation?
+	5.	What flight simulation or live flight studies quantify time-on-task effects?
+
+=== Keyword Searches
+	•	“pilot fatigue” AND mission duration
+	•	“sortie duration” AND performance AND pilot
+	•	“time on task” AND aviation
+	•	“vigilance decrement” AND pilot
+	•	“sustained operations” AND aviation fatigue
+	•	“long duration flight” AND workload
+
+⸻
+
+== 1.2 Sleep Restriction, Circadian, and Shift Effects
+
+=== Semantic Queries
+	1.	How do sleep restriction and circadian misalignment affect pilot performance?
+	2.	What is the effect of time-of-day on aviation performance measures?
+	3.	What evidence links sleep debt to operational error rates?
+
+=== Keyword Searches
+	•	“sleep restriction” AND pilot performance
+	•	“circadian” AND aviation AND performance
+	•	“shift work” AND pilot fatigue
+	•	“sleep debt” AND error rate AND aviation
+	•	“crew rest” AND performance
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Fatigue Type / Driver
+	•	Mission duration (hours)
+	•	Time-on-task manipulation (Y/N)
+	•	Sleep restriction manipulation (Y/N)
+	•	Circadian manipulation (Y/N)
+	•	Sustained workload exposure (Y/N)
+
+=== Measures Used
+	•	Subjective fatigue scale
+	•	Psychomotor vigilance task (PVT) used (Y/N)
+	•	Performance task measures (RT, tracking)
+	•	Workload measures included (Y/N)
+	•	Physiological markers (HRV, EEG, eye metrics)
+
+=== Outcomes
+	•	Reaction time change (Δ)
+	•	Error rate change (Δ)
+	•	Lapse rate (e.g., PVT lapses)
+	•	SA change (if measured)
+	•	Recovery time after rest (if evaluated)
+
+=== Context Variables
+	•	Live flight / simulator / lab
+	•	Tactical/high-tempo context (Y/N)
+	•	Multi-task environment (Y/N)
+	•	Physical stress present (Y/N)
+
+=== Evidence for Thresholds
+	•	Threshold identified (Y/N)
+	•	Proposed max duration guidance (Y/N)
+	•	Mitigation evaluated (rest, caffeine, automation) (Y/N)
+
+⸻
+
+SECTION 3 — FATIGUE MECHANISMS AND FAILURE MODES
+
+=== Semantic Queries
+	1.	What cognitive mechanisms explain fatigue-related performance decline?
+	2.	How does fatigue influence attention, scanning, and tunneling?
+	3.	Does fatigue increase automation reliance or reduce cross-checking?
+	4.	What errors increase most strongly with fatigue?
+
+=== Keyword Searches
+	•	“fatigue” AND attention AND aviation
+	•	“fatigue” AND visual scanning AND pilot
+	•	“fatigue” AND automation reliance
+	•	“fatigue-related errors” AND aviation
+	•	“vigilance lapse” AND cockpit
+
+⸻
+
+SECTION 4 — MITIGATION AND OPERATIONAL CONTROLS
+
+=== Semantic Queries
+	1.	What mitigation strategies reduce fatigue-related performance loss?
+	2.	How effective are breaks, controlled rest, caffeine, or scheduling changes?
+	3.	What evidence supports fatigue monitoring or predictive models?
+	4.	How should fatigue risk be integrated into verification arguments?
+
+=== Keyword Searches
+	•	“controlled rest” AND aviation
+	•	“caffeine” AND pilot performance
+	•	“fatigue risk management” AND aviation
+	•	“fatigue monitoring” AND pilot
+	•	“fatigue prediction model” AND aviation
+
+⸻
+
+SECTION 5 — CERTIFICATION / DEFENSIBILITY IMPLICATIONS
+
+=== Semantic Queries
+	1.	How should fatigue be addressed in safety and certification arguments for human performance?
+	2.	What evidence is considered sufficient to claim acceptable performance across mission duration?
+	3.	What verification tests demonstrate fatigue robustness?
+
+=== Keyword Searches
+	•	“evidence sufficiency” AND fatigue AND aviation
+	•	“human performance verification” AND fatigue
+	•	“airworthiness” AND fatigue AND human factors
+	•	“safety case” AND fatigue
+
+⸻
+
+STOP CONDITION
+	•	≥ 40 empirical fatigue/time-on-task studies
+	•	≥ 10 aviation-specific long-duration or sortie studies
+	•	≥ 10 include objective performance outcomes (RT, errors)
+	•	≥ 10 include sleep/circadian variables or manipulation
+	•	≥ 5 propose thresholds or operational limits
+	•	≥ 5 evaluate mitigations
+
+⸻
+
+=========================================================
+
+CSR-08
+
+Human Error Taxonomies in Safety-Critical Systems
+
+=========================================================
+
+= CSR-08: Human Error Taxonomies in Safety-Critical Systems
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review human error taxonomies, classification schemes, and causal models relevant to aviation and complex automation, with emphasis on usability for hazard analysis, certification arguments, and traceability.
+
+This review is foundational for linking PVI design deficiencies to credible hazard pathways.
+
+⸻
+
+SECTION 1 — IDENTIFYING ERROR TAXONOMIES AND MODELS
+
+== 1.1 Foundational Error Models
+
+=== Semantic Queries
+	1.	What are the major human error taxonomies used in safety-critical systems?
+	2.	What models distinguish slips, lapses, mistakes, and violations?
+	3.	What systemic models explain latent error and organizational contributors?
+	4.	Which error taxonomies are most used in aviation safety analysis?
+
+=== Keyword Searches
+	•	“human error taxonomy”
+	•	“Reason model” AND latent error
+	•	“slips lapses mistakes violations”
+	•	“human error classification” AND aviation
+	•	“HFACS” AND aviation
+	•	“taxonomy of errors” AND safety critical
+
+⸻
+
+== 1.2 Error Taxonomies for Complex Automation
+
+=== Semantic Queries
+	1.	What error models address automation-induced errors and mode confusion?
+	2.	How do taxonomies represent control-state misunderstanding?
+	3.	What classifications exist for supervision, monitoring, and vigilance errors?
+
+=== Keyword Searches
+	•	“automation-induced error” taxonomy
+	•	“mode confusion” AND error classification
+	•	“monitoring error” AND automation
+	•	“supervisory control” AND human error
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Taxonomy Type
+	•	Cognitive taxonomy (slips/mistakes)
+	•	Systems/organizational taxonomy (latent conditions)
+	•	Domain-specific aviation taxonomy (HFACS, etc.)
+	•	Automation-focused classification (mode errors)
+	•	Hybrid framework (Y/N)
+
+=== Core Categories Present
+	•	Slips/lapses
+	•	Mistakes
+	•	Violations
+	•	Communication/team errors
+	•	Monitoring/supervision errors
+	•	Decision errors under uncertainty
+
+=== Evidence Base
+	•	Empirical validation studies (Y/N)
+	•	Applied to incident/accident analysis (Y/N)
+	•	Inter-rater reliability reported (Y/N)
+	•	Widely adopted in industry/regulators (Y/N)
+
+=== Traceability Use
+	•	Supports hazard identification (Y/N)
+	•	Supports causal chain representation (Y/N)
+	•	Maps to design mitigations (Y/N)
+	•	Supports verification claims (Y/N)
+
+⸻
+
+SECTION 3 — APPLICATION TO AVIATION AND PVI
+
+=== Semantic Queries
+	1.	How have error taxonomies been applied to aviation incidents?
+	2.	How are cockpit interface issues represented in these frameworks?
+	3.	Do taxonomies capture mode confusion and automation surprise adequately?
+	4.	Which frameworks best support design mitigation traceability?
+
+=== Keyword Searches
+	•	“HFACS interface” AND cockpit
+	•	“human error analysis” AND avionics
+	•	“mode confusion” AND HFACS
+	•	“automation surprise” AND accident analysis
+	•	“interface design” AND human error model
+
+⸻
+
+SECTION 4 — LIMITATIONS AND COMPARISON
+
+=== Semantic Queries
+	1.	What are the limitations of common human error taxonomies?
+	2.	How consistent are classifications across analysts?
+	3.	Do models adequately capture modern human–automation teaming?
+	4.	What frameworks are most compatible with safety case arguments?
+
+=== Keyword Searches
+	•	“inter-rater reliability” AND human error taxonomy
+	•	“limitations” AND HFACS
+	•	“taxonomy validity” AND human error
+	•	“safety case” AND human error model
+
+⸻
+
+SECTION 5 — CERTIFICATION / DEFENSIBILITY IMPLICATIONS
+
+=== Semantic Queries
+	1.	How can error taxonomies be used to justify hazard pathway arguments in certification?
+	2.	What evidence supports using a given taxonomy as a structured method?
+	3.	How should error categories map to verification and mitigation evidence?
+
+=== Keyword Searches
+	•	“hazard analysis” AND human error taxonomy
+	•	“certification” AND human factors AND error model
+	•	“traceability” AND mitigation AND error classification
+	•	“verification” AND human error reduction
+
+⸻
+
+STOP CONDITION
+	•	≥ 30 foundational taxonomy/model sources
+	•	≥ 15 applied to aviation or high-reliability domains
+	•	≥ 10 include automation/mode confusion relevance
+	•	≥ 10 report application to incident/accident analysis
+	•	≥ 5 discuss reliability/validity explicitly
+	•	≥ 5 compare multiple taxonomies/frameworks
+
+⸻
+
+That completes the entire CSR series (01–08).
+
+Next, if you want to keep momentum, the most valuable move is to generate the remaining CRR prompts (CRR-05 through CRR-10) or continue the M branch MSR packs.
+
+
+
+
+
+
+
+
+
+
+
+
+Good. These two are critical for your certification positioning.
+
+CSR-05 underpins objective evidence arguments.
+CSR-06 protects you from overclaiming simulator results.
+
+Both are extraction-heavy and defensibility-focused.
+
+⸻
+
+=========================================================
+
+CSR-05
+
+Multimodal Digital Biomarkers for Cognitive State Detection in Aviation
+
+=========================================================
+
+= CSR-05: Multimodal Digital Biomarkers for Cognitive State Detection in Aviation
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on physiological, behavioral, and multimodal digital biomarkers used to detect workload, fatigue, cognitive overload, stress, and situational awareness degradation in aviation and comparable safety-critical domains.
+
+Focus on validity, sensitivity, robustness, and feasibility for certification-relevant use.
+
+⸻
+
+SECTION 1 — IDENTIFYING BIOMARKER STUDIES
+
+== 1.1 Workload and Cognitive State Detection
+
+=== Semantic Queries
+	1.	What physiological measures detect pilot workload in aviation?
+	2.	How accurate are eye tracking metrics for detecting cognitive load?
+	3.	Can EEG detect workload or task engagement in flight?
+	4.	What multimodal approaches improve cognitive state detection accuracy?
+	5.	What digital biomarkers are validated in high-tempo environments?
+
+=== Keyword Searches
+	•	“digital biomarker” AND aviation
+	•	“physiological workload” AND pilot
+	•	“eye tracking” AND cockpit AND workload
+	•	“EEG” AND aviation AND workload
+	•	“heart rate variability” AND pilot
+	•	“pupil dilation” AND aviation
+	•	“multimodal workload detection”
+
+⸻
+
+== 1.2 Fatigue and Vigilance Degradation
+
+=== Semantic Queries
+	1.	What biomarkers detect fatigue in pilots?
+	2.	How early can physiological signals detect fatigue-related performance decline?
+	3.	Are vigilance lapses predictable using physiological measures?
+	4.	How do circadian effects manifest in biometric signals?
+
+=== Keyword Searches
+	•	“pilot fatigue detection”
+	•	“vigilance decrement” AND aviation
+	•	“fatigue biomarker” AND cockpit
+	•	“circadian” AND pilot performance
+	•	“microsleep detection” AND aviation
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Biomarker Type
+	•	Eye tracking (fixation, scan entropy, pupil)
+	•	EEG
+	•	ECG / HRV
+	•	GSR
+	•	Respiration
+	•	Multimodal fusion (Y/N)
+
+=== Validation Metrics
+	•	Accuracy (% classification)
+	•	Sensitivity / specificity
+	•	AUC reported (Y/N)
+	•	Cross-validation used (Y/N)
+	•	Real-time implementation (Y/N)
+
+=== Operational Context
+	•	Flight simulator
+	•	Live flight
+	•	Tactical/high-tempo scenario
+	•	Physical stress (G-load, vibration)
+	•	Multi-task environment
+
+=== Outcome Relationship
+	•	Correlates with workload score (Y/N)
+	•	Predicts performance error (Y/N)
+	•	Detects overload threshold (Y/N)
+	•	Detects fatigue onset (Y/N)
+
+=== Robustness Indicators
+	•	Sample size
+	•	Noise robustness tested (Y/N)
+	•	Sensor intrusiveness level
+	•	Wearability constraints discussed (Y/N)
+
+⸻
+
+SECTION 3 — LIMITATIONS AND FAILURE MODES
+
+=== Semantic Queries
+	1.	When do physiological signals fail to predict cognitive state?
+	2.	How do motion artifacts affect biometric reliability?
+	3.	Are biomarkers specific to workload or confounded with stress?
+	4.	What false positive rates are reported?
+
+=== Keyword Searches
+	•	“motion artifact” AND EEG AND aviation
+	•	“false positive” AND workload detection
+	•	“signal noise” AND cockpit biometrics
+	•	“confounding variables” AND physiological workload
+
+⸻
+
+SECTION 4 — CERTIFICATION AND VERIFICATION IMPLICATIONS
+
+=== Semantic Queries
+	1.	Can digital biomarkers serve as verification evidence?
+	2.	What regulatory or certification barriers exist for biometric monitoring?
+	3.	What validation standards are required for operational deployment?
+	4.	How should false detection risk be managed?
+
+=== Keyword Searches
+	•	“biometric certification” AND aviation
+	•	“physiological monitoring” AND airworthiness
+	•	“human performance verification” AND biometrics
+	•	“AI monitoring” AND pilot certification
+
+⸻
+
+STOP CONDITION
+	•	≥ 40 empirical studies
+	•	≥ 15 multimodal studies
+	•	≥ 10 live or high-fidelity flight studies
+	•	≥ 10 report predictive validity
+	•	≥ 10 address implementation feasibility
+	•	≥ 5 discuss limitations under physical stress
+
+⸻
+
+=========================================================
+
+CSR-06
+
+Ecological Validity: Simulator-to-Flight Transfer of PVI Findings
+
+=========================================================
+
+= CSR-06: Ecological Validity — Simulator-to-Flight Transfer of PVI Findings
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence comparing simulator-based findings to live flight performance, focusing on workload, SA, attention, and interaction design conclusions.
+
+Goal: determine when simulator evidence is sufficient for certification claims and when it is not.
+
+⸻
+
+SECTION 1 — IDENTIFYING TRANSFER STUDIES
+
+=== Semantic Queries
+	1.	How well do simulator findings generalize to live flight performance?
+	2.	What differences exist between simulator and real-flight workload measures?
+	3.	How does ecological validity affect human factors research conclusions?
+	4.	What aviation studies compare simulator and flight outcomes directly?
+	5.	What aspects of cockpit interaction differ most between simulation and flight?
+
+=== Keyword Searches
+	•	“simulator to flight transfer” AND aviation
+	•	“ecological validity” AND cockpit
+	•	“simulator fidelity” AND pilot performance
+	•	“transfer of training” AND aviation
+	•	“live flight comparison” AND simulator
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Study Design
+	•	Simulator only
+	•	Live flight only
+	•	Direct comparison (Y/N)
+	•	Fidelity level reported (Y/N)
+	•	Motion base used (Y/N)
+
+=== Performance Metrics
+	•	Workload measure used
+	•	SA measure used
+	•	Reaction time
+	•	Error rate
+	•	Tracking performance
+
+=== Transfer Findings
+	•	Significant performance difference (Y/N)
+	•	Overestimation of performance in sim (Y/N)
+	•	Underestimation (Y/N)
+	•	No significant difference (Y/N)
+
+=== Context Variables
+	•	Tactical scenario
+	•	High G environment
+	•	Vibration present
+	•	NVG or degraded visibility
+	•	Multi-threat environment
+
+=== Fidelity Factors
+	•	Visual fidelity described (Y/N)
+	•	Motion fidelity described (Y/N)
+	•	Control fidelity described (Y/N)
+	•	Audio fidelity described (Y/N)
+
+⸻
+
+SECTION 3 — SOURCES OF NON-TRANSFER
+
+=== Semantic Queries
+	1.	What simulator limitations most affect pilot workload?
+	2.	How does absence of physical stress change findings?
+	3.	What role does risk perception play in flight vs sim differences?
+	4.	Do pilots behave more conservatively in real flight?
+
+=== Keyword Searches
+	•	“risk perception” AND simulator AND pilot
+	•	“motion fidelity” AND workload
+	•	“control feel” AND simulator AND pilot
+	•	“behavioral difference” AND live flight
+
+⸻
+
+SECTION 4 — CERTIFICATION IMPLICATIONS
+
+=== Semantic Queries
+	1.	When is simulator evidence sufficient for airworthiness claims?
+	2.	What validation steps are required before relying on simulator data?
+	3.	How should mixed sim/flight evidence be structured?
+	4.	What constitutes defensible ecological validity?
+
+=== Keyword Searches
+	•	“simulator evidence” AND certification
+	•	“airworthiness verification” AND simulation
+	•	“validation hierarchy” AND human factors
+	•	“evidence sufficiency” AND flight test
+
+⸻
+
+STOP CONDITION
+	•	≥ 35 empirical aviation studies
+	•	≥ 10 direct simulator vs flight comparisons
+	•	≥ 10 address workload or SA specifically
+	•	≥ 5 discuss high-fidelity tactical scenarios
+	•	≥ 5 discuss implications for certification
+
+⸻
+
+You now have:
+
+CSR-01 Workload
+CSR-02 SA
+CSR-03 Mode Confusion
+CSR-04 Trust
+CSR-05 Digital Biomarkers
+CSR-06 Simulator Transfer
+
+This completes the core measurement/validity spine of the C branch.
+
+Next logical steps:
+
+• CSR-07 Fatigue Accumulation
+• CSR-08 Human Error Taxonomies
+• Or begin generating Elicit packs for remaining M branch artifacts
+
+Your move.
+
+
+
+
+
+
+
+
+
+
+Good. These are synthesis-driven research reports. Not extraction engines.
+
+CRRs build structured arguments that connect theory → empirical evidence → certification implications.
+
+Each will:
+
+• Use targeted Elicit pulls
+• Build theory sections
+• Pull specific validation evidence
+• End with compliance implications
+
+Below are the first four CRRs fully structured for Elicit.
+
+⸻
+
+=========================================================
+
+CRR-01
+
+Workload Theory and Resource Models in Tactical Aviation
+
+=========================================================
+
+= CRR-01: Workload Theory and Resource Models in Tactical Aviation
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize workload theory (Multiple Resource Theory, capacity models, dual-task theory) and translate it into certification-relevant claims for tactical aviation.
+
+This is theory integration with targeted empirical support.
+
+⸻
+
+SECTION 1 — THEORETICAL FOUNDATIONS
+
+=== Semantic Queries
+	1.	What are the primary cognitive workload theories relevant to aviation?
+	2.	What is Multiple Resource Theory and how does it apply to cockpit task management?
+	3.	How do capacity models explain task interference?
+	4.	What are the limits of cognitive throughput under multitasking?
+
+=== Keyword Searches
+	•	“Multiple Resource Theory” AND aviation
+	•	“cognitive capacity model” AND pilot
+	•	“dual-task interference” AND cockpit
+	•	“resource competition” AND multitasking
+
+⸻
+
+SECTION 2 — TASK INTERFERENCE IN TACTICAL CONTEXTS
+
+=== Semantic Queries
+	1.	How does multitasking affect pilot performance in high-tempo scenarios?
+	2.	What empirical evidence supports workload overload thresholds?
+	3.	How does resource competition differ across modalities (visual, auditory, manual)?
+
+=== Keyword Searches
+	•	“multitasking” AND tactical aviation
+	•	“overload threshold” AND pilot
+	•	“modality interference” AND cockpit
+	•	“dual task” AND fighter
+
+⸻
+
+SECTION 3 — LIMITATIONS OF CURRENT WORKLOAD MEASURES
+
+=== Semantic Queries
+	1.	Where do subjective workload measures fail in predicting performance?
+	2.	Do physiological measures reliably detect overload?
+	3.	Are workload scores predictive of error or only subjective strain?
+
+=== Keyword Searches
+	•	“workload predictive validity” AND aviation
+	•	“NASA-TLX limitations”
+	•	“physiological workload” AND pilot performance
+
+⸻
+
+SECTION 4 — CERTIFICATION IMPLICATIONS
+
+=== Semantic Queries
+	1.	How should workload theory inform airworthiness criteria?
+	2.	What constitutes defensible evidence that workload is acceptable?
+	3.	What measurable thresholds support certification arguments?
+
+=== Keyword Searches
+	•	“workload certification” AND aviation
+	•	“human performance requirements” AND military aircraft
+	•	“airworthiness human factors” AND workload
+
+⸻
+
+STOP CONDITION
+
+Stop when:
+	•	≥ 15 foundational theoretical sources
+	•	≥ 20 aviation-relevant empirical overload studies
+	•	Clear articulation of overload threshold logic
+	•	Clear mapping to measurable verification metrics
+
+⸻
+
+=========================================================
+
+CRR-02
+
+Situational Awareness Theory and Certification Implications
+
+=========================================================
+
+= CRR-02: Situational Awareness Theory and Certification Implications
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize situational awareness theory and translate SA constructs into certifiable performance claims and verification strategies.
+
+⸻
+
+SECTION 1 — SA THEORY FOUNDATIONS
+
+=== Semantic Queries
+	1.	What are the major theoretical models of situational awareness?
+	2.	What are Levels 1, 2, and 3 SA?
+	3.	What criticisms exist of traditional SA theory?
+	4.	How does ecological or distributed cognition theory reinterpret SA?
+
+=== Keyword Searches
+	•	“Endsley situational awareness”
+	•	“Level 1 Level 2 Level 3 SA”
+	•	“situational awareness theory critique”
+	•	“distributed cognition” AND aviation
+
+⸻
+
+SECTION 2 — MECHANISMS OF SA DEGRADATION
+
+=== Semantic Queries
+	1.	How does high workload degrade SA?
+	2.	How does automation influence SA maintenance?
+	3.	What role does display clutter play in SA decay?
+
+=== Keyword Searches
+	•	“SA degradation” AND workload
+	•	“automation” AND situational awareness
+	•	“display clutter” AND SA
+
+⸻
+
+SECTION 3 — MEASUREMENT AND DEFENSIBILITY
+
+=== Semantic Queries
+	1.	What methods validly measure SA?
+	2.	Are SA measures predictive of operational performance?
+	3.	What limitations exist in SAGAT-like measures?
+
+=== Keyword Searches
+	•	“SAGAT validity”
+	•	“SA measurement” AND aviation
+	•	“predictive validity” AND situational awareness
+
+⸻
+
+SECTION 4 — CERTIFICATION TRANSLATION
+
+=== Semantic Queries
+	1.	How can SA be translated into measurable system requirements?
+	2.	What constitutes sufficient evidence that SA is maintained?
+	3.	How should SA risk be framed in airworthiness arguments?
+
+=== Keyword Searches
+	•	“situational awareness requirement” AND aviation
+	•	“human performance verification” AND SA
+	•	“airworthiness human factors” AND awareness
+
+⸻
+
+STOP CONDITION
+	•	≥ 15 foundational theory papers
+	•	≥ 20 empirical aviation SA studies
+	•	Clear mapping from SA construct → measurable variable → verification method
+
+⸻
+
+=========================================================
+
+CRR-03
+
+Human Error, Mode Confusion, and Automation Surprise
+
+=========================================================
+
+= CRR-03: Human Error, Mode Confusion, and Automation Surprise
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize error theory (slips, mistakes, violations), automation surprise research, and mode confusion mechanisms to derive certifiable design constraints.
+
+⸻
+
+SECTION 1 — HUMAN ERROR THEORY
+
+=== Semantic Queries
+	1.	What are the primary taxonomies of human error in safety-critical systems?
+	2.	How do slips and mistakes differ?
+	3.	What systemic factors contribute to operator error?
+
+=== Keyword Searches
+	•	“Reason human error model”
+	•	“slips and mistakes” AND aviation
+	•	“human error taxonomy” AND cockpit
+
+⸻
+
+SECTION 2 — MODE CONFUSION MECHANISMS
+
+=== Semantic Queries
+	1.	What cognitive mechanisms drive mode confusion?
+	2.	How does hidden state contribute to automation surprise?
+	3.	What evidence links annunciation failures to accidents?
+
+=== Keyword Searches
+	•	“mode confusion” AND aviation
+	•	“automation surprise” AND cockpit
+	•	“hidden mode” AND pilot error
+
+⸻
+
+SECTION 3 — SYSTEM DESIGN CONTRIBUTIONS
+
+=== Semantic Queries
+	1.	What interface features increase mode confusion risk?
+	2.	What mitigations reduce automation misunderstanding?
+	3.	How does transparency influence error rates?
+
+=== Keyword Searches
+	•	“mode annunciation” AND aviation
+	•	“automation transparency” AND cockpit
+	•	“state feedback” AND pilot
+
+⸻
+
+SECTION 4 — CERTIFICATION FRAMING
+
+=== Semantic Queries
+	1.	How can mode confusion risk be framed in hazard analysis?
+	2.	What verification strategies demonstrate acceptable automation transparency?
+	3.	What constitutes evidence that automation surprise risk is mitigated?
+
+=== Keyword Searches
+	•	“hazard analysis” AND automation
+	•	“human factors verification” AND automation
+	•	“mode error mitigation” AND certification
+
+⸻
+
+STOP CONDITION
+	•	≥ 15 foundational error theory sources
+	•	≥ 20 aviation automation surprise studies
+	•	Clear mapping to hazard pathways and verification strategies
+
+⸻
+
+=========================================================
+
+CRR-04
+
+Trust in Automation and Human–AI Teaming Risk
+
+=========================================================
+
+= CRR-04: Trust in Automation and Human–AI Teaming Risk
+:artifact_type: CRR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Synthesize trust theory, reliance calibration, and adaptive automation research to derive certification-relevant constraints for AI-enabled cockpit systems.
+
+⸻
+
+SECTION 1 — TRUST THEORY FOUNDATIONS
+
+=== Semantic Queries
+	1.	What models explain trust in automation?
+	2.	How does perceived reliability influence reliance?
+	3.	What causes overtrust and undertrust?
+
+=== Keyword Searches
+	•	“trust in automation” model
+	•	“reliance behavior” AND aviation
+	•	“overtrust” AND cockpit
+
+⸻
+
+SECTION 2 — HUMAN–AI TEAMING
+
+=== Semantic Queries
+	1.	How does adaptive automation influence trust?
+	2.	What transparency mechanisms affect trust calibration?
+	3.	How does explainability influence pilot reliance?
+
+=== Keyword Searches
+	•	“adaptive automation” AND pilot
+	•	“explainable AI” AND cockpit
+	•	“automation transparency” AND aviation
+
+⸻
+
+SECTION 3 — FAILURE MODES
+
+=== Semantic Queries
+	1.	What risks occur when trust is miscalibrated?
+	2.	How does trust erosion occur after system errors?
+	3.	What are recovery mechanisms after automation failure?
+
+=== Keyword Searches
+	•	“trust miscalibration” AND aviation
+	•	“automation failure recovery” AND pilot
+	•	“trust repair” AND automation
+
+⸻
+
+SECTION 4 — CERTIFICATION IMPLICATIONS
+
+=== Semantic Queries
+	1.	How should AI trust be verified in certification?
+	2.	What metrics demonstrate appropriate reliance behavior?
+	3.	How should adaptive systems be evaluated for trust safety?
+
+=== Keyword Searches
+	•	“AI certification” AND aviation
+	•	“trust metrics” AND cockpit
+	•	“human-AI teaming verification”
+
+⸻
+
+STOP CONDITION
+	•	≥ 20 foundational trust papers
+	•	≥ 20 aviation or safety-critical empirical studies
+	•	Clear framework for trust calibration → measurable behavior → verification test
+
+⸻
+
+You now have four CRRs and four CSRs structured cleanly.
+
+These form the theoretical and empirical spine of the Concept-to-Compliance branch.
+
+Next possible moves:
+
+• CSR-05 (Digital Biomarkers)
+• CSR-06 (Simulator-to-Flight Transfer)
+• Or build the CRR-to-AW crosswalk logic
+
+Your move.
+
+
+
+
+
+
+
+
+
+
+
+
+Good. We’re switching to the Concept-to-Compliance (C branch) backbone.
+
+These are extraction-heavy, certification-relevant systematic reviews.
+They will feed CRRs and Airworthiness artifacts.
+
+Below are CSR-01 through CSR-04, fully structured for Elicit:
+	•	Section-by-section semantic queries
+	•	Keyword searches
+	•	Extraction column schema
+	•	Stop conditions
+
+No synthesis prompts. These are empirical capture engines.
+
+⸻
+
+=========================================================
+
+CSR-01
+
+Workload Measurement Methods and Validity in Aviation
+
+=========================================================
+
+= CSR-01: Workload Measurement Methods and Validity in Aviation
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical methods used to measure pilot workload in aviation and evaluate their validity, reliability, sensitivity, and suitability for certification evidence.
+
+⸻
+
+SECTION 1 — IDENTIFYING WORKLOAD MEASUREMENT STUDIES
+
+=== Semantic Queries
+	1.	What methods are used to measure pilot workload in aviation?
+	2.	How is workload measured in high-performance or tactical flight environments?
+	3.	What validation studies exist for workload measurement tools in aviation?
+	4.	How sensitive are workload measures to task difficulty changes?
+	5.	What are limitations of subjective workload measures in aviation?
+
+=== Keyword Searches
+	•	“pilot workload measurement”
+	•	“NASA-TLX” AND aviation
+	•	“subjective workload” AND cockpit
+	•	“objective workload metrics” AND flight
+	•	“dual-task paradigm” AND aviation
+	•	“physiological workload” AND pilot
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Measurement Method
+	•	Subjective (NASA-TLX, Bedford, SWAT, etc.)
+	•	Performance-based (dual-task, error rate, RT)
+	•	Physiological (HRV, EEG, pupil dilation)
+	•	Behavioral (scan entropy, eye tracking)
+	•	Composite metric (Y/N)
+
+=== Validity & Reliability
+	•	Construct validity discussed (Y/N)
+	•	Criterion validity tested (Y/N)
+	•	Sensitivity to task manipulation (Y/N)
+	•	Reliability reported (Y/N)
+	•	Effect size reported (Y/N)
+
+=== Context Variables
+	•	Flight simulation / live flight
+	•	Tactical scenario (Y/N)
+	•	High tempo (Y/N)
+	•	Multi-task environment (Y/N)
+	•	Physical stressors (G, vibration) (Y/N)
+
+=== Outcome Sensitivity
+	•	Detects overload threshold (Y/N)
+	•	Detects underload (Y/N)
+	•	Differentiates expertise levels (Y/N)
+
+⸻
+
+SECTION 3 — VALIDITY AND LIMITATIONS
+
+=== Semantic Queries
+	1.	When do subjective workload measures fail?
+	2.	What physiological measures correlate best with performance?
+	3.	Are workload measures predictive of performance degradation?
+	4.	What measurement artifacts exist in flight simulation studies?
+
+=== Keyword Searches
+	•	“workload validity” AND aviation
+	•	“physiological correlates” AND pilot workload
+	•	“predictive validity” AND workload
+	•	“measurement artifact” AND simulation
+
+⸻
+
+STOP CONDITION
+	•	≥ 40 empirical workload measurement studies
+	•	≥ 15 compare subjective vs objective methods
+	•	≥ 10 test validity explicitly
+	•	≥ 10 include tactical/high-tempo scenarios
+
+⸻
+
+=========================================================
+
+CSR-02
+
+Situational Awareness Measurement and Degradation
+
+=========================================================
+
+= CSR-02: Situational Awareness Measurement and Degradation
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical methods used to measure situational awareness (SA) in aviation and identify mechanisms of SA degradation under workload, automation, and time pressure.
+
+⸻
+
+SECTION 1 — IDENTIFYING SA MEASUREMENT STUDIES
+
+=== Semantic Queries
+	1.	How is situational awareness measured in aviation?
+	2.	What empirical tools assess Level 1, 2, and 3 SA?
+	3.	How reliable are SAGAT and similar measures?
+	4.	What objective proxies are used for SA?
+	5.	What factors degrade SA in tactical aviation?
+
+=== Keyword Searches
+	•	“situational awareness measurement” AND aviation
+	•	“SAGAT” AND pilot
+	•	“SA degradation” AND cockpit
+	•	“Level 1 Level 2 Level 3 SA”
+	•	“freeze probe” AND aviation
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== SA Measurement Type
+	•	SAGAT
+	•	SPAM
+	•	Self-rating
+	•	Performance proxy
+	•	Eye tracking
+	•	Composite measure
+
+=== Validity Indicators
+	•	Construct validity addressed (Y/N)
+	•	Predictive validity reported (Y/N)
+	•	Reliability reported (Y/N)
+	•	Sensitivity to workload (Y/N)
+
+=== Degradation Factors
+	•	High workload
+	•	Automation level
+	•	Time pressure
+	•	Multi-threat environment
+	•	Display clutter
+	•	Alert interference
+
+=== Outcome Metrics
+	•	Accuracy (%)
+	•	Response latency
+	•	Projection accuracy (L3 SA)
+	•	Error rate
+
+⸻
+
+SECTION 3 — AUTOMATION AND SA
+
+=== Semantic Queries
+	1.	How does automation level influence SA?
+	2.	Does adaptive automation preserve SA?
+	3.	What is the relationship between trust and SA degradation?
+
+=== Keyword Searches
+	•	“automation” AND “situational awareness”
+	•	“adaptive automation” AND SA
+	•	“automation surprise” AND SA
+
+⸻
+
+STOP CONDITION
+	•	≥ 40 empirical SA studies
+	•	≥ 15 tactical/high-tempo contexts
+	•	≥ 10 address automation impact
+	•	≥ 10 compare measurement techniques
+
+⸻
+
+=========================================================
+
+CSR-03
+
+Automation Surprise and Mode Confusion Evidence
+
+=========================================================
+
+= CSR-03: Automation Surprise and Mode Confusion Evidence
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on automation surprise, mode confusion, and control-state misunderstanding in aviation and comparable high-reliability domains.
+
+⸻
+
+SECTION 1 — IDENTIFYING MODE CONFUSION STUDIES
+
+=== Semantic Queries
+	1.	What empirical evidence documents mode confusion in aviation?
+	2.	How does automation surprise occur in cockpit systems?
+	3.	What design features contribute to control-state misunderstanding?
+	4.	How often do pilots misinterpret automation mode?
+
+=== Keyword Searches
+	•	“mode confusion” AND aviation
+	•	“automation surprise” AND cockpit
+	•	“mode error” AND pilot
+	•	“autopilot misunderstanding”
+	•	“flight management system error”
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Automation Context
+	•	Autopilot
+	•	FMS
+	•	Flight control
+	•	Weapons system
+	•	Adaptive automation
+
+=== Failure Mechanism
+	•	Mode ambiguity
+	•	Hidden state
+	•	Delayed feedback
+	•	Poor annunciation
+	•	Inconsistent mapping
+
+=== Outcome
+	•	Error occurrence (Y/N)
+	•	Recovery time
+	•	Loss of SA
+	•	Incident/accident linked (Y/N)
+
+=== Experimental Manipulation
+	•	Mode change hidden (Y/N)
+	•	Time pressure (Y/N)
+	•	High workload (Y/N)
+
+⸻
+
+SECTION 3 — DESIGN MITIGATIONS
+
+=== Semantic Queries
+	1.	What interface changes reduce mode confusion?
+	2.	How does feedback timing affect automation understanding?
+	3.	What annunciation strategies improve state awareness?
+
+=== Keyword Searches
+	•	“mode annunciation” AND aviation
+	•	“automation transparency” AND cockpit
+	•	“state feedback” AND pilot
+
+⸻
+
+STOP CONDITION
+	•	≥ 30 empirical mode confusion studies
+	•	≥ 10 aviation-specific
+	•	≥ 5 link to incident reports
+	•	≥ 10 test mitigation strategies
+
+⸻
+
+=========================================================
+
+CSR-04
+
+Trust Calibration and Automation Reliance Metrics
+
+=========================================================
+
+= CSR-04: Trust Calibration and Automation Reliance Metrics
+:artifact_type: CSR
+:path_name: Concept-to-Compliance
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on trust in automation, overtrust, undertrust, and reliance calibration in aviation and comparable safety-critical domains.
+
+⸻
+
+SECTION 1 — IDENTIFYING TRUST STUDIES
+
+=== Semantic Queries
+	1.	How is trust in automation measured in aviation?
+	2.	What causes overtrust and undertrust in cockpit systems?
+	3.	How does automation reliability influence reliance behavior?
+	4.	What experimental manipulations change trust calibration?
+
+=== Keyword Searches
+	•	“trust in automation” AND aviation
+	•	“automation reliance” AND pilot
+	•	“overtrust” AND cockpit
+	•	“undertrust” AND aviation
+	•	“trust calibration” AND adaptive automation
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS
+
+=== Trust Measure
+	•	Self-report scale
+	•	Behavioral reliance measure
+	•	Compliance rate
+	•	Override rate
+	•	Trust repair manipulation (Y/N)
+
+=== Automation Characteristics
+	•	Reliability level (%)
+	•	Transparency provided (Y/N)
+	•	Confidence indicator present (Y/N)
+	•	Explanation provided (Y/N)
+
+=== Outcome
+	•	Overreliance observed (Y/N)
+	•	Underreliance observed (Y/N)
+	•	Performance degradation (Y/N)
+	•	Error rate change
+
+=== Context
+	•	High workload (Y/N)
+	•	Time pressure (Y/N)
+	•	Military/tactical (Y/N)
+	•	Adaptive automation (Y/N)
+
+⸻
+
+SECTION 3 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+	1.	What interface features improve trust calibration?
+	2.	Does uncertainty visualization reduce overtrust?
+	3.	How does explanation affect reliance?
+
+=== Keyword Searches
+	•	“automation transparency” AND trust
+	•	“confidence display” AND automation
+	•	“explainable AI” AND pilot trust
+	•	“uncertainty visualization” AND reliance
+
+⸻
+
+STOP CONDITION
+	•	≥ 40 empirical trust studies
+	•	≥ 10 aviation-specific
+	•	≥ 10 manipulate reliability experimentally
+	•	≥ 10 measure behavioral reliance
+	•	≥ 5 address adaptive or AI automation
+
+⸻
+
+You now have the empirical backbone for:
+
+• Workload
+• SA
+• Mode confusion
+• Trust calibration
+
+These directly feed CRR-01 through CRR-04 and Airworthiness verification logic.
+
+Next options:
+	•	CSR-05 (Digital Biomarkers)
+	•	CSR-06 (Simulator-to-Flight Transfer)
+	•	Or pivot to CRR synthesis prompts
+
+Your move.
+
+
+
+
+
+
+
+
+
+Next is the paired empirical backbone:
+
+MSR-03 — Electronic Warfare Displays and Attentional Capture
+Mission Systems PVI Mastery
+Systematic Review (extraction-heavy)
+
+⸻
+
+
+= MSR-03: Electronic Warfare Displays and Attentional Capture
+:artifact_type: MSR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Systematically review empirical evidence on how electronic warfare (EW) and threat-warning display characteristics (RWR/EW symbology, prioritization cues, alert modalities, nuisance rate, uncertainty presentation) influence pilot attention allocation, cognitive tunneling, decision accuracy, and mission performance in tactical or high-tempo aviation contexts.
+
+This review focuses on: attentional capture, alert storms, nuisance/false alarm effects, and trust/reliance behaviors.
+
+⸻
+
+SECTION 1 — IDENTIFYING RELEVANT STUDIES
+
+== 1.1 EW / Threat-Warning Displays in Aviation
+
+=== Semantic Queries
+	1.	What empirical studies evaluate threat-warning or EW display design in aviation?
+	2.	What research examines radar warning receiver (RWR) alerting and pilot performance?
+	3.	What studies evaluate threat prioritization displays under multi-threat conditions?
+	4.	What experiments test different alert modalities (audio/visual/haptic) for threat warnings?
+	5.	What empirical research exists on nuisance warnings and alert credibility in aviation?
+
+=== Keyword Searches
+	•	“radar warning receiver” AND human factors
+	•	“RWR” AND cockpit AND performance
+	•	“threat warning display” AND aviation
+	•	“electronic warfare display” AND pilot
+	•	“threat prioritization” AND cockpit
+	•	“nuisance warning” AND aviation
+	•	“false alarm” AND warning AND pilot
+
+⸻
+
+== 1.2 Attention Allocation and Cognitive Tunneling in Threat Contexts
+
+=== Semantic Queries
+	1.	How do threat warnings affect pilot visual scanning and attention allocation?
+	2.	What evidence exists for cognitive tunneling triggered by threat alerts?
+	3.	How do alert storms influence performance in safety-critical domains?
+	4.	What is the effect of high alert density on detection of other critical cues?
+
+=== Keyword Searches
+	•	“cognitive tunneling” AND warning AND aviation
+	•	“attentional capture” AND alarm AND cockpit
+	•	“alert storm” AND aviation
+	•	“alarm flooding” AND pilot
+	•	“high alert density” AND performance
+
+⸻
+
+SECTION 2 — EXTRACTION COLUMNS (ADD TO BASE SR SCHEMA)
+
+Add these columns in Elicit.
+
+=== EW/Warning System Characteristics
+	•	Warning type (EW/RWR, missile warning, generic threat warning)
+	•	Threat prioritization present (Y/N)
+	•	Priority encoding method (size/color/flashing/position/audio tone/etc.)
+	•	Uncertainty/confidence shown (Y/N)
+	•	Source attribution shown (Y/N)
+	•	Declutter/filtering available (Y/N)
+
+=== Alert Modality
+	•	Visual only / audio only / combined / haptic / other
+	•	Alert rate (if reported)
+	•	False alarm rate (if reported)
+	•	Nuisance warning discussed (Y/N)
+
+=== Attention and Behavior Outcomes
+	•	Visual scanning metrics used (Y/N)
+	•	Fixation concentration / dwell time changes
+	•	Missed cue rate (if reported)
+	•	Attentional tunneling observed (Y/N)
+	•	Task shedding observed (Y/N)
+
+=== Performance Outcomes
+	•	Decision accuracy
+	•	Reaction time / response latency
+	•	Mission performance metric
+	•	Error rate
+
+=== Trust / Compliance Outcomes
+	•	Compliance rate to warnings
+	•	Alarm response rate decline over time
+	•	Reported trust/credibility measure (if any)
+
+=== Context Coding
+	•	High tempo/time pressure present (Y/N)
+	•	Multi-threat scenario (Y/N)
+	•	Contested/degraded environment simulated (Y/N)
+	•	Military aviation / high-performance analog / other domain
+
+⸻
+
+SECTION 3 — MECHANISMS (WHY THE EFFECTS OCCUR)
+
+== 3.1 Priority Cueing and Salience Effects
+
+=== Semantic Queries
+	1.	Which priority cueing methods most strongly capture attention?
+	2.	Do highly salient alerts improve response time at the cost of missed peripheral cues?
+	3.	How do different salience levels trade off speed vs accuracy?
+
+=== Keyword Searches
+	•	“salience” AND warning AND reaction time
+	•	“priority cue” AND attention
+	•	“visual salience” AND alarm AND performance
+	•	“tradeoff” AND warning AND missed cues
+
+⸻
+
+== 3.2 Nuisance and False Alarm Effects (Alarm Fatigue)
+
+=== Semantic Queries
+	1.	How does false alarm rate influence compliance and trust?
+	2.	What levels of nuisance warnings lead to ignoring alerts?
+	3.	How does alarm fatigue manifest in aviation or similar domains?
+
+=== Keyword Searches
+	•	“alarm fatigue” AND aviation
+	•	“false alarm rate” AND compliance AND warning
+	•	“nuisance alarms” AND trust
+	•	“cry wolf effect” AND warning system
+
+⸻
+
+SECTION 4 — CONTEXT SENSITIVITY
+
+== 4.1 Time Pressure and Multi-Tasking
+
+=== Semantic Queries
+	1.	How does time pressure change pilot responses to threat warnings?
+	2.	How does multitasking load influence missed-cue rates during alerts?
+	3.	Under what conditions do pilots task-shed due to warning load?
+
+=== Keyword Searches
+	•	“time pressure” AND warning response
+	•	“multitasking” AND alarm AND missed cues
+	•	“task shedding” AND aviation
+	•	“high workload” AND warning compliance
+
+⸻
+
+== 4.2 Contested / Degraded Information Integrity
+
+=== Semantic Queries
+	1.	What happens when warning reliability is degraded by deception or noise?
+	2.	How do pilots respond to ambiguous or uncertain threat warnings?
+	3.	Do uncertainty displays reduce tunneling or increase hesitation?
+
+=== Keyword Searches
+	•	“warning reliability” AND uncertainty AND performance
+	•	“ambiguous warning” AND decision making
+	•	“uncertainty visualization” AND warning system
+	•	“spoofing” AND warning display (if available)
+
+⸻
+
+SECTION 5 — DESIGN IMPLICATIONS
+
+=== Semantic Queries
+	1.	What warning display designs reduce attentional tunneling while preserving timely response?
+	2.	What evidence supports adaptive filtering or declutter of warnings?
+	3.	How should uncertainty and reliability be communicated to calibrate trust?
+	4.	What verification metrics should be used to validate EW warning effectiveness?
+
+=== Keyword Searches
+	•	“adaptive alarm” AND aviation
+	•	“alarm filtering” AND performance
+	•	“uncertainty communication” AND warning display
+	•	“trust calibration” AND alarm system
+	•	“warning system validation” AND aviation
+
+⸻
+
+STOP CONDITIONS
+
+Stop when:
+	•	≥ 35 empirical studies included
+	•	≥ 10 directly involve aviation threat/warning displays (or high-fidelity military analogs)
+	•	≥ 10 report attention/scanning outcomes or missed-cue measures
+	•	≥ 10 quantify false alarm or nuisance effects (or credibility/compliance decline)
+	•	≥ 5 evaluate different alert modalities
+	•	≥ 5 examine multi-threat or alert storm conditions
+	•	≥ 5 address uncertainty/reliability communication
+
+If insufficient:
+
+Expand to ATC alerts, medical alarm fatigue, nuclear/industrial warning research, then map findings back to aviation via context coding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Proceeding with MRR-03 — Electronic Warfare as PVI (synthesis-first, targeted pulls). This sets the conceptual and system foundation before we do the empirical MSR-03.
+
+⸻
+
+
+= MRR-03: Electronic Warfare as PVI (Threat Prioritization, Uncertainty, Attention Management)
+:artifact_type: MRR
+:path_name: Mission Systems PVI Mastery
+:revnumber: 1.0
+
+== PURPOSE
+
+Develop operational and technical fluency in how modern fighter electronic warfare (EW) systems generate, prioritize, and present threat information to pilots, and identify PVI design constraints and failure modes (attention capture, nuisance, ambiguity, mis-prioritization, loss of trust).
+
+This is synthesis-driven, not a systematic review.
+
+⸻
+
+SECTION 1 — EW SYSTEM FUNDAMENTALS (WHAT EW IS IN A FIGHTER)
+
+== 1.1 EW Mission and Subsystems
+
+=== Semantic Queries
+	1.	What are the core functions of electronic warfare systems on modern fighter aircraft?
+	2.	How do radar warning receivers (RWR) detect and classify threats?
+	3.	What is the difference between electronic support (ES), electronic attack (EA), and electronic protection (EP) in fighter operations?
+	4.	How do fighters integrate EW with radar and sensor fusion systems?
+	5.	What kinds of threats do fighter EW systems prioritize (SAM, fighter radar, fire control, etc.)?
+
+=== Keyword Searches
+	•	“electronic warfare” AND fighter aircraft
+	•	“radar warning receiver” OR RWR AND cockpit
+	•	“electronic support” AND “electronic attack” AND “electronic protection”
+	•	“threat library” AND RWR
+	•	“emitter classification” AND airborne RWR
+	•	“integrated EW suite” AND fighter
+
+⸻
+
+SECTION 2 — THREAT DETECTION, IDENTIFICATION, AND PRIORITIZATION LOGIC
+
+== 2.1 Signal-to-Threat Pipeline
+
+=== Semantic Queries
+	1.	How are RF emissions detected, parameterized, and converted into threat tracks?
+	2.	What parameters are used to classify emitters (PRI, frequency, scan pattern, etc.)?
+	3.	How is emitter identity determined when signals are ambiguous or overlapping?
+	4.	How are threat tracks correlated with other sensors (radar, datalink, EO/IR)?
+
+=== Keyword Searches
+	•	“emitter parameter measurement” AND RWR
+	•	“PRI” AND “emitter classification”
+	•	“signal deinterleaving” AND EW
+	•	“emitter ambiguity” AND RWR
+	•	“threat correlation” AND EW AND sensor fusion
+
+⸻
+
+== 2.2 Prioritization Rules and Threat Ranking
+
+=== Semantic Queries
+	1.	How do EW systems prioritize threats for pilot attention?
+	2.	What factors drive threat ranking (lethality, proximity, intent, mode, time-to-impact)?
+	3.	How do systems manage multiple simultaneous threats?
+	4.	How are priority changes communicated to the pilot?
+
+=== Keyword Searches
+	•	“threat prioritization” AND EW display
+	•	“lethality ranking” AND RWR
+	•	“time-to-impact” AND threat warning
+	•	“multiple threats” AND RWR symbology
+	•	“priority cueing” AND EW
+
+⸻
+
+SECTION 3 — PRESENTATION AND INTERACTION (PVI LAYER)
+
+== 3.1 EW Display Concepts and Symbology
+
+=== Semantic Queries
+	1.	What display formats are used for EW in modern fighters (scope, bearings, rings, geo overlays)?
+	2.	How is threat type, priority, and bearing encoded visually?
+	3.	How is uncertainty or confidence communicated (if at all)?
+	4.	How does EW information integrate into the tactical situation display?
+
+=== Keyword Searches
+	•	“RWR display symbology”
+	•	“EW scope” AND cockpit
+	•	“threat bearing display” AND RWR
+	•	“threat ring” AND EW display
+	•	“uncertainty” AND threat display AND cockpit
+	•	“integrated tactical display” AND EW
+
+⸻
+
+== 3.2 Controls and Pilot Interaction
+
+=== Semantic Queries
+	1.	What pilot actions are required to interpret or manage EW information?
+	2.	How do pilots acknowledge, silence, declutter, or filter EW alerts?
+	3.	What control allocation patterns exist for EW functions (HOTAS vs menus)?
+	4.	What are common pilot errors in interacting with EW systems?
+
+=== Keyword Searches
+	•	“EW alert acknowledge” AND cockpit
+	•	“declutter” AND RWR
+	•	“EW mode selection” AND pilot
+	•	“HOTAS” AND EW control
+	•	“pilot error” AND RWR
+
+⸻
+
+SECTION 4 — UNCERTAINTY, FALSE ALARMS, AND INFORMATION INTEGRITY
+
+== 4.1 False Tracks and Misclassification
+
+=== Semantic Queries
+	1.	What causes false threat indications in EW systems?
+	2.	How common are misclassifications under dense RF environments?
+	3.	How do pilots respond to false alarms or nuisance warnings?
+	4.	What mitigation strategies reduce misclassification impact?
+
+=== Keyword Searches
+	•	“false alarm” AND RWR
+	•	“nuisance warning” AND EW
+	•	“emitter misclassification” AND EW
+	•	“dense RF environment” AND RWR
+	•	“threat library errors” AND EW
+
+⸻
+
+== 4.2 Contested / Deception Effects
+
+=== Semantic Queries
+	1.	How do adversaries use deception to confuse EW threat displays?
+	2.	What are the impacts of jamming and spoofing on RWR interpretation?
+	3.	How should systems communicate degraded integrity to pilots?
+
+=== Keyword Searches
+	•	“EW deception” AND RWR
+	•	“spoofing” AND RWR
+	•	“jamming” AND threat warning display
+	•	“electronic attack” AND emitter classification
+	•	“integrity indication” AND cockpit display
+
+⸻
+
+SECTION 5 — ATTENTION MANAGEMENT AND FAILURE MODES (PVI RISKS)
+
+== 5.1 Attentional Capture and Tunneling
+
+=== Semantic Queries
+	1.	How do EW alerts capture attention and disrupt mission tasking?
+	2.	Under what conditions do pilots tunnel on threats and miss other cues?
+	3.	How does alert modality (visual/audio) affect attentional capture?
+	4.	What are known failure modes during “alert storms” in threat-rich environments?
+
+=== Keyword Searches
+	•	“attentional capture” AND warning AND cockpit
+	•	“cognitive tunneling” AND threat warning
+	•	“alert storm” AND cockpit
+	•	“alarm flooding” AND aviation
+	•	“missed cues” AND warning systems AND pilot
+
+⸻
+
+== 5.2 Trust and Reliance Effects
+
+=== Semantic Queries
+	1.	How does false alarm rate impact trust in EW systems?
+	2.	When do pilots ignore EW alerts and why?
+	3.	How should systems calibrate reliance under uncertainty?
+
+=== Keyword Searches
+	•	“trust calibration” AND warning system AND aviation
+	•	“false alarm rate” AND pilot compliance
+	•	“alarm credibility” AND cockpit
+	•	“nuisance alerts” AND pilot behavior
+
+⸻
+
+SECTION 6 — DESIGN IMPLICATIONS (SYNTHESIS TARGETS)
+
+=== Semantic Queries
+	1.	What design patterns improve threat prioritization under multi-threat conditions?
+	2.	What presentation methods reduce ambiguity without hiding critical threats?
+	3.	How should uncertainty and source integrity be communicated in EW displays?
+	4.	What interaction patterns reduce pilot time-on-task for EW management?
+	5.	What verification metrics best demonstrate EW PVI effectiveness?
+
+=== Keyword Searches
+	•	“threat display design” AND cockpit
+	•	“uncertainty visualization” AND threat warning
+	•	“source integrity” AND warning display
+	•	“declutter strategy” AND threat display
+	•	“verification metrics” AND warning system AND aviation
+
+⸻
+
+STOP CONDITION
+
+Stop when:
+	•	≥ 25 authoritative technical/operational sources on fighter EW and RWR
+	•	≥ 10 sources describe threat prioritization logic (ranking factors, multi-threat handling)
+	•	≥ 10 sources describe display/symbology concepts for EW
+	•	≥ 5 sources address false alarms/misclassification and pilot response
+	•	≥ 5 sources address contested/deception effects on interpretation
+	•	≥ 5 sources discuss PVI failure modes (attention capture, alert storms, trust erosion)
+
+This artifact should enable a coherent explanation of the EW signal-to-display-to-decision chain and where PVI failures occur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
